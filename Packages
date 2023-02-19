@@ -17,6 +17,8 @@ Package: ClassicoNoAds
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: 3bod_syr
+Depends:
+Conflicts:
 Filename: debs/com.3bod_syr.ClassicoNoAds_1.0_iphoneos-arm.deb
 Size: 6KB
 MD5sum: 66c3045216ad4cae90bde41fc91164ee
