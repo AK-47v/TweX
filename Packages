@@ -1,0 +1,27 @@
+Package: معرف الاداة 
+Version: الاصدار
+Architecture: iphoneos-arm
+Maintainer: اكتب اسمك
+Depends: المتطلبات 
+Conflicts: التعارضات
+Filename: موقع الملف
+Size: 
+MD5sum: 
+SHA1: 
+SHA256: 
+Section: Tweaks
+Depiction: رابط صفحة الوصف 
+Name: اسم  الاداه 
+
+Package: ClassicoNoAds
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 3bod_syr
+Filename: debs/ com.3bod_syr.ClassicoNoAds_1.0_iphoneos-arm.deb
+Size: 6KB
+MD5sum: 66c3045216ad4cae90bde41fc91164ee
+SHA1: f0d2e697ed53ab6dd39087bb326e35a0ca09910e
+SHA256: c7f1f5717e630d4bf244115ac41efd354af51c52d8624bd36fc7b3670181e745
+Section: Tweaks
+Depiction: 3bod_syr 
+Name: ClassicoNoAds
