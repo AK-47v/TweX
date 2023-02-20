@@ -1022,10 +1022,9 @@ Section: Utilities
 Maintainer: Lightmann <lightmanns11@gmail.com>
 Author: Lightmann <lightmanns11@gmail.com>
 Installed-Size: 395
-Depends: apt, shell-cmds, uikittools, firmware (>= 15.0), firmware (<< 15.0)
+Depends:
 Name: IAmLazy
 Description: Easily backup and restore your tweaks
 Icon: https://img.chariz.cloud/icon/iamlazy/icon@3x.png
 Depiction: https://ak-47v.Github.io/twex
-Tag: compatible_min::ios15.0
 Filename: debs/me.lightmann.iamlazy_2.1.2_iphoneos-arm.deb
