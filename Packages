@@ -1014,3 +1014,18 @@ Version: 1.0.2
 Installed-Size: 424
 Filename: debs/1.0.2.deb
 Depiction: https://ak-47v.Github.io/twex
+
+Package: me.lightmann.iamlazy
+Version: 2.1.2
+Architecture: iphoneos-arm
+Section: Utilities
+Maintainer: Lightmann <lightmanns11@gmail.com>
+Author: Lightmann <lightmanns11@gmail.com>
+Installed-Size: 395
+Depends: apt, shell-cmds, uikittools, firmware (>= 13.0), firmware (<< 15.0)
+Name: IAmLazy
+Description: Easily backup and restore your tweaks
+Icon: https://img.chariz.cloud/icon/iamlazy/icon@3x.png
+Depiction: https://ak-47v.Github.io/twex
+Tag: compatible_min::ios15.0
+Filename: debs/me.lightmann.iamlazy_2.1.2_iphoneos-arm.deb
