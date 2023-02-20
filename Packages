@@ -46,7 +46,7 @@ Name: AlarmVolume
 Package: com.creaturecoding.shuffle 
 Version: 5_1.6.1-1
 Architecture: iphoneos-arm
-Maintainer: Cypwn
+Maintainer: CreatureSurvive
 Depends: com.creaturecoding.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Filename: debs/xyz.cypwn.shufflexinaa15_1.6.1-1_iphoneos-arm.deb
