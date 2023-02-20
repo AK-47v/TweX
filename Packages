@@ -137,3 +137,18 @@ Depiction: https://ak-47v.github.io/twex/
 Version: 2.0
 Installed-Size: 364
 Filename: debs/nodelete-ai.akemi.appinst.deb
+
+Package: xyz.cypwn.shufflexinaa15
+Maintainer: CyPwn
+Depiction: https://ak-47v.github.io/twex/
+SileoDepiction: https://ak-47v.github.io/twex/sileo_depiction/902
+Name: Shuffle for Xina A15
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.creaturecoding.shuffle
+Architecture: iphoneos-arm
+Description: Organize your settings
+Author: CreatureSurvive
+Section: Tweaks
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/shuffle.png
+Version: 1.6.1-1
+Filename: debs/xyz.cypwn.shufflexinaa15_1.6.1-1_iphoneos-arm.deb
