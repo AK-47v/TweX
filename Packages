@@ -1,52 +1,142 @@
 
-Package: com.3bod.syria
-Name: الكلاسيكو Syr
-Author: @3bod_syr
-Description: محذوف الاعلانات
-Depends: mobilesubstrate
-Maintainer: @3bod_syr
+Package: ClassicoNoAds
+Version: 1.0
 Architecture: iphoneos-arm
-Section: Tweaks
-Version: 0.0.1-1+debug
-Filename: debs/ClassicoNoAds.deb
-MD5: 66c3045216ad4cae90bde41fc91164ee
+Maintainer: 3bod_syr
+Depends:
+Conflicts:
+Filename: debs/com.3bod_syr.ClassicoNoAds_1.0_iphoneos-arm.deb
+Size: 6000
+MD5sum: 66c3045216ad4cae90bde41fc91164ee
 SHA1: f0d2e697ed53ab6dd39087bb326e35a0ca09910e
 SHA256: c7f1f5717e630d4bf244115ac41efd354af51c52d8624bd36fc7b3670181e745
-Installed-Size: 104
-Depiction: https://ak-47v.github.io/twex/
-
-Package: xyz.cypwn.shufflexinaa15
-Maintainer: CyPwn
-Depiction: https://ak-47v.github.io/twex/
-SileoDepiction: https://ak-47v.github.io/twex/sileo_depiction/902
-Name: Shuffle for Xina A15
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/xyz.cypwn.shufflexinaa15_1.6.1-1_iphoneos-arm.deb
-Conflicts: com.creaturecoding.shuffle
-Architecture: iphoneos-arm
-Description: Organize your settings
-Author: CreatureSurvive
 Section: Tweaks
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/shuffle.png
-Version: 1.6.1-1
+Depiction: https://ak-47v.github.io/twex/
+Name: ClassicoNoAds
 
-Name: AlarmVolume
 Package: com.blandry.alarmvolume
-Priority: optional
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: de.ukex.sergeantalarm, org.samball.novibratedwakeup, org.thebigboss.arise, com.myrepospace.blandry.alarmvolume
 Version: 1.3.1
 Architecture: iphoneos-arm
-Description: Set volume for Alarms and Timers
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alarmvolumeDp
-Filename: debs/alarmvolume_1.3.1.deb
-Depiction: https://ak-47v.github.io/twex/
-Sponsor: thebigboss.org <http://thebigboss.org>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: Benoit Landry <landryb@gmail.com>
+Maintainer: Benoit Landry
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: de.ukex.sergeantalarm, org.samball.novibratedwakeup, org.thebigboss.arise, com.myrepospace.blandry.alarmvolume
+Filename: http://apt.thebigboss.org/repofiles/cydia/debs2.0/alarmvolume_1.3.1.deb
+Size: 7119
+MD5sum: b247a5a73ce64cc56f6987e4498e52f9
+SHA1: 
+SHA256: de6100ae3434009b0fd0e633da60d35b6ef28e1dd09e757b31afd477eef81659
 Section: Tweaks
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Installed-Size: 517
-dev: landryb
-Icon: file:///Library/PreferenceBundles/AlarmVolumeSettings.bundle/AlarmVolumeSettings@2x.png
+Depiction: https://ak-47v.github.io/twex/
+Name: AlarmVolume
 
+Package: xyz.cypwn.icleanerprocrack
+Maintainer: CyPwn
+Depiction: https://ak-47v.github.io/depiction/895
+SileoDepiction: https://ak-47v.github.io/sileo_depiction/895
+Name: iCleaner Pro Crack
+Architecture: iphoneos-arm
+Description: iCleaner Pro Crack
+Author: Anna
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 1.1
+Installed-Size: 136
+Filename: debs/xyz.cypwn.icleanerprocrack_1.1_iphoneos-arm.deb
+
+Package: xyz.cypwn.blacklist
+Maintainer: CyPwn
+Depiction: https://ak-47v.github.io/depiction/906
+SileoDepiction: https://ak-47v.github.io/sileo_depiction/906
+Name: XinaBlackList
+Architecture: iphoneos-arm
+Description: Blacklist apps and services from xina jailbreak. For shielding/bypassing jailbreak detection.
+Author: xina520
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 0.0.1-59
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/blacklist.png
+Filename: debs/xyz.cypwn.blacklist_0.0.1-59_iphoneos-arm.deb
+
+Author: iTheGentle <v70@hotmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: WAQuickChat
+Package: com.ithegentle.waquickchat
+Depends: firmware (>= 7.0), mobilesubstrate
+Section: Tweaks
+Installed-Size: 221
+Version: 0.1-2
+Architecture: iphoneos-arm
+Description: swipe to open a new chat for unsaved phone numbers from System Phone App, no configuration required.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=waquickchatDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/Depiction: https://ak-47v.github.io/twex/
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: ithegentle
+Tag: purpose::extension, role::enduser
+Filename: debs/waquickchat_0.1-2.deb
+
+Package: re.frida.server
+Name: Frida
+Version: 16.0.8
+Priority: optional
+Size: 23072768
+Installed-Size: 79140
+Architecture: iphoneos-arm
+Description: Observe and reprogram running programs.
+Homepage: https://frida.re/
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Section: Development
+Conflicts: re.frida.server64
+Filename: debs/re.frida.server_16.0.8_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Package: p7zip
+Priority: optional
+Section: Archiving
+Installed-Size: 9080
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Multi-Arch: foreign
+Version: 16.02-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: claims to be a good compressor
+Name: 7-zip (POSIX)
+Filename: debs/p7zip_16.02-1_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3)
+Depiction: https://ak-47v.github.io/twex/
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Homepage: https://cydia.akemi.ai/
+Provides: appsync, net.angelxwind.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Package: ai.akemi.appsyncunified
+Name: AppSync Unified
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Section: Tweaks
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Version: 108.0
+Installed-Size: 700
+Filename: debs/nodelete-ai.akemi.appsyncunified.deb
+
+Package: ai.akemi.appinst
+Name: appinst (App Installer)
+Priority: standard
+Pre-Depends: firmware (>= 5.0)
+Depends: ai.akemi.appsyncunified (>= 5.1)
+Architecture: iphoneos-arm
+Description: A command-line IPA app installer.
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Section: Utilities
+Homepage: https://github.com/akemin-dayo/AppSync
+Tag: role::enduser, purpose::console
+Conflicts: com.sull.appinstaller
+Provides: com.linusyang.appinst
+Replaces: com.linusyang.appinst
+Depiction: https://ak-47v.github.io/twex/
+Version: 2.0
+Installed-Size: 364
+Filename: debs/nodelete-ai.akemi.appinst.deb
