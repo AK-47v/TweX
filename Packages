@@ -1022,7 +1022,7 @@ Section: Utilities
 Maintainer: Lightmann <lightmanns11@gmail.com>
 Author: Lightmann <lightmanns11@gmail.com>
 Installed-Size: 395
-Depends: apt, shell-cmds, uikittools, firmware (>= 13.0), firmware (<< 15.0)
+Depends: apt, shell-cmds, uikittools, firmware (>= 15.0), firmware (<< 15.0)
 Name: IAmLazy
 Description: Easily backup and restore your tweaks
 Icon: https://img.chariz.cloud/icon/iamlazy/icon@3x.png
