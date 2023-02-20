@@ -20,10 +20,25 @@ Maintainer: 3bod_syr
 Depends:
 Conflicts:
 Filename: debs/com.3bod_syr.ClassicoNoAds_1.0_iphoneos-arm.deb
-Size: 600
+Size: 6000
 MD5sum: 66c3045216ad4cae90bde41fc91164ee
 SHA1: f0d2e697ed53ab6dd39087bb326e35a0ca09910e
 SHA256: c7f1f5717e630d4bf244115ac41efd354af51c52d8624bd36fc7b3670181e745
 Section: Tweaks
 Depiction: https://github.com/AK-47v/twex
 Name: ClassicoNoAds
+
+Package: com.blandry.alarmvolume
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: Benoit Landry
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: de.ukex.sergeantalarm, org.samball.novibratedwakeup, org.thebigboss.arise, com.myrepospace.blandry.alarmvolume
+Filename: http://apt.thebigboss.org/repofiles/cydia/debs2.0/alarmvolume_1.3.1.deb
+Size: 7119
+MD5sum: b247a5a73ce64cc56f6987e4498e52f9
+SHA1: 
+SHA256: de6100ae3434009b0fd0e633da60d35b6ef28e1dd09e757b31afd477eef81659
+Section: Tweaks
+Depiction: https://github.com/AK-47v/twex
+Name: AlarmVolume
