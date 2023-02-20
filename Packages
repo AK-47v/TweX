@@ -656,15 +656,13 @@ Description: Snowboard theming engine
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Maintainer: Spark & Dennis D. Bednarz <info@sparkdev.me>
-Author: Spark & Dennis D. Bednarz <info@sparkdev.me>
+Maintainer: Spark
+Author: Spark & Dennis D. Bednarz
 Section: Tweaks
-Version: 1.4.20~Beta4
-Icon: https://cdn.chariz.cloud/icon/snowboard/icon@3x.png
+Version: 1.5.5~Beta2
+Installed-Size: 5204
+Filename: debs/1.5.5~Beta2.deb
 Depiction: https://ak-47v.Github.io/twex/
-Tag: compatible_min::ios7.0
-Installed-Size: 5076
-Filename: debs/com.spark.snowboard_1.4.20~Beta4_iphoneos-arm.deb
 
 Package: com.ps.cconandoff
 Name: CC On & Off
