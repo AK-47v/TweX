@@ -51,9 +51,9 @@ Depends: com.creaturecoding.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Filename: debs/xyz.cypwn.shufflexinaa15_1.6.1-1_iphoneos-arm.deb
 Size: 32967
-MD5sum: 283f01a5bce3829220d6bad3fff4dd8e
-SHA1: a12c34d974ab67fdaef06e9577eb45a3a13c66d3
-SHA256: 4b51b5239f12d487c8d2a2d764bba6573f60b500602c8940bfcf4af5628d55d5
+MD5sum: b37c0d6ead6536d5eb0c9f4607400096
+SHA1: 0b9bbd7ae025907a77c326d715c536f3025a99f5
+SHA256: 1b60bdabc2cd636f6f3f18da8f777810be003151692fae96837a0f07fa0ac6b6
 Section: Tweaks
 Depiction: https://ak-47v.github.io/twex/
 Name: shufflexinaa15
