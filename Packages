@@ -42,3 +42,18 @@ SHA256: de6100ae3434009b0fd0e633da60d35b6ef28e1dd09e757b31afd477eef81659
 Section: Tweaks
 Depiction: https://ak-47v.github.io/twex/
 Name: AlarmVolume
+
+Package: xyz.cypwn.shufflexinaa15 
+Version: 5_1.6.1-1
+Architecture: iphoneos-arm
+Maintainer: Cypwn
+Depends: 
+Conflicts:
+Filename: debs/xyz.cypwn.shufflexinaa15_1.6.1-1_iphoneos-arm.deb
+Size: 17000
+MD5sum: 283f01a5bce3829220d6bad3fff4dd8e
+SHA1: a12c34d974ab67fdaef06e9577eb45a3a13c66d3
+SHA256: 4b51b5239f12d487c8d2a2d764bba6573f60b500602c8940bfcf4af5628d55d5
+Section: Tweaks
+Depiction: https://ak-47v.github.io/twex/
+Name:shufflexinaa15
