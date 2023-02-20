@@ -1,51 +1,18 @@
-Package: معرف الاداة 
-Version: الاصدار
-Architecture: iphoneos-arm
-Maintainer: اكتب اسمك
-Depends: المتطلبات 
-Conflicts: التعارضات
-Filename: موقع الملف
-Size: 
-MD5sum: 
-SHA1: 
-SHA256: 
-Section: Tweaks
-Depiction: رابط صفحة الوصف 
-Name: اسم  الاداه 
-
-Package: Syr الكلاسيكو
-Version: 0.0.1-1+debug
-Architecture: iphoneos-arm
+Package: com.3bod.syria
+Name: الكلاسيكو Syr
+Author: @3bod_syr
+Description: محذوف الاعلانات
+Depends: mobilesubstrate
 Maintainer: @3bod_syr
-Depends:
-Conflicts:
-Filename: debs/ClassicoNoAds.deb
-Size: 6000
-MD5sum: 66c3045216ad4cae90bde41fc91164ee
-SHA1: f0d2e697ed53ab6dd39087bb326e35a0ca09910e
-SHA256: c7f1f5717e630d4bf244115ac41efd354af51c52d8624bd36fc7b3670181e745
-Section: Tweaks
-Depiction: https://ak-47v.github.io/twex/
-Name: Syr الكلاسيكو
-
-Package: com.blandry.alarmvolume
-Version: 1.3.1
 Architecture: iphoneos-arm
-Maintainer: Benoit Landry
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: de.ukex.sergeantalarm, org.samball.novibratedwakeup, org.thebigboss.arise, com.myrepospace.blandry.alarmvolume
-Filename: debs/alarmvolume_1.3.1.deb
-Size: 7119
-MD5sum: b247a5a73ce64cc56f6987e4498e52f9
-SHA1: 
-SHA256: de6100ae3434009b0fd0e633da60d35b6ef28e1dd09e757b31afd477eef81659
 Section: Tweaks
+Version: 0.0.1-1+debug
+Installed-Size: 104
 Depiction: https://ak-47v.github.io/twex/
-Name: AlarmVolume
 
 Package: xyz.cypwn.shufflexinaa15
 Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/902
+Depiction: https://ak-47v.github.io/twex/
 SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/902
 Name: Shuffle for Xina A15
 Depends: firmware (>= 15.0), mobilesubstrate
@@ -66,7 +33,7 @@ Version: 1.3.1
 Architecture: iphoneos-arm
 Description: Set volume for Alarms and Timers
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alarmvolumeDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alarmvolumeDp
+Depiction: https://ak-47v.github.io/twex/
 Sponsor: thebigboss.org <http://thebigboss.org>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: Benoit Landry <landryb@gmail.com>
