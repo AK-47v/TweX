@@ -28,8 +28,7 @@ Name: AlarmVolume
 
 Package: xyz.cypwn.icleanerprocrack
 Maintainer: CyPwn
-Depiction: https://ak-47v.github.io/depiction/895
-SileoDepiction: https://ak-47v.github.io/sileo_depiction/895
+Depiction: https://ak-47v.github.io/
 Name: iCleaner Pro Crack
 Architecture: iphoneos-arm
 Description: iCleaner Pro Crack
@@ -42,8 +41,7 @@ Filename: debs/xyz.cypwn.icleanerprocrack_1.1_iphoneos-arm.deb
 
 Package: xyz.cypwn.blacklist
 Maintainer: CyPwn
-Depiction: https://ak-47v.github.io/depiction/906
-SileoDepiction: https://ak-47v.github.io/sileo_depiction/906
+Depiction: https://ak-47v.github.io/
 Name: XinaBlackList
 Architecture: iphoneos-arm
 Description: Blacklist apps and services from xina jailbreak. For shielding/bypassing jailbreak detection.
@@ -64,7 +62,6 @@ Installed-Size: 221
 Version: 0.1-2
 Architecture: iphoneos-arm
 Description: swipe to open a new chat for unsaved phone numbers from System Phone App, no configuration required.
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=waquickchatDp
 Homepage: http://moreinfo.thebigboss.org/moreinfo/Depiction: https://ak-47v.github.io/twex/
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: ithegentle
@@ -140,8 +137,7 @@ Filename: debs/nodelete-ai.akemi.appinst.deb
 
 Package: xyz.cypwn.shufflexinaa15
 Maintainer: CyPwn
-Depiction: https://ak-47v.github.io/twex/
-SileoDepiction: https://ak-47v.github.io/twex/sileo_depiction/902
+Depiction: https://ak-47v.github.io/
 Name: Shuffle for Xina A15
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.creaturecoding.shuffle
@@ -152,3 +148,205 @@ Section: Tweaks
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/shuffle.png
 Version: 1.6.1-1
 Filename: debs/xyz.cypwn.shufflexinaa15_1.6.1-1_iphoneos-arm.deb
+
+Package: me.jjolano.shadow
+Name: Shadow
+Depends: firmware (>= 8.0), mobilesubstrate, dpkg, com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 0.1.5)
+Suggests: com.ps.injectionfoundation
+Recommends: preferenceloader
+Provides: me.jjolano.shadow.beta
+Replaces: me.jjolano.shadow.beta
+Conflicts: me.jjolano.shadow.beta
+Architecture: iphoneos-arm
+Description: A modern jailbreak detection bypass for jailbroken iOS.
+Maintainer: jjolano
+Author: jjolano
+Section: System
+Version: 3.6.7
+Installed-Size: 1360
+Filename: debs/me.jjolano.shadow_3.6.7_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Package: me.jjolano.fmwk.hookkit
+Name: HookKit Framework
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Description: An iOS tweak developer framework to unify code substitution APIs in runtime. This is a developer package.
+Maintainer: jjolano
+Author: jjolano
+Section: Development
+Tag: role::developer
+Version: 0.2.5
+Installed-Size: 392
+Filename: debs/me.jjolano.fmwk.hookkit_0.2.5_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Package: lilliana.filzacrack
+Name: Filza Crack
+Architecture: iphoneos-arm
+Description: Filza and AppsManager activation for free
+Maintainer: Lilliana
+Author: Lilliana
+Section: Cracks
+Depends: firmware (>= 12.2)
+SileoDepiction: https://paisseon.github.io/depictions/FilzaCrack.json
+Version: 0.0.4
+Installed-Size: 196
+Filename: debs/me.jjolano.fmwk.hookkit_0.2.5_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Package: com.tigisoftware.filza64bit
+Name: Filza File Manager 64-bit
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Version: 4.0.0-6
+Installed-Size: 23200
+Filename: debs/com.tigisoftware.filza64bit_4.0.0-6_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Package: com.tigisoftware.appdatamanager
+Name: Apps Manager
+Architecture: iphoneos-arm
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Version: 1.8.1-10
+Installed-Size: 5236
+Filename: debs/com.tigisoftware.appdatamanager_1.8.1-10_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Package: com.rpetrich.rocketbootstrap
+Depends: firmware (>= 13.0), mobilesubstrate
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://ak-47v.github.io/twex/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.10~beta2
+Installed-Size: 552
+Filename: debs/com.rpetrich.rocketbootstrap_1.0.10~beta2_iphoneos-arm.deb
+
+Package: com.ps.injectionfoundation
+Name: Injection Foundation
+Architecture: iphoneos-arm
+Description: Inject UIKit tweaks into Foundation apps.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Depiction: https://ak-47v.github.io/twex/
+Version: 1.0.1
+Installed-Size: 136
+Filename: debs/com.ps.injectionfoundation_1.0.1_iphoneos-arm.deb
+
+Package: com.opa334.libsandy
+Name: libSandy
+Depiction: https://ak-47v.github.io/twex/
+Architecture: iphoneos-arm
+Description: Securely extend the sandbox of system processes and user applications
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Maintainer: opa334
+Author: opa334
+Section: System
+Tag: role::developer
+Version: 1.0.3-2
+Installed-Size: 564
+Filename: debs/com.opa334.libsandy_1.0.3-2_iphoneos-arm.deb
+
+Package: com.opa334.altlist
+Name: AltList
+Depiction: https://ak-47v.github.io/twex/
+Architecture: iphoneos-arm
+Depends: firmware (>=7.0)
+Description: A modern AppList alternative
+Maintainer: opa334
+Author: opa334
+Section: System
+Tag: role::developer
+Version: 1.0.9
+Installed-Size: 388
+Filename: debs/com.opa334.altlist_1.0.9_iphoneos-arm.deb
+
+Package: com.miro.perfectcalc
+Name: PerfectCalc
+Depends: firmware (>=13.0), mobilesubstrate
+Depiction: https://ak-47v.github.io/twex/
+Description: A tweak that keeps the calculations in the Calculator app
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Author: MiRO <tweaks_support@miro92.com>
+Section: Tweaks
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Version: 1.0
+Installed-Size: 168
+Filename: debs/com.miro.perfectcalc_1.0_iphoneos-arm.deb
+
+Package: com.exile90.icleanerpro
+Name: iCleaner Pro
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Version: 7.10.0
+Architecture: iphoneos-arm
+Homepage: http://ib-soft.net/icleaner
+Depiction: https://ak-47v.github.io/twex/
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+Filename: debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm.deb
+
+Package: com.darwindev.alternative-springboardservices
+Name: Alternative SpringBoardServices
+Section: Tweaks
+Depends: firmware (>= 13.0), com.rpetrich.rocketbootstrap, com.opa334.libsandy
+Architecture: iphoneos-arm
+Author: Darwin Developer <82flex@gmail.com>
+Maintainer: Darwin Developer <82flex@gmail.com>
+Description: An alternative SpringBoardServices implementation for iOS 13 and above, especially for iOS 15 and above.
+Version: 0.1-2
+Installed-Size: 260
+Filename: debs//com.darwindev.alternative-springboardservices_0.1-2_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Package: com.0xkuj.3dappversionspoofer
+Name: 3DAppVersionSpoofer
+Architecture: iphoneos-arm
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+Maintainer: 0xkuj
+Author: 0xkuj
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Version: 1.1.4
+Installed-Size: 396
+Filename: debs/com.0xkuj.3dappversionspoofer_1.1.4_iphoneos-arm.deb
+Depiction: https://ak-47v.Github.io/twex/
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: https://ak-47v.Github.io/twex/
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.16
+Installed-Size: 780
+Filename: debs/applist_1.5.16_iphoneos-arm.deb
