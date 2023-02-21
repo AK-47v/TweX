@@ -175,7 +175,7 @@ Filename: debs/io.securarepo.edge_3.0_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: iOSGods.com.8BallPool
-Name: 8 Ball Pool Cheats
+Name: 8 Ball Pool UnlimitedGuideline
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: 8 Ball Pool iGMM Cheats by Laxus for iOSGods.com!
@@ -490,7 +490,6 @@ Section: Tweaks
 
 Package: xyz.cypwn.icleanerprocrack
 Maintainer: CyPwn
-Depiction: https://ak-47v.github.io/
 Name: iCleaner Pro Crack
 Architecture: iphoneos-arm
 Description: iCleaner Pro Crack
@@ -500,10 +499,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Version: 1.1
 Installed-Size: 136
 Filename: debs/xyz.cypwn.icleanerprocrack_1.1_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.blacklist
 Maintainer: CyPwn
-Depiction: https://ak-47v.github.io/
 Name: XinaBlackList
 Architecture: iphoneos-arm
 Description: Blacklist apps and services from xina jailbreak. For shielding/bypassing jailbreak detection.
@@ -513,6 +512,7 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Version: 0.0.1-59
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/blacklist.png
 Filename: debs/xyz.cypwn.blacklist_0.0.1-59_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Author: iTheGentle <v70@hotmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -524,8 +524,7 @@ Installed-Size: 221
 Version: 0.1-2
 Architecture: iphoneos-arm
 Description: swipe to open a new chat for unsaved phone numbers from System Phone App, no configuration required.
-Homepage: http://moreinfo.thebigboss.org/moreinfo/Depiction: https://ak-47v.github.io/twex/
-Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: https://ak-47v.github.io/twex/
 dev: ithegentle
 Tag: purpose::extension, role::enduser
 Filename: debs/waquickchat_0.1-2.deb
@@ -585,7 +584,6 @@ Filename: debs/nodelete-ai.akemi.appinst.deb
 
 Package: xyz.cypwn.shufflexinaa15
 Maintainer: CyPwn
-Depiction: https://ak-47v.github.io/
 Name: Shuffle for Xina A15
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.creaturecoding.shuffle
@@ -596,6 +594,7 @@ Section: Tweaks
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/shuffle.png
 Version: 1.6.1-1
 Filename: debs/xyz.cypwn.shufflexinaa15_1.6.1-1_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: me.jjolano.shadow
 Name: Shadow
@@ -637,7 +636,6 @@ Maintainer: Lilliana
 Author: Lilliana
 Section: Cracks
 Depends: firmware (>= 12.2)
-SileoDepiction: https://paisseon.github.io/depictions/FilzaCrack.json
 Version: 0.0.4
 Installed-Size: 196
 Filename: debs/me.jjolano.fmwk.hookkit_0.2.5_iphoneos-arm.deb
