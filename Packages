@@ -1,4 +1,184 @@
 
+Author: ichitaso
+Maintainer: Packix
+Name: IconAnus
+Package: com.ichitaso.iconanus
+Pre-Depends: firmware (>= 12.0)
+Depends: mobilesubstrate
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Preserve custom icon layouts by Springboard Crash or reboots etc
+Depiction: https://ak-47v.github.io/twex/
+Homepage: https://ichitaso.com/
+dev: ichitaso
+Tag: purpose::extension, compatible::ios13, compatible::ios14
+Version: 1.0.3
+Installed-Size: 136
+Filename: debs/com.ichitaso.iconanus_1.0.3_iphoneos-arm.deb
+
+Architecture: iphoneos-arm
+Package: com.nahtedetihw.macpass
+Name: MacPass
+Version: 1.3
+Depiction: https://ak-47v.github.io/twex/
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.macpass/icon.png
+Description: MacOS login screen for iOS!
+Homepage: https://nahtedetihw.github.io
+Section: Tweaks
+Depends: firmware (>=13.0), mobilesubstrate, com.spark.libsparkcolourpicker, com.muirey03.libimagepicker, ws.hbang.common
+Tags: compatible_min::ios13.0, compatible_max::ios16.2
+Author: ETHN <ethanwhited2208@gmail.com>
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: debs/com.nahtedetihw.macpass.deb
+
+Architecture: iphoneos-arm
+Package: com.nahtedetihw.nowidgetlabels
+Name: NoWidgetLabels
+Version: 1.0
+Depiction: https://ak-47v.github.io/twex/
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.nowidgetlabels/icon.png
+Description: Hide only labels of widgets!
+Homepage: https://nahtedetihw.github.io
+Section: Tweaks
+Tags: compatible_min::ios14.0, compatible_max::ios16.2
+Author: ETHN <ethanwhited2208@gmail.com>
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: debs/com.nahtedetihw.nowidgetlabels.deb
+
+Architecture: iphoneos-arm
+Package: com.nahtedetihw.stepup
+Name: StepUp
+Version: 1.1
+Depiction: https://ak-47v.github.io/twex/
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.stepup/icon.png
+Description: Change the amount of steps for volume!
+Homepage: https://nahtedetihw.github.io
+Section: Tweaks
+Depends: firmware (>=13.0), ws.hbang.common
+Tags: compatible_min::ios13.0, compatible_max::ios16.2
+Author: ETHN <ethanwhited2208@gmail.com>
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: debs/com.nahtedetihw.stepup.deb
+
+Architecture: iphoneos-arm
+Package: com.nahtedetihw.timestamp
+Name: TimeStamp
+Version: 1.2
+Depiction: https://ak-47v.github.io/twex/
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.timestamp/icon.png
+Description: Dynamically cycle between time and date in StatusBar!
+Homepage: https://nahtedetihw.github.io
+Section: Tweaks
+Tags: compatible_min::ios13.0, compatible_max::ios16.2
+Author: ETHN <ethanwhited2208@gmail.com>
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: debs/com.nahtedetihw.timestamp.deb
+
+Package: xyz.cypwn.xrays
+Maintainer: CyPwn
+Author: CyPwn
+Name: xrays
+Depends: ldid, firmware(>= 7.0)
+Section: Development
+Version: 1.0.15b8k
+Architecture: iphoneos-arm
+Description: Should be used only for certain CyPwn packages. This is closed library and no support is provided for this package.
+Filename: debs/xyz.cypwn.xrays_1.0.15b8k_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Architecture: iphoneos-arm
+Package: com.ginsu.dodo
+Name: Dodo
+Version: 3.4.8-1
+Depiction: https://ak-47v.github.io/twex/
+Icon: https://repo.ginsu.dev/assets/com.ginsu.dodo/icon.png
+Description: The perfect LS redesign.
+Homepage: https://repo.ginsu.dev
+Section: Tweaks
+Depends: firmware (>=14.0), mobilesubstrate (>= 0.9.5000), dev.theos.orion14, com.opa334.altlist, preferenceloader, com.ginsu.libgscommon (>= 1.2.6-2), com.peterdev.libpddokdo
+Tags: compatible_min::ios14.0, compatible_max::ios15.9
+Author: Ginsu <njl02@outlook.com>
+Maintainer: Ginsu <njl02@outlook.com>
+Sponsor: Ginsu Tweaks <njl02@outlook.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: debs/com.ginsu.dodo.deb
+
+Architecture: iphoneos-arm
+Package: com.ginsu.libgscommon
+Name: GSCommon
+Version: 1.2.6-2
+Depiction: https://ak-47v.github.io/twex/
+Icon: https://repo.ginsu.dev/assets/com.ginsu.libgscommon/icon.png
+Description: Support package for Ginsu’s tweaks.
+Homepage: https://ginsu.dev
+Section: Tweaks
+Depends: firmware (>=13.0), preferenceloader
+Tags: compatible_min::ios13.0, compatible_max::ios15.9
+Author: Ginsu <njl02@outlook.com>
+Maintainer: Ginsu <njl02@outlook.com>
+Sponsor: Ginsu Tweaks <njl02@outlook.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: debs/com.ginsu.libgscommon.deb
+
+Package: com.rpgfarm.libaptoast
+Name: libAPToast
+Architecture: iphoneos-arm
+Description: Baw Appie's Toast Library
+Maintainer: Baw Appie <pp121324@gmail.com>
+Author: Baw Appie <pp121324@gmail.com>
+Section: System
+Tag: role::developer
+Version: 1.0
+Installed-Size: 132
+Filename: debs/com.rpgfarm.libaptoast.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Author: IArrays <support@iarrays.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: libiarrays
+Package: com.iarrays.libiarrays
+Depends: firmware(>= 9.0)
+Conflicts: com.iarrays.libiarrays1
+Section: Development
+Installed-Size: 975
+Version: 1.0.15
+Architecture: iphoneos-arm
+Description: Should be used only by IArrays products. This is closed library and no support is provided for this package.
+Depiction: https://ak-47v.github.io/twex/
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libarraysDp
+dev: iarrays
+Tag: purpose::library, cydia::obsolete
+Filename: debs/libiarrays_1.0.15.deb
+
+Author: IArrays
+Maintainer: CyPwn
+Name: Bio Locker
+Package: xyz.cypwn.biolocker
+Pre-Depends: firmware (>=11.0)
+Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 6), com.iarrays.libiarrays (>=1.0.15)
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Section: Utilities
+Installed-Size: 3420
+Version: 1.15.0
+Architecture: iphoneos-arm
+Description: Simple, light weight and elegant locker for your apps.
+Depiction: https://ak-47v.github.io/twex/
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/biolocker.png
+Filename: debs/xyz.cypwn.biolocker_1.15.0_iphoneos-arm.deb
+
 Package: com.shepgoba.settingswidgets
 Name: SettingsWidgets
 Depends: mobilesubstrate, preferenceloader
@@ -25,32 +205,18 @@ Installed-Size: 204
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/b93607aad9ae0cc41f9785fef827d784.deb
 
-Package: carparkingmultiplayer
-Name: carparkingmultiplayer Mod Menu
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: carparkingmultiplayer Mod Menu by Transelvania!
-Maintainer: Transelvania
-Author: Transelvania
-Section: Hacks
-Homepage: https://iosgods.com/
-Version: 2.3.1
-Installed-Size: 312
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/carparkingmultiplayer_2.3.7_iphoneos-arm.deb
-
 Package: com.icraze.hestia
 Name: Hestia
 Architecture: iphoneos-arm
 Description: Global Jailbreak Detection Bypass
 Maintainer: iCraze
 Author: iCraze
-Section: Jb-Bypass
+Section: JB-Bypass
 Depends: mobilesubstrate (>= 0.9.5000), sed, firmware (>= 11.0), com.spark.libsparkapplist, preferenceloader
-Version: 1.6.5
-Installed-Size: 1540
+Version: 1.7.1b1
+Installed-Size: 1620
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.icraze.hestia_1.6.5_iphoneos-arm.deb
+Filename: debs/com.icraze.hestia_1.7.1b1_iphoneos-arm.deb
 
 Package: com.iosdag.8ballpool
 Name: 8 Ball Pool™ Mod Menu
@@ -61,23 +227,10 @@ Maintainer: iOSDag.com
 Author: iOSDag.com
 Section: Hacks
 Homepage: https://iosdag.com
-Version: v5.11.1
+Version: v5.1.0
 Installed-Size: 612
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.iosdag.8ballpool_v5.1.0_iphoneos-arm.deb
-
-Package: com.itznebbs.libnebbs
-Name: libNebbs
-Depends: firmware (>=15.0)
-Architecture: iphoneos-arm
-Description: Collection of classes used in my tweaks.
-Maintainer: ItzNebbs
-Author: ItzNebbs
-Section: Development
-Version: 1.0.5
-Installed-Size: 368
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.itznebbs.libnebbs_1.0.5_iphoneos-arm.deb
 
 Package: com.Joka.PvZ2FreeHack
 Name: Plants vs. Zombies™ 2 Cheats
@@ -146,20 +299,6 @@ Installed-Size: 136
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.savlabs.inshop_1.0.0+iOSGods.com_iphoneos-arm.deb
 
-Package: hide.online.mod.menu
-Name: Hide Online Mod Menu
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: Hide Online Mod Menu by RA!
-Maintainer: RA
-Author: RA
-Section: Hacks
-Homepage: 
-Version: 4.9.3
-Installed-Size: 600
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/Hide.Online_v4.9.3_iphoneos-arm.deb
-
 Package: io.securarepo.edge
 Name: Edge
 Depends: mobilesubstrate, firmware (>=11.0), org.thebigboss.libcolorpicker, com.opa334.ccsupport, xyz.itznebbs.libnebbs (>=1.6), ws.hbang.common
@@ -183,7 +322,7 @@ Maintainer: iOSGods.com
 Author: Laxus
 Section: Hacks
 Homepage: https://iosgods.com
-Version: 5.11.0+iOSGods.com
+Version: 5.7.0+iOSGods.com
 Installed-Size: 10112
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.8BallPool_5.7.0+iOSGods.com_iphoneos-arm.deb
@@ -230,20 +369,6 @@ Installed-Size: 6264
 Filename: debs/iOSGods.com.CarXStreet_0.8.6iOSGods.com_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
-Package: iosgods.com.focos
-Name: Focos Pro Unlocked
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: Pro Unlocked - Patch by l1t0x for iOSGods.com!
-Maintainer: iOSGods.com
-Author: l1t0x
-Section: Hacks
-Homepage: https://iosgods.com
-Version: 2.5.17+iOSGods.com
-Installed-Size: 88
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/iosgods.com.focos_2.5.17+iOSGods.com_iphoneos-arm.deb
-
 Package: iOSGods.com.PicsArt
 Name: PicsArt Cheats
 Depends: mobilesubstrate
@@ -272,20 +397,6 @@ Installed-Size: 5680
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.ScoreHero2_2.81iOSGods.com_iphoneos-arm.deb
 
-Package: iOSGods.com.StumbleGuys
-Name: Stumble Guys Cheats
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: Stumble Guys iGMM Cheats by TimidNova for iOSGods.com!
-Maintainer: iOSGods.com
-Author: TimidNova
-Section: Hacks
-Homepage: https://iosgods.com
-Version: 0.44.0+iOSGods.com
-Installed-Size: 5664
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/iOSGods.com.StumbleGuys_0.44.0iOSGods.com_iphoneos-arm.deb
-
 Package: iOSGods.com.subwaygl
 Name: Subway Surfers Cheats
 Depends: mobilesubstrate
@@ -311,7 +422,7 @@ Section: Hacks
 Homepage: https://iosgods.com
 Version: 245+iOSGods.com
 Installed-Size: 8508
-Filename: debs/ iOSGods.com.VSCO_245iOSGods.com_iphoneos-arm.deb
+Filename: debs/iOSGods.com.VSCO_245iOSGods.com_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: ldid
@@ -1128,7 +1239,7 @@ Architecture: iphoneos-arm
 Description: Make CoreAnimation apps use the highest available FPS.
 Maintainer: PoomSmart
 Author: PoomSmart
-Section: Tweaks
+Section: GamesAddon
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
 Depiction: https://ak-47v.Github.io/twex/
 Version: 1.3.0
@@ -1232,9 +1343,9 @@ Architecture: iphoneos-arm
 Author: Fouad Raheb <support@fouadraheb.com>
 Maintainer: Fouad Raheb <support@fouadraheb.com>
 Icon: file:///Library/Application Support/Watusi/Resources.bundle/Settings.bundle/WatusiSettingsLogo@3x.png
-Version: 1.1.50
+Version: 1.1.51
 Installed-Size: 6624
-Filename: debs/com.fouadraheb.watusi3_1.1.50_iphoneos-arm.deb
+Filename: debs/com.fouadraheb.watusi3_1.1.51_iphoneos-arm.deb
 
 Package: com.fouadraheb.appdata
 Name: AppData
@@ -1469,20 +1580,6 @@ Description: Easily backup and restore your tweaks
 Icon: https://img.chariz.cloud/icon/iamlazy/icon@3x.png
 Depiction: https://ak-47v.Github.io/twex
 Filename: debs/me.lightmann.iamlazy_2.1.2_iphoneos-arm.deb
-
-Package: xyz.cypwn.lockshut
-Maintainer: CyPwn
-Depiction: https://ak-47v.github.io/twex/
-Name: LockShut
-Author: Greg0109 <greg.rabago@gmail.com>
-Description: Prevent your phone to be shutdown from the lock screen!
-Version: 1.1.2
-Section: Tweaks
-Depends: 
-Architecture: iphoneos-arm
-Installed-Size: 5132
-Icon: https://chariz.com/cdn/icon/lockshut/icon@3x.png
-Filename: debs/xyz.cypwn.lockshut_1.1.2_iphoneos-arm.deb
 
 Package: xyz.itznebbs.libnebbs
 Name: libnebbs
