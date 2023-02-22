@@ -1,4 +1,48 @@
 
+Package: com.muirey03.libimagepicker
+Name: libimagepicker
+Version: 1.0.4
+Section: Development
+Architecture: iphoneos-arm
+Installed-Size: 324
+Author: Muirey03
+Maintainer: Muirey03
+Description: A simple library for choosing images in preference bundles.
+Tag: role::developer
+Depiction: https://ak-47v.j.io/twex/
+Filename: debs/com.muirey03.libimagepicker_1.0.4.deb
+
+Architecture: iphoneos-arm
+Package: com.anthopak.quickccdismiss
+Name: QuickCCDismiss
+Version: 1.0
+Depiction: https://ak-47v.j.io/twex/
+Icon: https://repo.anthopak.dev/assets/com.anthopak.quickccdismiss/icon.png
+Description: Quickly dismiss CC from expanded modules
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: debs/com.anthopak.quickccdismiss.deb
+
+Architecture: iphoneos-arm
+Package: com.nahtedetihw.settingsbuttons
+Name: SettingsButtons
+Version: 1.6
+Depiction: https://ak-47v.j.io/twex/
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.settingsbuttons/icon.png
+Description: Useful buttons in the Settings Nav Bar.
+Homepage: https://nahtedetihw.github.io
+Section: Tweaks
+Depends: firmware (>=13.0), ws.hbang.common, com.spark.libsparkcolourpicker, com.smokin1337.ldrestarthelper
+Tags: compatible_min::ios13.0, compatible_max::ios16.2
+Author: ETHN <ethanwhited2208@gmail.com>
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Filename: debs/com.nahtedetihw.settingsbuttons.deb
+
 Author: ichitaso
 Maintainer: Packix
 Name: IconAnus
@@ -11,7 +55,7 @@ Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfi
 Section: Tweaks
 Architecture: iphoneos-arm
 Description: Preserve custom icon layouts by Springboard Crash or reboots etc
-Depiction: https://ak-47v.github.io/twex/
+Depiction: https://ak-47v.j.io/twex/
 Homepage: https://ichitaso.com/
 dev: ichitaso
 Tag: purpose::extension, compatible::ios13, compatible::ios14
@@ -168,7 +212,7 @@ Maintainer: CyPwn
 Name: Bio Locker
 Package: xyz.cypwn.biolocker
 Pre-Depends: firmware (>=11.0)
-Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 6), com.iarrays.libiarrays (>=1.0.15)
+Depends: mobilesubstrate, xrays, preferenceloader, cy+model.iphone (>= 6), com.iarrays.libiarrays (>=1.0.15)
 Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
 Section: Utilities
 Installed-Size: 3420
@@ -217,20 +261,6 @@ Version: 1.7.1b1
 Installed-Size: 1620
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.icraze.hestia_1.7.1b1_iphoneos-arm.deb
-
-Package: com.iosdag.8ballpool
-Name: 8 Ball Pool™ Mod Menu
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: This hack was made by iOSDag.com
-Maintainer: iOSDag.com
-Author: iOSDag.com
-Section: Hacks
-Homepage: https://iosdag.com
-Version: v5.1.0
-Installed-Size: 612
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.iosdag.8ballpool_v5.1.0_iphoneos-arm.deb
 
 Package: com.Joka.PvZ2FreeHack
 Name: Plants vs. Zombies™ 2 Cheats
