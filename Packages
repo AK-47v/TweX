@@ -211,7 +211,7 @@ Architecture: iphoneos-arm
 Description: Global Jailbreak Detection Bypass
 Maintainer: iCraze
 Author: iCraze
-Section: JB-Bypass
+Section: Jb-Bypass
 Depends: mobilesubstrate (>= 0.9.5000), sed, firmware (>= 11.0), com.spark.libsparkapplist, preferenceloader
 Version: 1.7.1b1
 Installed-Size: 1620
