@@ -1,4 +1,202 @@
 
+Package: com.iosdag.amongus
+Name: Among Us! Mod Menu
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: This hack was made by iOSDag.com
+Maintainer: iOSDag.com
+Author: iOSDag.com
+Section: Hacks
+Homepage: https://iosdag.com
+Version: 2021.6.30
+Installed-Size: 612
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.iosdag.amongus_2021.6.30_iphoneos-arm.deb
+
+Package: com.ramlbutt.videostar
+Name: videostar⭐️
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Video Star ⭐️ Pro Subscription All Versions An awesome MobileSubstrate tweak!
+Maintainer: @RamL BuTt
+Author: @RamL BuTt
+Section: Hacks
+Version: 0.0.1-1+debug
+Installed-Size: 76
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.ramlbutt.videostar_0.0.1-1+debug_iphoneos-arm.deb
+
+Package: com.strejda603.adobephotoshopexpresspremium
+Name: Adobe Photoshop Express (Premium)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Enables Premium features.
+Maintainer: strejda603 <strejda603@centrum.cz>
+Author: strejda603 <strejda603@centrum.cz>
+Homepage: https://repo.danielpitra.cz
+Section: Hacks
+Version: 1.0.0
+Installed-Size: 152
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.strejda603.adobephotoshopexpresspremium_1.0.0_iphoneos-arm.deb
+
+Package: com.strejda603.myfitnesspalpremium
+Name: MyFitnessPal (Premium)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Enables Premium features.
+Maintainer: strejda603 <strejda603@centrum.cz>
+Author: strejda603 <strejda603@centrum.cz>
+Homepage: https://repo.danielpitra.cz
+Section: Hacks
+Version: 1.0.0
+Installed-Size: 168
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.strejda603.myfitnesspalpremium_1.0.0_iphoneos-arm.deb
+
+Package: com.strejda603.teraboxpremium
+Name: TeraBox (Premium)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Enables Premium features.
+Maintainer: strejda603 <strejda603@centrum.cz>
+Author: strejda603 <strejda603@centrum.cz>
+Homepage: https://repo.danielpitra.cz
+Section: Hacks
+Version: 1.0.0
+Installed-Size: 280
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.strejda603.teraboxpremium_1.0.0_iphoneos-arm.deb
+
+Package: com.strejda603.truecallerpremiumgold
+Name: Truecaller (Premium Gold)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Enables Premium Gold features.
+Maintainer: strejda603 <strejda603@centrum.cz>
+Author: strejda603 <strejda603@centrum.cz>
+Homepage: https://repo.danielpitra.cz
+Section: Hacks
+Depiction: 
+Version: 1.0.0
+Installed-Size: 264
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.strejda603.truecallerpremiumgold_1.0.0_iphoneos-arm.deb
+
+Package: com.strejda603.videoleappro
+Name: Videoleap (Pro)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Enables Pro features.
+Maintainer: strejda603 <strejda603@centrum.cz>
+Author: strejda603 <strejda603@centrum.cz>
+Homepage: https://repo.danielpitra.cz
+Section: Hacks
+Version: 1.0.1
+Installed-Size: 168
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.strejda603.videoleappro_1.0.1_iphoneos-arm.deb
+
+Package: com.thanhdark1909.subway
+Name: Subway Surf Mod Menu
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Subway Surf Mod Menu by ThanhDark1909!
+Maintainer: ThanhDark1909
+Author: ThanhDark1909
+Section: Hacks
+Homepage: https://github.com/joycelewis
+Version: 3.7.0
+Installed-Size: 540
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.thanhdark1909.subway_3.7.0_iphoneos-arm.deb
+
+Package: com.umarbutt.hacksoccer
+Name: Soccer Stars
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Guidelines Hack @UmarBuTt
+Maintainer: @UmarBuTt
+Author: @UmarBuTt
+Section: Hacks
+Version: 32.0.1-7+debug
+Installed-Size: 744
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.umarbutt.hacksoccer_32.0.1-7+debug_iphoneos-arm.deb
+
+Package: iOSGods.com.AmongUS
+Name: Among Us! Cheats
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Among Us! iGMM Cheats by Laxus for iOSGods.com!
+Maintainer: iOSGods.com
+Author: Laxus
+Section: Hacks
+Homepage: https://iosgods.com
+Version: 2022.12.14+iOSGods.com
+Installed-Size: 10112
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.AmongUS_2022.12.14+iOSGods.com_iphoneos-arm.deb
+
+Package: iOSGods.com.ho
+Name: Hide Online - Hunters vs Props Cheats
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Hide Online - Hunters vs Props iGMM Cheats by AlyssaX64 for iOSGods.com!
+Maintainer: iOSGods.com
+Author: AlyssaX64
+Section: Hacks
+Homepage: https://iosgods.com
+Version: 4.9.4+iOSGods.com
+Installed-Size: 5664
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.ho_4.9.4iOSGods.com_iphoneos-arm.deb
+
+Package: iOSGods.com.StumbleGuys
+Name: Stumble Guys Cheats
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Stumble Guys iGMM Cheats by TimidNova for iOSGods.com!
+Maintainer: iOSGods.com
+Author: TimidNova
+Section: Hacks
+Homepage: https://iosgods.com
+Version: 0.44.0+iOSGods.com
+Installed-Size: 5664
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.StumbleGuys_0.44.0iOSGods.com_iphoneos-arm.deb
+
+Package: com.ioselite.umarbutt
+Name: vpnproxy
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: 🔥 VPN Proxy Master 🔥 👉 Premium Membership 👈 My YouTube Channel 👉 TuT Easy 👈
+Link :- https://youtube.com/channel/UCQWZJi_C105y31UjVTN_krg
+Maintainer: @Umar BuTt
+Author: @Umar BuTt
+Section: Hacks
+Version: 0.0.1-1+debug
+Installed-Size: 84
+Filename: debs/vonproxymaster.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Name: ldrestarthelper
+Package: com.smokin1337.ldrestarthelper
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 12.0)
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: run ldrestart as root using sreboot binary
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ldrestarthelperDp
+Depiction: https://ak-47v.github.io/twex/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: smokin1337 <smokin1337@gmail.com>
+Section: System
+Tag: role::hacker, purpose::console, compatible::ios13
+Installed-Size: 133
+dev: smokin1337
+Filename: debs/ldrestarthelper_1.0.1.deb
+
 Package: com.muirey03.libimagepicker
 Name: libimagepicker
 Version: 1.0.4
@@ -9,28 +207,14 @@ Author: Muirey03
 Maintainer: Muirey03
 Description: A simple library for choosing images in preference bundles.
 Tag: role::developer
-Depiction: https://ak-47v.j.io/twex/
+Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.muirey03.libimagepicker_1.0.4.deb
-
-Architecture: iphoneos-arm
-Package: com.anthopak.quickccdismiss
-Name: QuickCCDismiss
-Version: 1.0
-Depiction: https://ak-47v.j.io/twex/
-Icon: https://repo.anthopak.dev/assets/com.anthopak.quickccdismiss/icon.png
-Description: Quickly dismiss CC from expanded modules
-Homepage: https://repo.anthopak.dev
-Section: Tweaks
-Depends: firmware (>=11.0), mobilesubstrate, firmware (>= 11.0)
-Author: AnthoPak <anthopakdev@gmail.com>
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Filename: debs/com.anthopak.quickccdismiss.deb
 
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.settingsbuttons
 Name: SettingsButtons
 Version: 1.6
-Depiction: https://ak-47v.j.io/twex/
+Depiction: https://ak-47v.github.io/twex/
 Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.settingsbuttons/icon.png
 Description: Useful buttons in the Settings Nav Bar.
 Homepage: https://nahtedetihw.github.io
@@ -55,7 +239,7 @@ Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfi
 Section: Tweaks
 Architecture: iphoneos-arm
 Description: Preserve custom icon layouts by Springboard Crash or reboots etc
-Depiction: https://ak-47v.j.io/twex/
+Depiction: https://ak-47v.github.io/twex/
 Homepage: https://ichitaso.com/
 dev: ichitaso
 Tag: purpose::extension, compatible::ios13, compatible::ios14
@@ -212,7 +396,7 @@ Maintainer: CyPwn
 Name: Bio Locker
 Package: xyz.cypwn.biolocker
 Pre-Depends: firmware (>=11.0)
-Depends: mobilesubstrate, xrays, preferenceloader, cy+model.iphone (>= 6), com.iarrays.libiarrays (>=1.0.15)
+Depends: mobilesubstrate, xyz.cypwn.xrays, preferenceloader, cy+model.iphone (>= 6), com.iarrays.libiarrays (>=1.0.15)
 Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
 Section: Utilities
 Installed-Size: 3420
@@ -344,7 +528,7 @@ Filename: debs/io.securarepo.edge_3.0_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: iOSGods.com.8BallPool
-Name: 8 Ball Pool UnlimitedGuideline
+Name: 8 Ball Pool LongAim
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: 8 Ball Pool iGMM Cheats by Laxus for iOSGods.com!
