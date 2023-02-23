@@ -78,7 +78,6 @@ Maintainer: CyPwn
 Depiction: https://ak-47v.github.io/twex/
 Name: Shortmoji 2 X
 Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), applist, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.miro.libmiro (>= 1.0.16), com.miro.libmiroprefs (>= 1.0.6), xinaa15 | xyz.cypwn.xinaa15
-Conflicts: com.cpdigitaldarkroom.barmoji, com.ya7yajb.shortmoji, com.miro.shortmoji
 Description: #1 Keyboard Tweak. Modded by Sudo for XinaA15
 Architecture: iphoneos-arm
 Author: MiRO
