@@ -1,17 +1,104 @@
 
-Package: com.iosdag.amongus
-Name: Among Us! Mod Menu
+Package: com.squ1dd13.cleo
+Name: Gta Sa CLEO-MOD-MENU 2023
+Depends: mobilesubstrate
+Provides: com.squ1dd13.csios, com.squ1dd13.zinc
+Conflicts: com.squ1dd13.csios, com.squ1dd13.zinc, com.brend0n.gtasa60fps
+Replaces: com.squ1dd13.csios, com.squ1dd13.zinc
+Version: 2.4.0
+Architecture: iphoneos-arm
+Description: CLEO for GTA:SA. Now with extra Rust!
+Maintainer: squ1dd13
+Author: squ1dd13
+Section: Hacks
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/cleo-v2.4.0-stable.deb
+
+Package: com.creaturesurvive.libcscolorpicker
+Name: libCSColorPicker
+Pre-Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Description: A minimal color picker library for developers
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: System
+Homepage: https://creaturecoding.com/
+Tag: purpose::extension, compatible_min::iosiOS7
+Version: 1.0.6
+Installed-Size: 960
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm.deb
+
+Package: com.miro.libmiro
+Name: libMiRO
+Depends: firmware (>=12.0), com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Depiction: 
+Description: Shared library for my tweaks.
+Maintainer: MiRO <tweaks_support@miro92.com>
+Author: MiRO <tweaks_support@miro92.com>
+Section: Development
+Tag: role::developer, compatible_min::ios12, compatible_max::ios14
+Version: 1.0.19
+Installed-Size: 1676
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.miro.libmiro_1.0.19_iphoneos-arm.deb
+
+Package: com.miro.libmiroprefs
+Name: libMiROPrefs
+Depends: firmware (>=12.0)
+Architecture: iphoneos-arm
+Depiction: 
+Description: Shared library for my tweaks' preferences.
+Maintainer: MiRO <tweaks_support@miro92.com>
+Author: MiRO <tweaks_support@miro92.com>
+Section: Development
+Tag: role::developer, compatible_min::ios12, compatible_max::ios14
+Version: 1.0.8
+Installed-Size: 1488
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.miro.libmiroprefs_1.0.8_iphoneos-arm.deb
+
+Package: com.iosgods.gta
+Name: gta sa Cheats
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: This hack was made by iOSDag.com
-Maintainer: iOSDag.com
-Author: iOSDag.com
+Description: gta sa iGMM Cheats by 0xSUBZ3R0 for iOSGods.com!
+Maintainer: iOSGods.com
+Author: 0xSUBZ3R0
 Section: Hacks
-Homepage: https://iosdag.com
-Version: 2021.6.30
-Installed-Size: 612
+Homepage: https://iosgods.com
+Version: 2.2+iOSGods.com
+Installed-Size: 8356
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.iosdag.amongus_2021.6.30_iphoneos-arm.deb
+Filename: debs/com.iosgods.gta_2.2+iOSGods.com_iphoneos-arm.deb
+
+Package: xyz.cypwn.shortmoji2
+Maintainer: CyPwn
+Depiction: https://ak-47v.github.io/twex/
+Name: Shortmoji 2 X
+Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), applist, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.miro.libmiro (>= 1.0.16), com.miro.libmiroprefs (>= 1.0.6), xinaa15 | xyz.cypwn.xinaa15
+Conflicts: com.cpdigitaldarkroom.barmoji, com.ya7yajb.shortmoji, com.miro.shortmoji
+Description: #1 Keyboard Tweak. Modded by Sudo for XinaA15
+Architecture: iphoneos-arm
+Author: MiRO
+Section: Tweaks
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/shortmoji2.png
+Version: 1.1.6
+Filename: debs/xyz.cypwn.shortmoji2_1.1.6_iphoneos-arm.deb
+
+Package: xyz.cypwn.sixteenmusic
+Maintainer: CyPwn
+Depiction: https://ak-47v.github.io/twex/
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.2
+Depends: mobilesubstrate
+Description: iOS 16 style lock screen music player!
+Name: SixteenMusic
+Author: Ethan Whited
+Icon: https://media.havoc.app/63def90098112480293d2456
+Filename: debs/xyz.cypwn.sixteenmusic_1.2_iphoneos-arm.deb
 
 Package: com.ramlbutt.videostar
 Name: videostar⭐️
@@ -96,20 +183,6 @@ Version: 1.0.1
 Installed-Size: 168
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.strejda603.videoleappro_1.0.1_iphoneos-arm.deb
-
-Package: com.thanhdark1909.subway
-Name: Subway Surf Mod Menu
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: Subway Surf Mod Menu by ThanhDark1909!
-Maintainer: ThanhDark1909
-Author: ThanhDark1909
-Section: Hacks
-Homepage: https://github.com/joycelewis
-Version: 3.7.0
-Installed-Size: 540
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.thanhdark1909.subway_3.7.0_iphoneos-arm.deb
 
 Package: com.umarbutt.hacksoccer
 Name: Soccer Stars
@@ -728,19 +801,6 @@ Section: Tweaks
 Version: 0.1-1
 Installed-Size: 104
 Filename: debs/net.limneos.simpleactivationactions_0.1-1_iphoneos-arm.deb
-Depiction: https://ak-47v.github.io/twex/
-
-Package: twitter.nowesr1.terabox
-Name: TeraBox Premium
-Author: nowesr1 
-Description: Enables Premium Features 
-Depends: mobilesubstrate
-Maintainer: nowesr1 
-Architecture: iphoneos-arm
-Section: Hacks
-Version: 0.0.1-1+debug
-Installed-Size: 264
-Filename: debs/up-ipa.comterabox-nowesr1-0-0-1-1-debug-iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.actionbar
