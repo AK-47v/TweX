@@ -1,17 +1,48 @@
 
+Package: xyz.cypwn.newterm3x
+Architecture: iphoneos-arm
+Name: NewTerm 3X
+Version: 3.0~beta1
+Description: NewTerm3 for Xina. Modified by CyPwn. One that actually works.
+Depends: xyz.cypwn.termcolors (>= 2.0.6), libreadline8 (= 8.1) | libreadline8 (= 99.0), libncursesw6 (= 6.2-1) | libncursesw6 (= 99.0), ncurses-bin (= 6.2-1) | ncurses-bin (= 99.0), ncurses-term (= 6.2-1) | ncurses-term (= 99.0)
+Author: HASHBANG Productions
+Section: Applications
+Maintainer: CyPwn
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/newterm3x.png
+Filename: debs/xyz.cypwn.newterm3x_3.0~beta1_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
+Package: libmpfr6
+Version: 4.1.0
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libgmp10
+Section: Libraries
+Priority: optional
+Homepage: https://www.mpfr.org
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+Installed-Size: 444
+Filename: debs/libmpfr6_4.1.0_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
+
 Package: xyz.cypwn.sonic
 Maintainer: CyPwn
 Version: 1.6
 Section: Tweaks
-Description: CreateYourRingtonesإضافة نغمة رنين
+Description: CreateYourRingtonesإضافة نغمة رنين/1
 Depends: uikittools, com.matteozappia.toneenablerpro, firmware (>=13.0), firmware(>=15.0)
 Conflicts: com.twickd.zeph.sonic
 Architecture: iphoneos-arm
 Name: Sonic
 Author: Zeph
 Icon: https://media.havoc.app/6228cb57e87d968698cdfab4
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/xyz.cypwn.sonic_1.6_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.lastlook
 Maintainer: CyPwn
@@ -21,41 +52,23 @@ Section: Tweaks
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 12.0)
 Author: AnthoPak
-Description: An AOD tweak that feels stock, with endless possibilities!
+Description: An AOD tweak that feels stock, with endless possibilities!إضافات لشاشة القفل/2
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/xyz.cypwn.lastlook_3.6.2k_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.jumper
 Maintainer: CyPwn
 Name: Jumper
 Author: Neo Ighodaro
-Description: JumpIntoAppFromLockscreenالإنتقال للتطبيقات من شاشة القفل
+Description: JumpIntoAppFromLockscreenالإنتقال للتطبيقات من شاشة القفل/3
 Version: 3.0.0
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 13.0), com.tapsharp.support (>= 1.0.1)
 Architecture: iphoneos-arm
 Icon: https://media.havoc.app/63e285bae7b590bc2407ff6d
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/xyz.cypwn.jumper_3.0.0_iphoneos-arm.deb
-
-Package: ws.hbang.newterm3
-Version: 3.0~beta1
-Architecture: iphoneos-arm
-Section: Terminal Support
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Author: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 14891
-Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
-Conflicts: ws.hbang.newterm, ws.hbang.newterm2
-Replaces: ws.hbang.newterm, ws.hbang.newterm2
-Name: NewTerm 3 
-Description: Powerful terminal app for iOS
-Support: https://hashbang.productions/support/
-Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
-Tag: compatible_min::ios14.0
-Depiction: https://ak-47v.github.io/Twex
-Filename: debs/ws.hbang.newterm3_3.0~beta1_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: ws.hbang.newterm2
 Name: NewTerm 2
@@ -72,24 +85,8 @@ Support: https://hashbang.productions/support/
 Tag: compatible_min::ios10.0
 Version: 2.5
 Installed-Size: 6664
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/ws.hbang.newterm2_2.5_iphoneos-arm.deb
-
-Package: com.iarrays.whoozit
-Name: WhoozItPro
-Version: 2.15.0-beta-2
-Architecture: iphoneos-arm
-Description: WhoozCallingمعرفة هوية المتصل
-Maintainer: IArrays <support@iarrays.com>
-Pre-Depends: firmware (>=9.0)
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.iarrays.libiarrays (>= 1.0.15)
-Author: IArrays <support@iarrays.com>
-Sponsor: IArrays
-Section: Utilities
-Installed-Size: 867
-Icon: file:////Library/PreferenceBundles/WhoIsCallingSettings.bundle/WIC@2x.png
-Depiction: https://ak-47v.github.io/Twex
-Filename: debs/WhoIsCalling2.15.0-beta-2.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: me.alfhaily.rocket
 Name: Rocket for Instagram
@@ -103,8 +100,8 @@ Icon: https://apt.alfhaily.me/cdn/assets/rocket-icon.png
 Maintainer: Rocket App <support@getrocketapp.io>
 Version: 3.8.5
 Installed-Size: 8272
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/me.alfhaily.rocket_3.8.5_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tapsharp.support
 Name: Tapsharp Support
@@ -117,8 +114,8 @@ Depends: mobilesubstrate, firmware (>= 13.0)
 Tag: role::developer
 Version: 1.0.1
 Installed-Size: 364
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/com.tapsharp.support_1.0.1_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: com.matteozappia.toneenablerpro
 Name: ToneEnablerPro
@@ -130,8 +127,8 @@ Author: Zeph
 Section: Tweaks
 Version: 1.4
 Installed-Size: 168
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/com.matteozappia.toneenablerpro_1.4_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: com.laughingquoll.prefixui
 Name: PrefixUI
@@ -145,8 +142,8 @@ Tag: role::developer, compatible_min::ios11.0
 Version: 1.3.1
 Icon: https://chariz.com/cdn/icon/prefixui/icon@3x.png
 Installed-Size: 204
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/com.laughingquoll.prefixui_1.3.1_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: com.laughingquoll.emerald
 Name: Emerald
@@ -158,8 +155,8 @@ Installed-Size: 2644
 Author: LaughingQuoll
 Maintainer: LaughingQuoll
 Description: StatusBarPills&Plattersتعديل الستاتوس بار
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/com.laughingquoll.emerald_1.0.7.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: com.junesiphone.applibraryplus
 Name: AppLibraryPlus
@@ -172,8 +169,8 @@ Author: JunesiPhone <junesgraphics@gmail.com>
 Section: Tweaks
 Version: 0.1
 Installed-Size: 616
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/com.junesiphone.applibraryplus_0.1_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: com.junesiphone.alertani
 Name: AlertAni
@@ -186,8 +183,8 @@ Author: JunesiPhone <junesgraphics@gmail.com>
 Section: Tweaks
 Version: 1.1.2
 Installed-Size: 1528
-Depiction: https://ak-47v.github.io/Twex
 Filename: debs/com.junesiphone.alertani_1.1.2_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: zip
 Version: 3.0-11
@@ -204,8 +201,7 @@ Filename: debs/zip_3.0-11_iphoneos-arm.deb
 
 Package: xyz.cypwn.filzacrack
 Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/872
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/872
+Depiction: https://ak-47v.github.io/twex/
 Name: Filza Crack
 Architecture: iphoneos-arm
 Description: Filza Crackكراك فيلزا
@@ -294,7 +290,7 @@ Filename: debs/p7zip_17.04_iphoneos-arm.deb
 
 Package: netskao.appsmanagercrack
 Version: 1.1-4
-Section: Netskao-Cracks
+Section: Cracks
 Maintainer: Nets
 Depends: mobilesubstrate, com.tigisoftware.appdatamanager
 Architecture: iphoneos-arm
@@ -845,18 +841,6 @@ Tag: role::enduser
 SomeOtherEntryToControl: True
 Filename: debs/com.nahtedetihw.timestamp.deb
 
-Package: xyz.cypwn.xrays
-Maintainer: CyPwn
-Author: CyPwn
-Name: xrays
-Depends: ldid, firmware(>= 7.0)
-Section: Development
-Version: 1.0.15b8k
-Architecture: iphoneos-arm
-Description: Should be used only for certain CyPwn packages. This is closed library and no support is provided for this package.
-Filename: debs/xyz.cypwn.xrays_1.0.15b8k_iphoneos-arm.deb
-Depiction: https://ak-47v.github.io/twex/
-
 Architecture: iphoneos-arm
 Package: com.ginsu.dodo
 Name: Dodo
@@ -928,7 +912,7 @@ Maintainer: CyPwn
 Name: Bio Locker
 Package: xyz.cypwn.biolocker
 Pre-Depends: firmware (>=11.0)
-Depends: mobilesubstrate, xyz.cypwn.xrays, preferenceloader, cy+model.iphone (>= 6), com.iarrays.libiarrays (>=1.0.15)
+Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 6), com.iarrays.libiarrays (>=1.0.15)
 Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
 Section: Utilities
 Installed-Size: 3420
@@ -1631,21 +1615,6 @@ Version: 1.5.16
 Installed-Size: 780
 Filename: debs/applist_1.5.16_iphoneos-arm.deb
 
-Package: xyz.cypwn.xinaa15
-Section: XinaFix
-Maintainer: CyPwn
-Architecture: iphoneos-arm
-Version: 1.1.6.2
-Description: A jailbreak identifier made for package conflicts and requirements with XinaA15 jb.
-Depends: firmware (>= 15.0), firmware (<= 15.1.1)
-Provides: xinaa15
-Replaces: xinaa15
-Conflicts: xinaa15
-Name: XinaA15
-Author: SingleKeycap
-Filename: debs/xyz.cypwn.xinaa15_1.1.6.2_iphoneos-arm.deb
-Depiction: https://ak-47v.Github.io/twex/
-
 Package: xyz.cypwn.watusicrack
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
@@ -1718,7 +1687,7 @@ Depiction: https://ak-47v.Github.io/twex/
 Name: Debra
 Version: 2.7.2
 Architecture: iphoneos-arm
-Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), sudo, gawk (>= 4.2.1-1), tar (>= 1.33-1), xyz.cypwn.termcolors (>= 2.0.5)
+Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), sudo, gawk (>= 5.1.0-2), tar (>= 1.33-1), xyz.cypwn.termcolors (>= 2.0.5)
 Description: Debra_ForTerminalإضافة للترمنال
 Author: Sudo & Paisseon
 Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
