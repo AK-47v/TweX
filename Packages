@@ -907,21 +907,22 @@ dev: iarrays
 Tag: purpose::library, cydia::obsolete
 Filename: debs/libiarrays_1.0.15.deb
 
-Author: IArrays
-Maintainer: CyPwn
+Author: IArrays <support@iarrays.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
 Name: Bio Locker
-Package: xyz.cypwn.biolocker
-Pre-Depends: firmware (>=11.0)
+Package: com.iarrays.biolocker
 Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 6), com.iarrays.libiarrays (>=1.0.15)
 Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
-Section: Utilities
+Section: Tweaks
 Installed-Size: 3420
 Version: 1.15.0
 Architecture: iphoneos-arm
+dev: iarrays
+Tag: purpose::extension
 Description: Elegant-lockerFor_UrAppsحماية التطبيقات والجهاز عبر بصمة الوجه
 Depiction: https://ak-47v.github.io/twex/
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/biolocker.png
-Filename: debs/xyz.cypwn.biolocker_1.15.0_iphoneos-arm.deb
+Filename: debs/biolocker_1.15.0.deb
 
 Package: com.shepgoba.settingswidgets
 Name: SettingsWidgets
