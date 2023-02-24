@@ -232,16 +232,16 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/ws.hbang.alderis_1.2_iphoneos-arm.deb
 
 Package: unzip
-Version: 6.0-27
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Section: Archiving
 Priority: important
+Section: Archiving
+Installed-Size: 808
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 6.0+deb9u1-1
+Pre-Depends: dpkg (>= 1.14.25-8)
 Description: de-compesses files in zip format
-Depends: libiosexec1 (>= 1.2.2)
-Installed-Size: 620
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/unzip_6.0-27_iphoneos-arm.deb
+Filename: debs/unzip_6.0+deb9u1-1_iphoneos-arm.deb
 
 Package: unrar
 Version: 6.1.4
@@ -328,19 +328,22 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/lilliana.ishtar_0.0.5_iphoneos-arm 2.deb
 
 Package: libplist3
-Version: 2.2.0+git20230130.4b50a5a
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Replaces: libplist
-Conflicts: libplist
-Provides: libplist (= 99)
-Section: Development
 Priority: standard
+Section: Networking
+Installed-Size: 232
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 2.2.1-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: libplist (<<2.2.0)
 Description: Library for handling Apple binary and XML property lists
-Depends: libiosexec1 (>= 1.2.2)
-Installed-Size: 132
+ libplist is a library for reading and writing the Apple binary and XML 
+ property lists format. It's part of the libimobiledevice stack, 
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This library is the C implementation of the libplist API.
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/libplist3_2.2.0+git20230130.4b50a5a_iphoneos-arm.deb
+Filename: debs/libplist3_2.2.1-2_iphoneos-arm.deb
 
 Package: com.muirey03.libmryipc
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
@@ -397,20 +400,6 @@ Description: GNU awk, a pattern scanning and processing language
 Installed-Size: 1884
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/gawk_5.1.0-2_iphoneos-arm.deb
-
-Package: com.midnightchips.bettersettings
-Name: BetterSettings
-Depends: mobilesubstrate, com.muirey03.libimagepicker, com.creaturesurvive.libcscolorpicker, com.creaturecoding.libcspreferences, org.thebigboss.libcolorpicker
-Architecture: iphoneos-arm
-Description: SettingsYourWayتغيير مظهر الإعدادات
-Maintainer: midnightchips
-Author: midnightchips
-Section: Tweaks
-Icon: https://midnightchips.me/packages/bettersettings/PM.png
-Version: 0.1.3
-Installed-Size: 1964
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/e0f3444ee19be1830d2126e8fcbf4288.deb
 
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.centeredlabels
