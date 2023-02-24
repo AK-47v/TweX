@@ -1,7 +1,7 @@
 
 Package: xyz.cypwn.newterm3x
 Architecture: iphoneos-arm
-Name: NewTerm 3X
+Name: NewTerm-3 For Xina ByCypwn
 Version: 3.0~beta1
 Description: NewTerm3 for Xina. Modified by CyPwn. One that actually works.
 Depends: xyz.cypwn.termcolors (>= 2.0.6), libreadline8 (= 8.1) | libreadline8 (= 99.0), libncursesw6 (= 6.2-1) | libncursesw6 (= 99.0), ncurses-bin (= 6.2-1) | ncurses-bin (= 99.0), ncurses-term (= 6.2-1) | ncurses-term (= 99.0)
