@@ -10,7 +10,7 @@ Section: Applications
 Maintainer: CyPwn
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/newterm3x.png
 Filename: debs/xyz.cypwn.newterm3x_3.0~beta1_iphoneos-arm.deb
-Depiction: https://ak-47v.github.io/twex/
+Depiction: https://ak-47v.github.io/twex/xyz.cypwn.newterm3x_3.0~beta1_iphoneos-arm.deb
 
 Package: libmpfr6
 Version: 4.1.0
