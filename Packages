@@ -1,12 +1,244 @@
 
+Package: xyz.cypwn.xinaa15
+Section: XinaFix
+Maintainer: CyPwn
+Architecture: iphoneos-arm
+Version: 1.1.6.2
+Description: A Fix For Xinaa15إصلاح للنسخة الرسمية
+Depends: firmware (>= 15.0), firmware (<= 15.1.1)
+Provides: xinaa15
+Replaces: xinaa15
+Conflicts: xinaa15
+Name: XinaA15 Fix إصلاح للنسخة الرسمية
+Author: SingleKeycap
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.xinaa15_1.1.6.2_iphoneos-arm.deb
+
+Package: xyz.cypwn.switchshades
+Maintainer: CyPwn
+Name: SwitchShadesتغيير لون الأبسوتشير
+Version: 1.1.5k
+Author: AnthoPak
+Description: Bring color to your app switcher تغيير لون الأبسويتشر
+Architecture: iphoneos-arm
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Icon: https://img.chariz.cloud/icon/switchshades/icon@3x.png
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.switchshades_1.1.5k_iphoneos-arm.deb
+
+Package: xyz.cypwn.respringiconfix
+Maintainer: CyPwn
+Name: Respring Icon Fixإصلاح للأيقونات لجلبريك شينا
+Section: XinaFix
+Architecture: iphoneos-arm
+Version: 0.0.1
+Description: Snowboard Respring Icon fix for Xinaإصلاح للأيقونات لجلبريك شينا
+Depends: firmware (>= 15.0), firmware (<= 15.1.1), com.spark.snowboard.respringextension, xinaa15 | xyz.cypwn.xinaa15
+Author: CyPwn
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/respringiconfix.png
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.respringiconfix_0.0.1_iphoneos-arm.deb
+
+Name: SmoothLockXتعديل سلس لشاشة القفل
+Package: com.cydiageek.smoothlockx
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, org.thebigboss.libcolorpicker
+Version: 1.4.7
+Architecture: iphoneos-arm
+Description: Smooth lockScreen مظهر جميل لشاشة القفل 
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 1221
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/SmoothLockX.bundle/SmoothLockX@2x.png
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/smoothlockx_1.4.7.deb
+
+Package: iOSGods.com.subwaysurfers
+Name: Subway Surfers Cheats⭐️هاك لعبة
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Subway Surfers iGMM Cheats by ThanhDark1909 for iOSGods.com!
+Maintainer: iOSGods.com
+Author: ThanhDark1909
+Section: Games(Hack)
+Version: 3.8.0
+Installed-Size: 6328
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.subwaysurfers_3.8.0_iphoneos-arm.deb
+
+Package: com.yourepo.i0s-tweak3r-betas.donttouchmytunes
+Architecture: iphoneos-arm
+Name: DontTouchMyTunesمنع النظام من قفل الموسيقى
+Version: 0.0.1-2
+Description: Disables system from silencing Music منع النظام من إسكات الموسيقى
+Author: i0s_tweak3r <djvs23@icloud.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.i0stweak3r.donttouchmytunes
+Replaces: com.i0stweak3r.donttouchmytunes
+Maintainer: i0s_tweak3r <djvs23@icloud.com>
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.yourepo.i0s-tweak3r-betas.donttouchmytunes_0.0.1-2.deb
+
+Package: com.i0stweak3r.byebyeapplibrary
+Name: ByeByeAppLibraryحذف المكتبة
+Author: i0s_tweak3r
+Description: Disable AppaLibraryحذف المكتبة
+Depends: mobilesubstrate, preferenceloader
+Maintainer: i0stweak3r <djvs23@gmail.com>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 0.0.1-9
+Installed-Size: 448
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.yourepo.i0s-tweak3r-betas.byebyeapplibrary_0.0.1-9.deb
+
+Package: com.nahtedetihw.musicalert
+Name: MusicAlertمظهرios16 لتطبيق الموسيقى
+Architecture: iphoneos-arm
+Description: Apple Music queue/loved alerts like on iOS 16.4!ios16 مظهر للموسيقى
+Maintainer: Ethan Whited
+Author: Ethan Whited
+Section: Tweaks
+Depends:
+Version: 1.0
+Installed-Size: 172
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.nahtedetihw.musicalert_1.0_iphoneos-arm.deb
+
+Package: com.miro.uyouimport
+Name: uYouImport أداة مكملة لأداةuYou
+Depends: firmware (>=13.0), mobilesubstrate
+Description: uYouImport أداة مكملة لأداةuYou
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Author: MiRO <tweaks_support@miro92.com>
+Section: Tweaks
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Version: 1.0
+Installed-Size: 460
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.miro.uyouimport_1.0_iphoneos-arm.deb
+
+Package: com.miro.uyou
+Name: uYou ForYoutube إضافة خصائص لتطبيق اليوتيوب
+Depends: firmware (>=13.0), mobilesubstrate, com.miro.uyouimport
+Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
+Depiction: 
+Description: uYou Tweak for Youtube أداة لإضافة خصاإص لتطبيق اليوتيوب
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Author: MiRO <tweaks_support@miro92.com>
+Section: Tweaks
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
+Version: 2.3~1
+Installed-Size: 31160
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.miro.uyou_2.3~1_iphoneos-arm.deb
+
+Package: com.junesiphone.dream
+Name: Dream Theme ثيم لأداة Appslibrary
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: 
+Description: Dream Theme ثيم لأداة Appslibrary
+Maintainer: June <junesgraphics@gmail.com>
+Author: JunesiPhone <junesgraphics@gmail.com>
+Section: Addons (Themes)
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.junesiphone.dream_1.0_iphoneos-arm.deb
+
+Author: ichitaso
+Maintainer: ichitaso
+Name: RegionChangerتغير المنطقة للجهاز
+Package: com.ichitaso.regionchanger
+Depends: firmware (>= 15.0)
+Section: Utilities
+Architecture: iphoneos-arm
+Description: Change Regionتغيير المنطقة للأجهزة اليابانية لمنع صوت الكاميرا بالوضع الصامت
+Depiction: https://cydia.ichitaso.com/depiction/regionchanger.html
+Homepage: https://ichitaso.com/
+dev: ichitaso
+Icon: https://raw.githubusercontent.com/ichitaso/RegionChanger/main/Resources/AppIcon60x60%403x.png
+Version: 0.0.1
+Installed-Size: 236
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.ichitaso.regionchanger_0.0.1_iphoneos-arm.deb
+
+Architecture: iphoneos-arm
+Package: com.ginsu.notchbanners
+Name: NotchBannersتغيير طريقة عرض الإشعارات
+Version: 2.2.5
+Icon: https://repo.ginsu.dev/assets/com.ginsu.notchbanners/icon.png
+Description: MakeNotifications come from the notch!الإشعارات تنبثق من النوتش
+Section: Tweaks
+Depends: firmware (>=14.0), dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
+Tags: compatible_min::ios14.0, compatible_max::ios15.9
+Author: Ginsu <njl02@outlook.com>
+Maintainer: Ginsu <njl02@outlook.com>
+Sponsor: Ginsu Tweaks <njl02@outlook.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.ginsu.notchbanners.deb
+
+Package: com.0xaya.8ballpoolhack
+Name: 8 Ball Pool™ Mod Menu🎱هاك لعبة
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: 8 Ball Pool™ Mod Menu by 0xAya!هاك لعبة البلياردو 🎱
+Maintainer: 0xAya
+Author: 0xAya
+Section: Games(hack)
+Homepage: https://iosgods.com
+Version: 1.0
+Installed-Size: 256
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.0xaya.8ballpoolhack (1).deb
+
+Name: AJB Bypass إخفاء الجلبريك عن التطبيقات
+Package: com.ahmedmakls.ajb
+Priority: optional
+Depends: firmware(>= 10.0), mobilesubstrate, preferenceloader, ws.hbang.common, com.spark.libsparkapplist
+Version: 1.0-3
+Architecture: iphoneos-arm
+Description: JB Bypass إخفاء الجلبريك عن التطبيقات
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: ahmedmakls <makhl.2266@yahoo.com>
+Section: Jb-Bypass
+Tag: purpose::extension
+Installed-Size: 832
+dev: ahmedmakls
+Icon: file:///Library/PreferenceBundles/AJB.bundle/icon@2x.png
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/ajb_1.0-3.deb
+
+Package: com.spark.snowboard.respringextension
+Name: SnowBoard Respring Extension
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Architecture: iphoneos-arm
+Description: Respring icon extension for SnowBoard
+Maintainer: Spark
+Author: Spark
+Section: SnowBoard (Extensions)
+Version: 1.0.7~Beta3
+Installed-Size: 596
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/1.0.7~Beta3.deb
+
 Package: xyz.cypwn.newterm3x
 Architecture: iphoneos-arm
-Name: NewTerm-3 For Xina ByCypwn
+Name: NewTerm-3 For Xina ByCypwnتيرمنال
 Version: 3.0~beta1
-Description: NewTerm3 for Xina. Modified by CyPwn. One that actually works.
+Description: NewTerm3 for Xina. Modified by CyPwn. تيرمنال لجلبريك شينا
 Depends: xyz.cypwn.termcolors (>= 2.0.6), libreadline8 (= 8.1) | libreadline8 (= 99.0), libncursesw6 (= 6.2-1) | libncursesw6 (= 99.0), ncurses-bin (= 6.2-1) | ncurses-bin (= 99.0), ncurses-term (= 6.2-1) | ncurses-term (= 99.0)
 Author: HASHBANG Productions
-Section: Applications
+Section: Terminal Support
 Maintainer: CyPwn
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/newterm3x.png
 Filename: debs/xyz.cypwn.newterm3x_3.0~beta1_iphoneos-arm.deb
@@ -17,7 +249,7 @@ Version: 4.1.0
 Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: libgmp10
-Section: Libraries
+Section: System
 Priority: optional
 Homepage: https://www.mpfr.org
 Description: multiple precision floating-point computation
@@ -33,12 +265,12 @@ Depiction: https://ak-47v.github.io/twex/
 Package: xyz.cypwn.sonic
 Maintainer: CyPwn
 Version: 1.6
-Section: Tweaks
+Section: utilities
 Description: CreateYourRingtonesإضافة نغمة رنين/1
 Depends: uikittools, com.matteozappia.toneenablerpro, firmware (>=13.0), firmware(>=15.0)
 Conflicts: com.twickd.zeph.sonic
 Architecture: iphoneos-arm
-Name: Sonic
+Name: Sonic برنامج لتعيين نغمات رنين
 Author: Zeph
 Icon: https://media.havoc.app/6228cb57e87d968698cdfab4
 Filename: debs/xyz.cypwn.sonic_1.6_iphoneos-arm.deb
@@ -46,7 +278,7 @@ Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.lastlook
 Maintainer: CyPwn
-Name: LastLook
+Name: LastLookتعديل شكل شاشة القفل
 Version: 3.6.2k
 Section: Tweaks
 Architecture: iphoneos-arm
@@ -59,9 +291,9 @@ Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.jumper
 Maintainer: CyPwn
-Name: Jumper
+Name: Jumperالإنتقال إلى التطبيقات من شاشة القفل
 Author: Neo Ighodaro
-Description: JumpIntoAppFromLockscreenالإنتقال للتطبيقات من شاشة القفل/3
+Description: Jump into apps from lockscreenالإنتقال إلى التطبيقات من شاشة القفلJumpIntoAppFromLockscreenالإنتقال للتطبيقات من شاشة القفل/3
 Version: 3.0.0
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 13.0), com.tapsharp.support (>= 1.0.1)
@@ -71,7 +303,7 @@ Filename: debs/xyz.cypwn.jumper_3.0.0_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: ws.hbang.newterm2
-Name: NewTerm 2
+Name: NewTerm 2تيرمنال
 Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm, com.lint.ntarrows
@@ -89,7 +321,7 @@ Filename: debs/ws.hbang.newterm2_2.5_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: me.alfhaily.rocket
-Name: Rocket for Instagram
+Name: Rocket for Instagramإضافة ميزات للإنستا
 Description: RocketForInstaإضافة ميزات للإنستا
 Section: Tweaks
 Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
@@ -108,7 +340,7 @@ Name: Tapsharp Support
 Description: Support Framework for Tapsharp Tweaks.
 Maintainer: Neo Ighodaro
 Author: Neo Ighodaro
-Section: Development
+Section: Tweaks (addons)
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, firmware (>= 13.0)
 Tag: role::developer
@@ -121,10 +353,10 @@ Package: com.matteozappia.toneenablerpro
 Name: ToneEnablerPro
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: ToneEnableتمكين إضافة الموسيقى للمكتبة
+Description: ToneEnabler
 Maintainer: Zeph
 Author: Zeph
-Section: Tweaks
+Section: Tweaks (addons)
 Version: 1.4
 Installed-Size: 168
 Filename: debs/com.matteozappia.toneenablerpro_1.4_iphoneos-arm.deb
@@ -145,21 +377,8 @@ Installed-Size: 204
 Filename: debs/com.laughingquoll.prefixui_1.3.1_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
-Package: com.laughingquoll.emerald
-Name: Emerald
-Version: 1.0.7
-Section: Tweaks
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, com.laughingquoll.prefixui
-Installed-Size: 2644
-Author: LaughingQuoll
-Maintainer: LaughingQuoll
-Description: StatusBarPills&Plattersتعديل الستاتوس بار
-Filename: debs/com.laughingquoll.emerald_1.0.7.deb
-Depiction: https://ak-47v.github.io/twex/
-
 Package: com.junesiphone.applibraryplus
-Name: AppLibraryPlus
+Name: AppLibraryPlusتعديل مظهر المكتبة
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
 Conflicts:
@@ -173,7 +392,7 @@ Filename: debs/com.junesiphone.applibraryplus_0.1_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.junesiphone.alertani
-Name: AlertAni
+Name: AlertAniتأثيرات عند تلقي إشعار
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Conflicts: 
@@ -202,7 +421,7 @@ Filename: debs/zip_3.0-11_iphoneos-arm.deb
 Package: xyz.cypwn.filzacrack
 Maintainer: CyPwn
 Depiction: https://ak-47v.github.io/twex/
-Name: Filza Crack
+Name: Filza Crack🛠كراك فيلزا
 Architecture: iphoneos-arm
 Description: Filza Crackكراك فيلزا
 Author: Lilliana
@@ -258,7 +477,7 @@ Installed-Size: 396
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/unrar_6.1.4_iphoneos-arm.deb
 
-Name: SmoothAppLibrary
+Name: SmoothAppLibraryإخفاء الخلفية للمكتبة
 Package: com.cydiageek.smoothapplibrary
 Priority: optional
 Depends: mobilesubstrate, firmware (>= 14.0)
@@ -295,9 +514,9 @@ Maintainer: Nets
 Depends: mobilesubstrate, com.tigisoftware.appdatamanager
 Architecture: iphoneos-arm
 Installed-Size: 200
-Name: Apps Manager Crack
+Name: Apps Manager Crack🛠كراك مدير التطبيقات
 Author: Netskao
-Description: Apps Manager crackكراك مدير التطبيقات
+Description: Apps Manager Crack🛠كراك مدير التطبيقات
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/netskao.appsmanagercrack_1.1-4_iphoneos-arm.deb
 
@@ -308,19 +527,19 @@ Architecture: iphoneos-arm
 Description: Simple library that displays bulletins
 Maintainer: Elias Limneos
 Author: Elias Limneos
-Section: Tweaks
+Section: Tweaks (addons)
 Version: 0.1-177
 Installed-Size: 332
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/net.limneos.libbulletin_0.1-177_iphoneos-arm.deb
 
 Package: lilliana.ishtar
-Name: Ishtar
+Name: Ishtarتهكير iosgods VIP
 Architecture: iphoneos-arm
 Description: iOSGodsVIP-Cheatsfreeتهكير حسابiosgodsVIP
 Maintainer: Lilliana
 Author: Lilliana
-Section: Hacks
+Section: HackingInApps
 Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), preferenceloader, lilliana.jinxserver
 Version: 0.0.5
 Installed-Size: 240
@@ -329,7 +548,7 @@ Filename: debs/lilliana.ishtar_0.0.5_iphoneos-arm 2.deb
 
 Package: libplist3
 Priority: standard
-Section: Networking
+Section: System
 Installed-Size: 232
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Architecture: iphoneos-arm
@@ -382,7 +601,7 @@ Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Provides: awk
 Depends: libintl8, libreadline8, libmpfr6, libgmp10
-Section: Utilities
+Section: System
 Priority: important
 Multi-Arch: foreign
 Homepage: http://www.gnu.org/software/gawk/
@@ -403,7 +622,7 @@ Filename: debs/gawk_5.1.0-2_iphoneos-arm.deb
 
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.centeredlabels
-Name: CenteredLabels
+Name: CenteredLabelsتوسيط خانات الإعدادات
 Version: 1.1
 Depiction: 
 Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.centeredlabels/icon.png
@@ -449,7 +668,7 @@ Filename: debs/ com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.squ1dd13.cleo
-Name: GTA-SA CLEO-MOD-MENU-2023
+Name: GTA-SA CLEO⭐️هاك سليو لعبة سان اندريس
 Depends: mobilesubstrate
 Provides: com.squ1dd13.csios, com.squ1dd13.zinc
 Conflicts: com.squ1dd13.csios, com.squ1dd13.zinc, com.brend0n.gtasa60fps
@@ -459,7 +678,7 @@ Architecture: iphoneos-arm
 Description: GTA SA CleoModMenuهاك قراند سان اندريس
 Maintainer: squ1dd13
 Author: squ1dd13
-Section: Hacks
+Section: Games(hack)
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/cleo-v2.4.0-stable.deb
 
@@ -508,13 +727,13 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.miro.libmiroprefs_1.0.8_iphoneos-arm.deb
 
 Package: com.iosgods.gta
-Name: GTA-SA Cheats Menu
+Name: GTA-SA Cheats Menu⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: GTA-SA_iGMM-Cheatsمود سان اندريس
 Maintainer: iOSGods.com
 Author: 0xSUBZ3R0
-Section: Hacks
+Section: Games(hack)
 Homepage: https://iosgods.com
 Version: 2.2+iOSGods.com
 Installed-Size: 8356
@@ -523,17 +742,17 @@ Filename: debs/com.iosgods.gta_2.2+iOSGods.com_iphoneos-arm.deb
 
 Package: xyz.cypwn.shortmoji2
 Maintainer: CyPwn
-Name: Shortmoji 2 ‎تعديل مظهر الكيبورد
-Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.miro.libmiro (>= 1.0.16), com.miro.libmiroprefs (>= 1.0.6), xinaa15 | xyz.cypwn.xinaa15
+Name: Shortmoji 2 ‎إختصارات وإضافات للكيبورد
+Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), applist, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.miro.libmiro (>= 1.0.16), com.miro.libmiroprefs (>= 1.0.6), xinaa15 | xyz.cypwn.xinaa15
 Conflicts: com.cpdigitaldarkroom.barmoji, com.ya7yajb.shortmoji, com.miro.shortmoji
 Architecture: iphoneos-arm
 Author: MiRO
 Section: Tweaks
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/shortmoji2.png
 Version: 1.1.6
-Depiction: https://ak-47v.github.io/twex/
-Description: ModifyUR_Keyboardتعديل مظهر الكيبورد
 Filename: debs/xyz.cypwn.shortmoji2_1.1.6_iphoneos-arm.deb
+Description: ModifyUR_Keyboardتعديل مظهر الكيبورد
+Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.sixteenmusic
 Maintainer: CyPwn
@@ -543,75 +762,75 @@ Architecture: iphoneos-arm
 Version: 1.2
 Depends: mobilesubstrate
 Description: iOS16-StylelockScreen music playerجلب مظهر الموسيقي الخاص بios16
-Name: SixteenMusic
+Name: SixteenMusicمظهر الموسيقى الخاص بios16
 Author: Ethan Whited
 Icon: https://media.havoc.app/63def90098112480293d2456
 Filename: debs/xyz.cypwn.sixteenmusic_1.2_iphoneos-arm.deb
 
 Package: com.ramlbutt.videostar
-Name: videostar⭐️
+Name: videostar⭐️تفعيل البريميوم
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: VideoStar⭐️Proهاك فيديوستار
 Maintainer: @RamL BuTt
 Author: @RamL BuTt
-Section: Hacks
+Section: Apps(hack)
 Version: 0.0.1-1+debug
 Installed-Size: 76
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.ramlbutt.videostar_0.0.1-1+debug_iphoneos-arm.deb
 
 Package: com.strejda603.adobephotoshopexpresspremium
-Name: Adobe Photoshop Express (Premium)
+Name: Adobe Photoshop⭐️تفعيل البريمويوم 
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: AdobePhotoshopp(Premium)تفعيل البريميوم للفوتوشوب
 Maintainer: strejda603 <strejda603@centrum.cz>
 Author: strejda603 <strejda603@centrum.cz>
 Homepage: https://repo.danielpitra.cz
-Section: Hacks
+Section: Apps(hack)
 Version: 1.0.0
 Installed-Size: 152
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.strejda603.adobephotoshopexpresspremium_1.0.0_iphoneos-arm.deb
 
 Package: com.strejda603.myfitnesspalpremium
-Name: MyFitnessPal (Premium)
+Name: MyFitnessPal (premium)⭐️تفعيل البريميوم
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: EnablesPremiumتفعيل البريميوم
 Maintainer: strejda603 <strejda603@centrum.cz>
 Author: strejda603 <strejda603@centrum.cz>
 Homepage: https://repo.danielpitra.cz
-Section: Hacks
+Section: Apps(Hack)
 Version: 1.0.0
 Installed-Size: 168
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.strejda603.myfitnesspalpremium_1.0.0_iphoneos-arm.deb
 
 Package: com.strejda603.teraboxpremium
-Name: TeraBox (Premium)
+Name: TeraBox (Premium)⭐️تفعيل البريميوم للتيراbox
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: EnablePremiumتفعيل البريميوم
 Maintainer: strejda603 <strejda603@centrum.cz>
 Author: strejda603 <strejda603@centrum.cz>
 Homepage: https://repo.danielpitra.cz
-Section: Hacks
+Section: Apps(Hack)
 Version: 1.0.0
 Installed-Size: 280
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.strejda603.teraboxpremium_1.0.0_iphoneos-arm.deb
 
 Package: com.strejda603.truecallerpremiumgold
-Name: Truecaller (Premium Gold)
+Name: Truecaller (Premium)⭐️تفعيل البريميوم
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: EnablesPremiumتفعيل البريميوم
 Maintainer: strejda603 <strejda603@centrum.cz>
 Author: strejda603 <strejda603@centrum.cz>
 Homepage: https://repo.danielpitra.cz
-Section: Hacks
+Section: Apps(Hack)
 Depiction: 
 Version: 1.0.0
 Installed-Size: 264
@@ -619,27 +838,27 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.strejda603.truecallerpremiumgold_1.0.0_iphoneos-arm.deb
 
 Package: com.strejda603.videoleappro
-Name: Videoleap (Pro)
+Name: Videoleap (Pro)⭐️تفعيل البرو
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: EnablesProتفعيل البرو
 Maintainer: strejda603 <strejda603@centrum.cz>
 Author: strejda603 <strejda603@centrum.cz>
 Homepage: https://repo.danielpitra.cz
-Section: Hacks
+Section: Apps(Hack)
 Version: 1.0.1
 Installed-Size: 168
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.strejda603.videoleappro_1.0.1_iphoneos-arm.deb
 
 Package: com.umarbutt.hacksoccer
-Name: Soccer Stars
+Name: Soccer Stars LongAim⭐️إشارة طويلة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: LongAimإشارةطويلة
 Maintainer: @UmarBuTt
 Author: @UmarBuTt
-Section: Hacks
+Section: Games(Hack)
 Version: 32.0.1-7+debug
 Installed-Size: 744
 Depiction: https://ak-47v.github.io/twex/
@@ -649,10 +868,10 @@ Package: iOSGods.com.AmongUS
 Name: Among Us! Cheats
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: AmongUs!Hackهاك امونقس
+Description: AmongUs!Hack⭐️هاك لعبة
 Maintainer: iOSGods.com
 Author: Laxus
-Section: Hacks
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 2022.12.14+iOSGods.com
 Installed-Size: 10112
@@ -660,13 +879,13 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.AmongUS_2022.12.14+iOSGods.com_iphoneos-arm.deb
 
 Package: iOSGods.com.ho
-Name: Hide Online - Hunters vs Props Cheats
+Name: Hide Online Cheats⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Hide-OnlineModmenuهاك لعبة التخفي
 Maintainer: iOSGods.com
 Author: AlyssaX64
-Section: Hacks
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 4.9.4+iOSGods.com
 Installed-Size: 5664
@@ -674,26 +893,26 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.ho_4.9.4iOSGods.com_iphoneos-arm.deb
 
 Package: iOSGods.com.StumbleGuys
-Name: Stumble Guys Cheats
+Name: Stumble Guys Cheats⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: StumbleGuysModMenuهاك لعبةستمبل
 Maintainer: iOSGods.com
 Author: TimidNova
-Section: Hacks
+Section: Games(Hack)
 Version: 0.44.0+iOSGods.com
 Installed-Size: 5664
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.StumbleGuys_0.44.0iOSGods.com_iphoneos-arm.deb
 
 Package: com.ioselite.umarbutt
-Name: vpnproxy
+Name: vpnproxy⭐️تفعيل البريميوم
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: VPN⭐️ProxyPremiumڤيبي-إن بريميوم
 Maintainer: @Umar BuTt
 Author: @Umar BuTt
-Section: Hacks
+Section: Apps(Hack)
 Version: 0.0.1-1+debug
 Installed-Size: 84
 Filename: debs/vonproxymaster.deb
@@ -731,7 +950,7 @@ Filename: debs/com.muirey03.libimagepicker_1.0.4.deb
 
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.settingsbuttons
-Name: SettingsButtons
+Name: SettingsButtons إختصارات داخل الإعدادات
 Version: 1.6
 Depiction: https://ak-47v.github.io/twex/
 Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.settingsbuttons/icon.png
@@ -747,7 +966,7 @@ Filename: debs/com.nahtedetihw.settingsbuttons.deb
 
 Author: ichitaso
 Maintainer: Packix
-Name: IconAnus
+Name: IconAnusحفظ تنسيق الأيقونات 
 Package: com.ichitaso.iconanus
 Pre-Depends: firmware (>= 12.0)
 Depends: mobilesubstrate
@@ -767,7 +986,7 @@ Filename: debs/com.ichitaso.iconanus_1.0.3_iphoneos-arm.deb
 
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.macpass
-Name: MacPass
+Name: MacPassشاشة قفل الماك بوك
 Version: 1.3
 Depiction: https://ak-47v.github.io/twex/
 Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.macpass/icon.png
@@ -783,7 +1002,7 @@ Filename: debs/com.nahtedetihw.macpass.deb
 
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.nowidgetlabels
-Name: NoWidgetLabels
+Name: NoWidgetLabelsإخفاء تسمية الويدجت
 Version: 1.0
 Depiction: https://ak-47v.github.io/twex/
 Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.nowidgetlabels/icon.png
@@ -799,7 +1018,7 @@ Filename: debs/com.nahtedetihw.nowidgetlabels.deb
 
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.stepup
-Name: StepUp
+Name: StepUpتعديل مستوى زر خفض/رفع الصوت
 Version: 1.1
 Depiction: https://ak-47v.github.io/twex/
 Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.stepup/icon.png
@@ -816,7 +1035,7 @@ Filename: debs/com.nahtedetihw.stepup.deb
 
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.timestamp
-Name: TimeStamp
+Name: TimeStampالوقت والتاريخ أعلى الستاتوس بار
 Version: 1.2
 Depiction: https://ak-47v.github.io/twex/
 Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.timestamp/icon.png
@@ -832,7 +1051,7 @@ Filename: debs/com.nahtedetihw.timestamp.deb
 
 Architecture: iphoneos-arm
 Package: com.ginsu.dodo
-Name: Dodo
+Name: Dodoمظهر جميل لشاشة القفل
 Version: 3.4.8-1
 Depiction: https://ak-47v.github.io/twex/
 Icon: https://repo.ginsu.dev/assets/com.ginsu.dodo/icon.png
@@ -898,7 +1117,7 @@ Filename: debs/libiarrays_1.0.15.deb
 
 Author: IArrays <support@iarrays.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: Bio Locker
+Name: Bio Lockerحماية الجهاز والتطبيقات من التطفل
 Package: com.iarrays.biolocker
 Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 6), com.iarrays.libiarrays (>=1.0.15)
 Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
@@ -914,10 +1133,10 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/biolocker.png
 Filename: debs/biolocker_1.15.0.deb
 
 Package: com.shepgoba.settingswidgets
-Name: SettingsWidgets
+Name: SettingsWidgetsإضافة ويدجيت داخل الإعدادات
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Description: BringGoodlooking-Widgets_ForSettingsترتيب الإعدادات بمظهر جميل
+Description: BringGoodlooking-Widgets_ForSettingsإضافة ويدجيت داخل تطبيق الإعدادات
 Maintainer: shepgoba
 Author: shepgoba
 Section: Tweaks
@@ -940,7 +1159,7 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/b93607aad9ae0cc41f9785fef827d784.deb
 
 Package: com.icraze.hestia
-Name: Hestia
+Name: Hestiaتخطي إكتشاف الجلبريك
 Architecture: iphoneos-arm
 Description: Global-JailbreakBypassتخطي وجود الجلبريك 
 Maintainer: iCraze
@@ -953,13 +1172,13 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.icraze.hestia_1.7.1b1_iphoneos-arm.deb
 
 Package: com.Joka.PvZ2FreeHack
-Name: Plants vs. Zombies™ 2 Cheats
+Name: Plants vs. Zombies™ 2 Cheats⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Plants vs. Zombies™ 2هاك لعبة النباتات والزومبي
 Maintainer: iOSGods.com
 Author: Joka
-Section: Hacks
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 1.0.0.0
 Installed-Size: 6180
@@ -967,7 +1186,7 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.Joka.PvZ2FreeHack_1.0.0.0_iphoneos-arm.deb
 
 Package: com.opa334.choicy
-Name: Choicy
+Name: Choicyفتح التطبيقات بدون حقن أدوات
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
 Architecture: iphoneos-arm
 Description: AdvancedTweak Configuration!فتح التطبيقات بدون حقن أدوات *ملاحظة ليست اداة تخطي
@@ -992,7 +1211,7 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.peterdev.libpddokdo_1.3.4_iphoneos-arm.deb
 
 Package: com.rpgfarm.a-bypass
-Name: A-Bypass
+Name: A-Bypassتخطي الجلبريك
 Depends: mobilesubstrate, com.muirey03.libmryipc, com.rpgfarm.libaptoast, preferenceloader
 Architecture: iphoneos-arm
 Description: SuperJailbreak-Bypass!تخطي الجلبريك
@@ -1005,13 +1224,13 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.rpgfarm.a-bypass.deb
 
 Package: com.savlabs.inshop
-Name: InShot - Video Editor Cheats
+Name: InShot VideoCheats⭐️هاك برنامج
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Description: InShotProتفعيل برنامج إنشوت
 Maintainer: sav
 Author: sav
-Section: Hacks
+Section: Apps(Hack)
 Homepage: https://iosgods.com
 Icon: file:///Library/PreferenceBundles/InShop.bundle/InShop@2x.png
 Version: 1.0.0+iOSGods.com
@@ -1020,7 +1239,7 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.savlabs.inshop_1.0.0+iOSGods.com_iphoneos-arm.deb
 
 Package: io.securarepo.edge
-Name: Edge
+Name: Edgeإضافة إطار ملون لحواف الأيفون
 Depends: mobilesubstrate, firmware (>=11.0), org.thebigboss.libcolorpicker, com.opa334.ccsupport, xyz.itznebbs.libnebbs (>=1.6), ws.hbang.common
 Conflicts: com.junesiphone.lockpluspro
 Architecture: iphoneos-arm
@@ -1034,13 +1253,13 @@ Filename: debs/io.securarepo.edge_3.0_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: iOSGods.com.8BallPool
-Name: 8 Ball Pool LongAim
+Name: 8 Ball Pool LongAim⭐️إشارة طويلة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: 8-Ball_Pool LongAimإشارة طويلة
 Maintainer: iOSGods.com
 Author: Laxus
-Section: Hacks
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 5.7.0+iOSGods.com
 Installed-Size: 10112
@@ -1048,13 +1267,13 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.8BallPool_5.7.0+iOSGods.com_iphoneos-arm.deb
 
 Package: iOSGods.com.abjourney
-Name: Angry Birds Journey Cheats
+Name: Angry Birds Journey Cheats⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Angry-BirdsJourneyHackهاك أنجري بيرد
 Maintainer: iOSGods.com
 Author: AlyssaX64
-Section: Hacks
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 3.0.1+iOSGods.com
 Installed-Size: 6344
@@ -1062,13 +1281,13 @@ Filename: debs/iOSGods.com.abjourney_3.0.1iOSGods.com_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: iOSGods.com.Bully
-Name: Bully: Anniversary Edition Cheats
+Name: Bully: AnniversaryCheats⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Bully Anniversary_Hackهاك لعبة الشغب بالمدرسة
 Maintainer: iOSGods.com
 Author: 0xSUBZ3R0
-Section: Hacks
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 1.1+iOSGods.com
 Installed-Size: 9728
@@ -1076,13 +1295,13 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.Bully_1.1+iOSGods.com_iphoneos-arm.deb
 
 Package: iOSGods.com.CarXStreet
-Name: CarX Street Cheats
+Name: CarX Street Cheats⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: CarX Street_ModMenuهاك لعبة السيارات الشهيرة
 Maintainer: iOSGods.com
 Author: Zahir
-Section: Hacks
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 0.8.6+iOSGods.com
 Installed-Size: 6264
@@ -1090,13 +1309,13 @@ Filename: debs/iOSGods.com.CarXStreet_0.8.6iOSGods.com_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: iOSGods.com.PicsArt
-Name: PicsArt Cheats
+Name: PicsArt Cheats⭐️هاك برنامج
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: PicsArt⭐️Goldهاك برنامج تعديل الصورالشهير 
 Maintainer: iOSGods.com
 Author: Laxus
-Section: Hacks
+Section: Apps(Hack)
 Homepage: https://iosgods.com
 Version: 21.0.4+iOSGods.com
 Installed-Size: 9344
@@ -1104,13 +1323,13 @@ Filename: debs/iOSGods.com.PicsArt_21.0.4+iOSGods.com_iphoneos-arm (2).deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: iOSGods.com.ScoreHero2
-Name: Score! Hero 2 Cheats
+Name: Score! Hero 2 Cheats⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Score!-Hero_2هاك لعبة سكور⭐️هيرو2
 Maintainer: iOSGods.com
 Author: Zahir
-Section: Hacks
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 2.81+iOSGods.com
 Installed-Size: 5680
@@ -1118,13 +1337,13 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.ScoreHero2_2.81iOSGods.com_iphoneos-arm.deb
 
 Package: iOSGods.com.subwaygl
-Name: Subway Surfers Cheats
+Name: Subway Surfers Cheats⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Subway Surfers-Hackهاك لعبة ساب ويي
 Maintainer: iOSGods.com
 Author: AlyssaX64
-Section: Hacks
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 3.8.0+iOSGods.com
 Installed-Size: 6344
@@ -1132,12 +1351,12 @@ Filename: debs/iOSGods.com.subwaygl_3.8.0iOSGods.com_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: iOSGods.com.VSCO
-Name: VSCO: Photo & Video Editor Cheats
+Name: VSCO:Cheats⭐️هاك برنامج
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: VSCO-⭐️Proهاك برنامج ڤيسكو
 Author: Laxus
-Section: Hacks
+Section: Apps(Hack)
 Homepage: https://iosgods.com
 Version: 245+iOSGods.com
 Installed-Size: 8508
@@ -1212,7 +1431,7 @@ Maintainer: Elias Limneos <limneoselias@gmail.com>
 Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
 Architecture: iphoneos-arm
 Description: LetYour-lockscreen glow!إعطاء مظهر جميل لشاشة القفل عند إصدار صوت⭐️
-Name: Glow
+Name: Glowأداة تعطي تأثير جميل لشاشة القفل 
 Author: Elias Limneos <limneoselias@gmail.com>
 Depiction: https://ak-47v.github.io/twex/
 Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
@@ -1238,7 +1457,7 @@ Depiction: https://ak-47v.github.io/twex/
 Package: xyz.cypwn.actionbar
 Maintainer: CyPwn
 Depiction: https://ak-47v.github.io/twex/
-Name: ActionBar
+Name: ActionBarإختصارات نسخ لصق للكيبورد
 Author: RestiveConch
 Description: Keyboard-Actions!Undo-Redo &Moreإضافة إختصارات نسخ لصق للكيبورد
 Version: 1.3.7
@@ -1252,7 +1471,7 @@ Filename: debs/xyz.cypwn.actionbar_1.3.7_iphoneos-arm.deb
 Package: xyz.cypwn.batterynotch
 Maintainer: CyPwn
 Depiction: https://ak-47v.github.io/twex/
-Name: BatteryNotch
+Name: BatteryNotchإضافة مستوى البطارية للنوتش
 Depends: mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.6.8), preferenceloader
 Architecture: iphoneos-arm
 Description: RepresentBattery-AroundThe notch!إضافة مستوى البطارية أعلى النوتش
@@ -1265,7 +1484,7 @@ Filename: debs/xyz.cypwn.batterynotch_1.8.2k_iphoneos-arm.deb
 Package: xyz.cypwn.smartbattery2
 Maintainer: CyPwn
 Depiction: https://ak-47v.github.io/twex/
-Name: SmartBattery 2
+Name: SmartBattery 2إضافات وتخصيص للبطارية 
 Version: 2.2k
 Section: Tweaks
 Architecture: iphoneos-arm
@@ -1277,9 +1496,9 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/smartbattery2.png
 Filename: debs/xyz.cypwn.smartbattery2_2.2k_iphoneos-arm.deb
 
 Package: com.3bod.syria
-Name: الكلاسيكو Syr
+Name: ClassicoNoAdsتطبيق الكلاسيكو بدون إعلانات
 Author: @3bod_syr
-Description: ClassicoNoAds/حذف الإعلانات
+Description: 3bod_Syr ClassicoNoAds/حذف الإعلانات
 Depends: mobilesubstrate
 Maintainer: @3bod_syr
 Architecture: iphoneos-arm
@@ -1289,7 +1508,7 @@ Installed-Size: 104
 Filename: debs/ClassicoNoAds.deb
 Depiction: https://ak-47v.github.io/twex/
 
-Name: AlarmVolume
+Name: AlarmVolumeتخصيص صوت المنبه
 Package: com.blandry.alarmvolume
 Priority: optional
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
@@ -1309,7 +1528,7 @@ Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.icleanerprocrack
 Maintainer: CyPwn
-Name: iCleaner Pro Crack
+Name: iCleaner Pro Crack🛠كراك 
 Architecture: iphoneos-arm
 Description: iCleaner Pro Crackكراك منظف التطبيقات
 Author: Anna
@@ -1322,7 +1541,7 @@ Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.blacklist
 Maintainer: CyPwn
-Name: XinaBlackList
+Name: XinaBlackListتخطي كشف الجلبريك للبنوك
 Architecture: iphoneos-arm
 Description: Blacklist-Apps From DetectJbمنع تطبيقات البنوك من إكتشاف الجلبريك⭐️
 Author: xina520
@@ -1335,14 +1554,14 @@ Depiction: https://ak-47v.github.io/twex/
 
 Author: iTheGentle <v70@hotmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: WAQuickChat
+Name: WAQuickChatتواصل مع أي رقم واتس دون حفظه
 Package: com.ithegentle.waquickchat
 Depends: firmware (>= 7.0), mobilesubstrate
 Section: Tweaks
 Installed-Size: 221
 Version: 0.1-2
 Architecture: iphoneos-arm
-Description: Swipe-Left On The Unknowns Number to chat in What'sإسحب لليسار على الرقم الغريب للدردشة عبر الواتس بدون حفظ الرقم 
+Description: إسحب لليسار على الرقمSwipe-Left On The Unknowns Number to chat in What'sإسحب لليسار على الرقم الغريب للدردشة عبر الواتس بدون حفظ الرقم 
 Depiction: https://ak-47v.github.io/twex/
 dev: ithegentle
 Tag: purpose::extension, role::enduser
@@ -1372,7 +1591,7 @@ Homepage: https://cydia.akemi.ai/
 Provides: appsync, net.angelxwind.appsyncunified
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Package: ai.akemi.appsyncunified
-Name: AppSync Unified
+Name: AppSync Unifiedلتثبيت التطبيقات بدون شهادة
 Architecture: iphoneos-arm
 Description: Ucan Install unsigned Appتمكين تثبيت التطبيقات 
 Section: Tweaks
@@ -1403,7 +1622,7 @@ Filename: debs/nodelete-ai.akemi.appinst.deb
 
 Package: xyz.cypwn.shufflexinaa15
 Maintainer: CyPwn
-Name: Shuffle XinaA15
+Name: Shuffle XinaA15ترتيب مظهر الإعدادات
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.creaturecoding.shuffle
 Architecture: iphoneos-arm
@@ -1416,7 +1635,7 @@ Filename: debs/xyz.cypwn.shufflexinaa15_1.6.1-1_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: me.jjolano.shadow
-Name: Shadow
+Name: Shadow🔥تخطي الجلبريك للببجي
 Depends: firmware (>= 8.0), mobilesubstrate, dpkg, com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 0.1.5)
 Suggests: com.ps.injectionfoundation
 Recommends: preferenceloader
@@ -1448,7 +1667,7 @@ Filename: debs/me.jjolano.fmwk.hookkit_0.2.5_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tigisoftware.filza64bit
-Name: Filza File Manager 64-bit
+Name: Filza File Manager 64-bitمدير الملفات فيلزا
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
 Architecture: iphoneos-arm
@@ -1462,7 +1681,7 @@ Filename: debs/com.tigisoftware.filza64bit_4.0.0-6_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tigisoftware.appdatamanager
-Name: Apps Manager
+Name: Apps Managerمدير التطبيقات
 Architecture: iphoneos-arm
 Description: AppsManager⭐️مدير التطبيقات
 Maintainer: TIGI Software
@@ -1534,7 +1753,7 @@ Installed-Size: 388
 Filename: debs/com.opa334.altlist_1.0.9_iphoneos-arm.deb
 
 Package: com.miro.perfectcalc
-Name: PerfectCalc
+Name: PerfectCalcإضافة ميزة حاسبة الأندرويد
 Depends: firmware (>=13.0), mobilesubstrate
 Depiction: https://ak-47v.github.io/twex/
 Description: Keep TheCalculatingجلب ميزة حاسبة⭐️الأندرويد للأيفون
@@ -1548,7 +1767,7 @@ Installed-Size: 168
 Filename: debs/com.miro.perfectcalc_1.0_iphoneos-arm.deb
 
 Package: com.exile90.icleanerpro
-Name: iCleaner Pro
+Name: iCleaner Proمنظف التطبيقات 
 Description: Icleaner-Pro⭐️تنظيف مخلفات التطبيقات
 Author: Ivano Bilenchi <support@ib-soft.net>
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
@@ -1577,7 +1796,7 @@ Filename: debs//com.darwindev.alternative-springboardservices_0.1-2_iphoneos-arm
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.0xkuj.3dappversionspoofer
-Name: 3DAppVersionSpoofer
+Name: 3DAppVersionSpooferتغير إصدار التطبيقات
 Architecture: iphoneos-arm
 Description: A TweakFor-app spoofingتغير رقم الإصدار للتطبيقات عن طريق الضغط المطول
 Maintainer: 0xkuj
@@ -1608,7 +1827,7 @@ Filename: debs/applist_1.5.16_iphoneos-arm.deb
 Package: xyz.cypwn.watusicrack
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
-Name: Watusi Crackكراك أداة واتوسي 
+Name: Watusi Crack🛠كراك أداة واتوسي 
 Architecture: iphoneos-arm
 Description: Watusi Crack
 Author: CyPwn
@@ -1620,7 +1839,7 @@ Filename: debs/xyz.cypwn.watusicrack_0.0.1_iphoneos-arm.deb
 Package: xyz.cypwn.voicechangerx
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
-Name: VoiceChanger XS (iOS 11 to 15)
+Name: VoiceChanger Ios15تغيير الصوت أثناء المكالمة
 Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, xyz.cypwn.limneos
 Version: 2.2-94k
 Architecture: iphoneos-arm
@@ -1632,7 +1851,7 @@ Filename: debs/xyz.cypwn.voicechangerx_2.2-94k_iphoneos-arm.deb
 
 Package: xyz.cypwn.storeswitcher2
 Maintainer: CyPwn
-Name: StoreSwitcher 2
+Name: StoreSwitcher 2التبديل بين حسابات  الأبستور
 Version: 1.0.3
 Architecture: iphoneos-arm
 Description: InAppstore Account Switcherتبديل الحسابات داخل الأبستور
@@ -1647,7 +1866,7 @@ Depiction: https://ak-47v.Github.io/twex/
 Package: xyz.cypwn.lockpluspro
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
-Name: LockPlus Pro
+Name: LockPlus Proالتعديل على شاشة القفل
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.d11z.textyle, jp.akusio.milkyway, jp.akusio.milkyway2, com.yourepo.appleenterprise.nopassafterrespring
@@ -1674,7 +1893,7 @@ Filename: debs/xyz.cypwn.limneos_3.0_iphoneos-arm.deb
 Package: xyz.cypwn.debra
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
-Name: Debra
+Name: Debraتثبيت الأدوات عبر التيرمنال
 Version: 2.7.2
 Architecture: iphoneos-arm
 Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), sudo, gawk (>= 5.1.0-2), tar (>= 1.33-1), xyz.cypwn.termcolors (>= 2.0.5)
@@ -1686,7 +1905,7 @@ Filename: debs/xyz.cypwn.debra_2.7.2_iphoneos-arm.deb
 Package: xyz.cypwn.complicationsfixfix
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
-Name: ComplicationsFixFix
+Name: ComplicationsFix🔥xinaإصلاح عدم توافق الأدوات شينا
 Architecture: iphoneos-arm
 Description: Fix Complications Tweaks ForXinaA15إصلاح توافق الأدوات لجلبريك شينا
 Author: iCraze & Alexander Burneikis
@@ -1699,9 +1918,9 @@ Filename: debs/xyz.cypwn.complicationsfixfix_1.0_iphoneos-arm.deb
 Package: xyz.cypwn.belza-statusbar
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
-Name: Belza StatusBar
+Name: Belza StatusBarثيم لإشارة الواي فاي والبيانات
 Version: 1.3
-Section: Themes
+Section: Addons (Themes)
 Architecture: iphoneos-arm
 Author: Martda Lazuardi
 Description: Belza-Statusbarثيم لإشارة الواي فاي والبيانات
@@ -1711,7 +1930,7 @@ Filename: debs/xyz.cypwn.belza-statusbar_1.3_iphoneos-arm.deb
 Package: xyz.cypwn.appaze2
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
-Name: Appaze 2
+Name: Appaze 2إعدادات مخصصة لكل تطبيق
 Version: 1.4.1k
 Description: Customize App Settingsتخصيص إعدادات لكل تطبيق 
 Author: AnthoPak
@@ -1740,7 +1959,7 @@ Filename: debs/ws.hbang.common_1.17_iphoneos-arm.deb
 
 Author: ARWeb <aggesoft@icloud.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: RespringModule
+Name: RespringModuleإختصار ريسبرنق لمركز التحكم
 Package: se.arweb.respringmodule
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
 Section: Addons (ControlCenter)
@@ -1757,7 +1976,7 @@ Icon: file:///Library/ControlCenter/Bundles/RespringModule.bundle/SettingsIcon@3
 Filename: debs/respringmodule_1.1.5.deb
 
 Package: preferenceloader
-Name: PreferenceLoader
+Name: PreferenceLoaderأداة مهمة لتفعيل الأدوات
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: load preferences in style
@@ -1773,7 +1992,7 @@ Installed-Size: 526
 Filename: debs/preferenceloader_2.2.6.deb
 
 Package: net.limneos.dynamicpeninsula
-Name: DynamicPeninsula
+Name: DynamicPeninsulaنوتش الأيفون 14ProMax
 Architecture: iphoneos-arm
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -1787,7 +2006,7 @@ Installed-Size: 1316
 Filename: debs/net.limneos.dynamicpeninsula_0.1-180_iphoneos-arm.deb
 
 Package: net.limneos.audiorecorderxs
-Name: AudioRecorder XS (iOS 12 to 16)
+Name: AudioRecorder XS 15/16🔴مسجل المكالمات
 Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0)
 Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
@@ -1803,7 +2022,7 @@ Installed-Size: 5960
 Filename: debs/net.limneos.audiorecorderxs_5.0-17_iphoneos-arm.deb
 
 Package: emt.paisseon.satella
-Name: Satella
+Name: Satellaالشراء من داخل التطبيقات ب
 Architecture: iphoneos-arm
 Description: Modern in-app purchase crackerالشراء من داخل التطبيقات أمن100%
 Maintainer: Lilliana
@@ -1818,7 +2037,7 @@ Installed-Size: 648
 Filename: debs/emt.paisseon.satella_1.6_iphoneos-arm.deb
 
 Package: emt.paisseon.erika
-Name: Erika
+Name: Erikaشراء الأدوات من داخل saily/Zebra
 Architecture: iphoneos-arm
 Description: Download paid tweaksتحميل الأدوات المدفوعة داخل متجر سالي
 Maintainer: Lilliana
@@ -1833,7 +2052,7 @@ Filename: debs/emt.paisseon.erika_1.10.3_iphoneos-arm.deb
 
 Package: com.tomaszpoliszuk.dockcontroller
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Name: Dock Controller
+Name: Dock Controllerإضافة 5أيقونات للدوك 
 Version: 1.6.2
 Architecture: iphoneos-arm
 Description: Control Your Dockتغير مظهر الدوك
@@ -1864,7 +2083,7 @@ Depiction: https://ak-47v.Github.io/twex/
 Installed-Size: 2560
 Filename: debs/dev.theos.orion14_1.0.0_iphoneos-arm.deb
 
-Name: Cthulhu
+Name: Cthulhuتخصيص نصوص لشاشة القفل
 Package: com.cydiageek.cthulhu
 Priority: optional
 Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
@@ -1883,10 +2102,10 @@ Icon: file:///Library/PreferenceBundles/Cthulhu.bundle/icon@2x.png
 Filename: debs/cthulhu_1.0.8.deb
 
 Package: com.spark.snowboard
-Name: SnowBoard
+Name: SnowBoard🟡أداة أساسية للثيمات
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Description: Snowboard theming🟡مدير الثيمات
+Description: Snowboard theming🟡أداة أساسية لتغيير الثيمات
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
@@ -1899,7 +2118,7 @@ Filename: debs/1.5.5~Beta2.deb
 Depiction: https://ak-47v.Github.io/twex/
 
 Package: com.ps.cconandoff
-Name: CC On & Off
+Name: CC On & Offتعطيل البلوتوث والوايفاي من مركزالتحكم
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Conflicts: com.jakeashacks.realcc
 Architecture: iphoneos-arm
@@ -1913,7 +2132,7 @@ Installed-Size: 136
 Filename: debs/com.ps.cconandoff_1.1.0_iphoneos-arm.deb
 
 Package: com.ps.cahighfps
-Name: CAHighFPS
+Name: CAHighFPSرفع كفاءة الفريمات
 Architecture: iphoneos-arm
 Description: PlayGames In HighFpsتشغيل الألعاب بأعلى مستوى من الفريمات
 Maintainer: PoomSmart
@@ -1926,7 +2145,7 @@ Installed-Size: 204
 Filename: debs/com.ps.cahighfps_1.3.0_iphoneos-arm.deb
 
 Package: com.ps.amber
-Name: Amber
+Name: Amberتغيير لون إضاءة الكشاف
 Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
 Architecture: iphoneos-arm
 Description: Change-UrFlashlight Colorتغير لون الكشاف
@@ -1939,7 +2158,7 @@ Installed-Size: 368
 Filename: debs/com.ps.amber_1.2.0_iphoneos-arm.deb
 
 Package: com.mtac.ampere
-Name: Ampere
+Name: Ampereمظهر بطارية Ios16
 Architecture: iphoneos-arm
 Description: iOS 16 Battery Styleمظهر البطارية الخاص ب Ios16
 Maintainer: MTAC
@@ -1953,7 +2172,7 @@ Filename: debs/com.mtac.ampere_1.0.7_iphoneos-arm.deb
 Depiction: https://ak-47v.Github.io/twex/
 
 Package: com.julioverne.lowerinstall
-Name: LowerInstall
+Name: LowerInstallتزوير إصدار الجهاز لتثبيت التطبيقات
 Author: julioverne
 Version: 0.0~beta6
 Depends: mobilesubstrate
@@ -1966,7 +2185,7 @@ Depiction: https://ak-47v.Github.io/twex/
 Filename: debs/com.julioverne.lowerinstall_0.0~beta6_iphoneos-arm.deb
 
 Package: com.jaxroth.supporttheunsupportedrevived
-Name: SupportTheUnsupported Revived
+Name: SupportTheUnsupportedدعم وصلات الشحن المزورة
 Version: 1.0.0
 Section: Tweaks
 Architecture: iphoneos-arm
@@ -1979,7 +2198,7 @@ Filename: debs/com.jaxroth.supporttheunsupportedrevived_1.0.0.deb
 Depiction: https://ak-47v.Github.io/twex/
 
 Package: com.icraze.complicationsfix
-Name: ComplicationsFix
+Name: ComplicationsFixإصلاح عدم توافق أدوات Xina
 Architecture: iphoneos-arm
 Description: Fix Complications tweak on iOS 15-16إصلاح توافق الأدوات 
 Maintainer: iCraze
@@ -1993,7 +2212,7 @@ Depiction: https://ak-47v.Github.io/twex
 
 Author: ichitaso <willfeeltips+ps11@gmail.com>
 Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
-Name: PowerSelector
+Name: PowerSelectorتخصيص أوامر لزر الباور
 Package: com.ichitaso.powerselector11
 Pre-Depends: firmware (>= 11.0)
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
@@ -2012,7 +2231,7 @@ Installed-Size: 1984
 Filename: debs/com.ichitaso.powerselector11_1.3.7_iphoneos-arm.deb
 
 Package: com.fouadraheb.watusi3
-Name: Watusi 3 for WhatsApp
+Name: Watusi 3 for WhatsAppإضافة ميزات للواتس
 Depiction: https://ak-47v.Github.io/twex
 Description: WatusiTweak for WhatsApp🟢أداةواتوسي للواتس
 Section: Tweaks
@@ -2027,9 +2246,9 @@ Installed-Size: 6624
 Filename: debs/com.fouadraheb.watusi3_1.1.51_iphoneos-arm.deb
 
 Package: com.fouadraheb.appdata
-Name: AppData
+Name: AppDataحذف بيانات التطبيقات والمخلفات
 Version: 1.3.6
-Description: View & Manage Applications fromHome-Screenتخصيص التطبيقات من الهوم⭕️سكرين
+Description: ClaerApp cache's &data fromHomeحذف بيانات التطبيقات والمخلفات من الهوم⭕️سكرين
 Section: Tweaks
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts:
@@ -2061,7 +2280,7 @@ Maintainer: Dave van Wijk <vanwijkdave@gmail.com>
 Author: Dave van Wijk <vanwijkdave@gmail.com>
 Installed-Size: 485
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), com.spark.libsparkapplist, preferenceloader
-Name: QuitAll
+Name: QuitAll إغلاق التطبيقات بكبسة زر
 Description: Quit Them Allإغلاق التطبيقات دفعة واحدة
 Icon: https://img.chariz.cloud/icon/quitall/icon@3x.png
 Depiction: https://ak-47v.Github.io/twex
@@ -2069,7 +2288,7 @@ Tag: compatible_min::ios13.0
 Filename: debs/com.daveapps.quitall_3.1_iphoneos-arm.deb
 
 Package: com.brend0n.unityfpsindicator
-Name: FPSIndicator 
+Name: FPSIndicator مؤشر الفريمات الألعاب
 Depends: mobilesubstrate, com.opa334.altlist, org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm
 Description: real-time fps indicatorمؤشر الفريمات للألعاب
@@ -2082,10 +2301,10 @@ Installed-Size: 504
 Filename: debs/com.brend0n.unityfpsindicator_0.0.4.1_iphoneos-arm.deb
 
 Package: com.brend0n.fgotw60fps
-Name: Unity60FPS
+Name: Unity60FPSتخصيص فريمات الألعاب بين60/30
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Architecture: iphoneos-arm
-Description: Set Fps 30/60تخصيص الفريمات للالعاب 30/60
+Description: Set Fps 30/60تخصيص الفريمات الألعاب 30/60
 Maintainer: Brend0n <brendonjkding@126.com>
 Author: Brend0n <brendonjkding@126.com>
 Section: GamesAddon
@@ -2095,7 +2314,7 @@ Installed-Size: 432
 Filename: debs/com.brend0n.fgotw60fps_0.1.4~b1_iphoneos-arm.deb
 
 Package: com.brend0n.accdemo
-Name: AccDemo
+Name: AccDemoتسريع حركة الألعاب
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Architecture: iphoneos-arm
 Description: Control the speed of your gameتسريع الحركة داخل الألعاب
@@ -2108,7 +2327,7 @@ Installed-Size: 780
 Filename: debs/com.brend0n.accdemo_0.2.5_iphoneos-arm.deb
 
 Package: com.ali.aim
-Name: AIM
+Name: AIMمظهر الساعة الخاص بIos16
 Architecture: iphoneos-arm
 Description: iOS 16 Style Time & DateLockscreenمظهر الساعة الجدبد لتحديث Ios16
 Maintainer: alimaulana
@@ -2143,7 +2362,7 @@ Filename: debs/com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
 
 Author: opa334 <opa334@protonmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: CCSupport
+Name: CCSupportلإضافة إختصارات لمركز التحكم
 Package: com.opa334.ccsupport
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Provides: com.ioscreatix.silo
@@ -2161,7 +2380,7 @@ dev: opa334
 Tag: purpose::extension
 Filename: debs/ccsupport_1.3.9.deb
 
-Name: Carrierizer2
+Name: Carrierizer2تغيير إسم شركة الإتصالات
 Package: com.cydiageek.carrierizer2
 Priority: optional
 Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader, com.peterdev.libpddokdo
@@ -2181,7 +2400,7 @@ Icon: file:///Library/PreferenceBundles/Carrierizer2.bundle/Carrierizer2@2x.png
 Filename: debs/carrierizer2_1.1.7.deb
 
 Package: me.conorthedev.dotto+
-Name: dotto+
+Name: dotto+تحويل الإشعار الرقمي إلى نقطة 
 Depends: mobilesubstrate, preferenceloader, firmware (>=13.0), me.conorthedev.libappearancecell, ws.hbang.alderis | org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm
 Description: Notifications, your styleتغير مظهر إشعارات التطبيق إلى نقاط
@@ -2194,7 +2413,7 @@ Filename: debs/4baa06baaf47bc8e6c433539e1adf55a.deb
 Depiction: https://ak-47v.Github.io/twex
 
 Package: com.spark.nomoresmallapps
-Name: NoMoreSmallApps
+Name: NoMoreSmallAppsتشغيل التطبيقات بكامل الشاشة
 Depends: mobilesubstrate, com.spark.libsparkapplist
 Architecture: iphoneos-arm
 Description: Make all apps full screenتمكين التطبيقات من العرض بأكمل الشاشة
@@ -2254,7 +2473,7 @@ Maintainer: Lightmann <lightmanns11@gmail.com>
 Author: Lightmann <lightmanns11@gmail.com>
 Installed-Size: 395
 Depends:
-Name: IAmLazy
+Name: IAmLazyبرنامج لإنشاء نسخة إحتياطية للأدوات
 Description: Easily backup and restore your tweaksبرنامج النسخ الإحتياطي للأدوات
 Icon: https://img.chariz.cloud/icon/iamlazy/icon@3x.png
 Depiction: https://ak-47v.Github.io/twex
@@ -2275,7 +2494,7 @@ Depiction: https://ak-47v.github.io/twex/
 Package: xyz.cypwn.termcolors
 Maintainer: CyPwn
 Depiction: https://ak-47v.github.io/twex/
-Name: Term Colors
+Name: Term Colors تلوين أوامر التيرمنال
 Architecture: iphoneos-arm
 Description: Bash setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 support! Added the ability to switch to root user with 'toor' command (root backwards). Temporary sudo fix for Xina users by aliasing sudo and su to 'toor'
 Author: Sudo & Paisseon
