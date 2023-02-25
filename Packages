@@ -16,10 +16,10 @@ Filename: debs/xyz.cypwn.xinaa15_1.1.6.2_iphoneos-arm.deb
 
 Package: xyz.cypwn.switchshades
 Maintainer: CyPwn
-Name: SwitchShadesتغيير لون الأبسوتشير
+Name: SwitchShadesتغيير لون الأب سويتشر
 Version: 1.1.5k
 Author: AnthoPak
-Description: Bring color to your app switcher تغيير لون الأبسويتشر
+Description: Bring color to your app switcher تغيير خلفية لون الأب سويتشير
 Architecture: iphoneos-arm
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 11.0)
@@ -58,10 +58,10 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/smoothlockx_1.4.7.deb
 
 Package: iOSGods.com.subwaysurfers
-Name: Subway Surfers Cheats⭐️هاك لعبة
+Name: Subway Surfers +8⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: Subway Surfers iGMM Cheats by ThanhDark1909 for iOSGods.com!
+Description: وضع الجود مود وضع الطيران نقود لا نهائيةوالمزيد by ThanhDark1909 
 Maintainer: iOSGods.com
 Author: ThanhDark1909
 Section: Games(Hack)
@@ -98,7 +98,7 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.yourepo.i0s-tweak3r-betas.byebyeapplibrary_0.0.1-9.deb
 
 Package: com.nahtedetihw.musicalert
-Name: MusicAlertمظهرios16 لتطبيق الموسيقى
+Name: MusicAlert Ios16مظهر تنبيهات الموسيقىل
 Architecture: iphoneos-arm
 Description: Apple Music queue/loved alerts like on iOS 16.4!ios16 مظهر للموسيقى
 Maintainer: Ethan Whited
@@ -111,9 +111,9 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.nahtedetihw.musicalert_1.0_iphoneos-arm.deb
 
 Package: com.miro.uyouimport
-Name: uYouImport أداة مكملة لأداةuYou
+Name: uYouImport uYouأداة خاصة ل
 Depends: firmware (>=13.0), mobilesubstrate
-Description: uYouImport أداة مكملة لأداةuYou
+Description: uYouImport لوضع الأصوات  المحملة مناليوتيوب داخل تطبيق الموسيقى 
 Architecture: iphoneos-arm
 Maintainer: MiRO <tweaks_support@miro92.com>
 Author: MiRO <tweaks_support@miro92.com>
@@ -142,7 +142,7 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.miro.uyou_2.3~1_iphoneos-arm.deb
 
 Package: com.junesiphone.dream
-Name: Dream Theme ثيم لأداة Appslibrary
+Name: Dream Theme AppLibraryPlusثيم لأداة 
 Version: 1.0
 Architecture: iphoneos-arm
 Depends: 
@@ -194,7 +194,7 @@ Architecture: iphoneos-arm
 Description: 8 Ball Pool™ Mod Menu by 0xAya!هاك لعبة البلياردو 🎱
 Maintainer: 0xAya
 Author: 0xAya
-Section: Games(hack)
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 1.0
 Installed-Size: 256
@@ -534,12 +534,12 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/net.limneos.libbulletin_0.1-177_iphoneos-arm.deb
 
 Package: lilliana.ishtar
-Name: Ishtarتهكير iosgods VIP
+Name: Ishtar vipGodsتهكير 
 Architecture: iphoneos-arm
 Description: iOSGodsVIP-Cheatsfreeتهكير حسابiosgodsVIP
 Maintainer: Lilliana
 Author: Lilliana
-Section: HackingInApps
+Section: Hacking inApps
 Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), preferenceloader, lilliana.jinxserver
 Version: 0.0.5
 Installed-Size: 240
@@ -678,7 +678,7 @@ Architecture: iphoneos-arm
 Description: GTA SA CleoModMenuهاك قراند سان اندريس
 Maintainer: squ1dd13
 Author: squ1dd13
-Section: Games(hack)
+Section: Games(Hack)
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/cleo-v2.4.0-stable.deb
 
@@ -733,7 +733,7 @@ Architecture: iphoneos-arm
 Description: GTA-SA_iGMM-Cheatsمود سان اندريس
 Maintainer: iOSGods.com
 Author: 0xSUBZ3R0
-Section: Games(hack)
+Section: Games(Hack)
 Homepage: https://iosgods.com
 Version: 2.2+iOSGods.com
 Installed-Size: 8356
@@ -762,7 +762,7 @@ Architecture: iphoneos-arm
 Version: 1.2
 Depends: mobilesubstrate
 Description: iOS16-StylelockScreen music playerجلب مظهر الموسيقي الخاص بios16
-Name: SixteenMusicمظهر الموسيقى الخاص بios16
+Name: SixteenMusic Ios16مظهر الموسيقى الخاص ب
 Author: Ethan Whited
 Icon: https://media.havoc.app/63def90098112480293d2456
 Filename: debs/xyz.cypwn.sixteenmusic_1.2_iphoneos-arm.deb
@@ -774,7 +774,7 @@ Architecture: iphoneos-arm
 Description: VideoStar⭐️Proهاك فيديوستار
 Maintainer: @RamL BuTt
 Author: @RamL BuTt
-Section: Apps(hack)
+Section: Apps(Hack)
 Version: 0.0.1-1+debug
 Installed-Size: 76
 Depiction: https://ak-47v.github.io/twex/
@@ -788,7 +788,7 @@ Description: AdobePhotoshopp(Premium)تفعيل البريميوم للفوتو�
 Maintainer: strejda603 <strejda603@centrum.cz>
 Author: strejda603 <strejda603@centrum.cz>
 Homepage: https://repo.danielpitra.cz
-Section: Apps(hack)
+Section: Apps(Hack)
 Version: 1.0.0
 Installed-Size: 152
 Depiction: https://ak-47v.github.io/twex/
@@ -865,7 +865,7 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.umarbutt.hacksoccer_32.0.1-7+debug_iphoneos-arm.deb
 
 Package: iOSGods.com.AmongUS
-Name: Among Us! Cheats
+Name: AmongUs!Hack⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: AmongUs!Hack⭐️هاك لعبة
@@ -1337,10 +1337,10 @@ Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.ScoreHero2_2.81iOSGods.com_iphoneos-arm.deb
 
 Package: iOSGods.com.subwaygl
-Name: Subway Surfers Cheats⭐️هاك لعبة
+Name: Subway Surfers Cheats+2⭐️هاك لعبة
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: Subway Surfers-Hackهاك لعبة ساب ويي
+Description: Subway Surfers-Hackنقود لا نهائية مجوهرات لا نهائية
 Maintainer: iOSGods.com
 Author: AlyssaX64
 Section: Games(Hack)
@@ -1502,7 +1502,7 @@ Description: 3bod_Syr ClassicoNoAds/حذف الإعلانات
 Depends: mobilesubstrate
 Maintainer: @3bod_syr
 Architecture: iphoneos-arm
-Section: Hacks
+Section: Apps(Hack)
 Version: 0.0.1-1+debug
 Installed-Size: 104
 Filename: debs/ClassicoNoAds.deb
@@ -1601,7 +1601,7 @@ Installed-Size: 700
 Filename: debs/nodelete-ai.akemi.appsyncunified.deb
 
 Package: ai.akemi.appinst
-Name: appinst (App Installer)
+Name: appinst (App Installer)مثبت التطبيقات 
 Priority: standard
 Pre-Depends: firmware (>= 5.0)
 Depends: ai.akemi.appsyncunified (>= 5.1)
@@ -1694,7 +1694,7 @@ Depiction: https://ak-47v.github.io/twex/
 
 Package: com.rpetrich.rocketbootstrap
 Depends: firmware (>= 13.0), mobilesubstrate
-Name: RocketBootstrap
+Name: RocketBootstrapأداة مهمة لتفعيل الأدوات
 Architecture: iphoneos-arm
 Description: Support library allowing tweaks to communicate with sandboxed processes
 Depiction: https://ak-47v.github.io/twex/
@@ -1992,7 +1992,7 @@ Installed-Size: 526
 Filename: debs/preferenceloader_2.2.6.deb
 
 Package: net.limneos.dynamicpeninsula
-Name: DynamicPeninsulaنوتش الأيفون 14ProMax
+Name: DynamicPeninsula14 Pro Maxنوتش أيفون 
 Architecture: iphoneos-arm
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -2022,7 +2022,7 @@ Installed-Size: 5960
 Filename: debs/net.limneos.audiorecorderxs_5.0-17_iphoneos-arm.deb
 
 Package: emt.paisseon.satella
-Name: Satellaالشراء من داخل التطبيقات ب
+Name: Satella🔥الشراء من داخل التطبيقات
 Architecture: iphoneos-arm
 Description: Modern in-app purchase crackerالشراء من داخل التطبيقات أمن100%
 Maintainer: Lilliana
@@ -2037,7 +2037,7 @@ Installed-Size: 648
 Filename: debs/emt.paisseon.satella_1.6_iphoneos-arm.deb
 
 Package: emt.paisseon.erika
-Name: Erikaشراء الأدوات من داخل saily/Zebra
+Name: Erika Zebra/Sailyتحميل الأدوات المدفوعة من
 Architecture: iphoneos-arm
 Description: Download paid tweaksتحميل الأدوات المدفوعة داخل متجر سالي
 Maintainer: Lilliana
@@ -2158,7 +2158,7 @@ Installed-Size: 368
 Filename: debs/com.ps.amber_1.2.0_iphoneos-arm.deb
 
 Package: com.mtac.ampere
-Name: Ampereمظهر بطارية Ios16
+Name: Ampere Ios16مظهر البطارية ل
 Architecture: iphoneos-arm
 Description: iOS 16 Battery Styleمظهر البطارية الخاص ب Ios16
 Maintainer: MTAC
@@ -2301,7 +2301,7 @@ Installed-Size: 504
 Filename: debs/com.brend0n.unityfpsindicator_0.0.4.1_iphoneos-arm.deb
 
 Package: com.brend0n.fgotw60fps
-Name: Unity60FPSتخصيص فريمات الألعاب بين60/30
+Name: Unity60FPS تخصيص فريمات الألعاب
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Architecture: iphoneos-arm
 Description: Set Fps 30/60تخصيص الفريمات الألعاب 30/60
@@ -2327,7 +2327,7 @@ Installed-Size: 780
 Filename: debs/com.brend0n.accdemo_0.2.5_iphoneos-arm.deb
 
 Package: com.ali.aim
-Name: AIMمظهر الساعة الخاص بIos16
+Name: AIM Ios16مظهر الساعة الخاص ب
 Architecture: iphoneos-arm
 Description: iOS 16 Style Time & DateLockscreenمظهر الساعة الجدبد لتحديث Ios16
 Maintainer: alimaulana
