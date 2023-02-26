@@ -149,7 +149,7 @@ Depends:
 Description: Dream Theme ثيم 
 Maintainer: June <junesgraphics@gmail.com>
 Author: JunesiPhone <junesgraphics@gmail.com>
-Section: SpringBoard(Themes)
+Section: SnowBoard(Themes)
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.junesiphone.dream_1.0_iphoneos-arm.deb
 
@@ -2432,7 +2432,7 @@ Architecture: iphoneos-arm
 Description: StatusBar for SnowBoardإضافة للتعديل على الستاتوس بار 
 Maintainer: Spark
 Author: Spark
-Section: SnowBoard (Extensions
+Section: SnowBoard (Extensions)
 Version: 1.0.12-Beta4
 Installed-Size: 460
 Filename: debs/1.0.12-Beta4.deb
