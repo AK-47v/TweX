@@ -32,13 +32,13 @@ Maintainer: CyPwn
 Name: Respring Icon Fixإصلاح للأيقونات لجلبريك شينا
 Section: XinaFix
 Architecture: iphoneos-arm
-Version: 0.0.1
 Description: Snowboard Respring Icon fix for Xinaإصلاح للأيقونات لجلبريك شينا
+Version: 0.0.2
 Depends: firmware (>= 15.0), firmware (<= 15.1.1), com.spark.snowboard.respringextension, xinaa15 | xyz.cypwn.xinaa15
 Author: CyPwn
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/respringiconfix.png
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/xyz.cypwn.respringiconfix_0.0.1_iphoneos-arm.deb
+Filename: debs/xyz.cypwn.respringiconfix_0.0.2_iphoneos-arm.deb
 
 Name: SmoothLockXتعديل سلس لشاشة القفل
 Package: com.cydiageek.smoothlockx
