@@ -172,7 +172,7 @@ Filename: debs/com.ichitaso.regionchanger_0.0.1_iphoneos-arm.deb
 
 Architecture: iphoneos-arm
 Package: com.ginsu.notchbanners
-Name: NotchBannersتغيير طريقة عرض الإشعارات
+Name: NotchBannersمحذوف يسبب ريسبرنق
 Version: 2.2.5
 Icon: https://repo.ginsu.dev/assets/com.ginsu.notchbanners/icon.png
 Description: MakeNotifications come from the notch!الإشعارات تنبثق من النوتش
@@ -185,7 +185,6 @@ Sponsor: Ginsu Tweaks <njl02@outlook.com>
 Tag: role::enduser
 SomeOtherEntryToControl: True
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.ginsu.notchbanners.deb
 
 Package: com.0xaya.8ballpoolhack
 Name: 8 Ball Pool™ Mod Menu🎱هاك لعبة
