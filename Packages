@@ -1,4 +1,155 @@
 
+Package: xyz.cypwn.roadrunner
+Maintainer: CyPwn
+Section: Tweaks
+Installed-Size: 868
+Architecture: iphoneos-arm
+Version: 1.0~beta6k
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Description: Keep apps alive through respringsعدم إسكات الصوت عند عمل ريسبرنق
+Name: RoadRunnerلعدم إنقطاع الصوت عند عمل ريسبرنق
+Author: Andreas Henriksson
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.roadrunner_1.0~beta6k_iphoneos-arm.deb
+
+Package: xyz.cypwn.croutons13
+Maintainer: CyPwn
+Architecture: iphoneos-arm
+Name: croutons عند الإنتقال لبرنامج أخر تظهر صورة للبرنامج بالزاوية 
+Version: 1.0.2
+Icon: https://repo.lauren.sh/assets/com.burritoz.croutons13/icon.png
+Description: Brings croutons tweak تغير إسم البرنامج بالزاوية إلى صورة 
+Section: Tweaks
+Depends: firmware (>=11), mobilesubstrate
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.croutons13_1.0.2_iphoneos-arm.deb
+
+Package: net.limneos.bioprotectxs
+Name: BioProtect 15 حماية الجهاز والتطبيقات ببصمة الوجه
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Architecture: iphoneos-arm
+Description: Protect your apps with Touch/Face ID!حماية التطبيقات والجهاز بالبصمة
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Author: Elias Limneos <limneoselias@gmail.com>
+Section: Tweaks
+MainLibMD5: 1bdbc1faed7ede9be98439aaae48bf52
+Version: 4.5-46
+Installed-Size: 2176
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/net.limneos.bioprotectxs_4.5-46_iphoneos-arm.deb
+
+Package: me.lau.atria
+Version: 1.3.3
+Architecture: iphoneos-arm
+Section: Tweaks
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Author: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 733
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Name: Atriaتعديل عدد الأيقونات وحجمها
+Description: Edit homescreen layout تعديل حجم وعدد الأيقونات 
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/me.lau.atria_1.3.3_iphoneos-arm.deb
+
+Package: com.opa334.crane
+Name: Crane تكرار التطبيقات بسهولة
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Architecture: iphoneos-arm
+Description: Multiple containers for your Apps تكرار التطبيقات من الهوم
+Maintainer: opa334
+Author: opa334
+Section: Tweaks
+Version: 1.3.8
+Installed-Size: 3352
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.opa334.crane_1.3.8_iphoneos-arm.deb
+
+Package: com.nicho1asdev.bigsurcenter
+Name: BigSurCenterمركز التحكم الخاص بالماك
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), preferenceloader, com.opa334.ccsupport, com.rpetrich.rocketbootstrap (>= 1.0.6), ws.hbang.alderis (>= 1.1)
+Architecture: iphoneos-arm
+Description: Replace Ios ControlCenter To MacOsتغير شكل مركز التحكم إلى الماك
+Maintainer: nicho1asdev
+Author: nicho1asdev
+Section: Tweaks
+Version: 1.3.3
+Installed-Size: 1700
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.nicho1asdev.bigsurcenter_1.3.3_iphoneos-arm.deb
+
+Package: com.niceios.nicepower
+Description: AirPods/Bluetooth display تحتاج إلى تفعيل ).مظهر جميل لعرض (إشعارات الإيربودز 
+Version: 1.0.0.9-8
+Section: Tweaks
+Maintainer: niceios
+Depends: mobilesubstrate,com.niceios.nicehelper(>=4.7)
+Architecture: iphoneos-arm
+Installed-Size: 9420
+Name: NicePower(iOS11-iOS15)تغيير عرض البلوتوث والإيربودز
+Author: niceios
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.niceios.nicepower_1.0.0.9-8_iphoneos-arm.deb
+
+Package: com.niceios.nicehelper
+Description: NiceHelper NiceIosأداة مهمة لتفعيل أدوات 
+Version: 4.7-1
+Section: Addons
+Maintainer: niceios
+Architecture: iphoneos-arm
+Installed-Size: 2076
+Name: NiceHelper NiceIosأداة مهمة لتفعيل أدوات 
+Author: niceios
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.niceios.nicehelper_4.7-1_iphoneos-arm.deb
+
+Package: com.niceios.nicecaller15
+Description: A Nice Caller For Ur IPhoneتعديل مظهر الإتصال ( تحتاج إلى تفعيل)
+Version: 1.0.0.4-26
+Section: Tweaks
+Maintainer: NiceiOS
+Depends: mobilesubstrate,com.niceios.nicehelper(>=4.6),preferenceloader
+Architecture: iphoneos-arm
+Installed-Size: 12276
+Name: NiceCaller(iOS15)تغيير مظهر الإتصال
+Author: NiceiOS
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.niceios.nicecaller15_1.0.0.4-26_iphoneos-arm.deb
+
+Package: com.niceios.nicebarx15
+Description: A NiceBar For Ur Iphone إضافات جميلة للبار (تحتاج إلى تفعيل)
+Version: 1.0.0.6-1
+Section: Tweaks
+Maintainer: niceios
+Depends: mobilesubstrate,com.niceios.nicehelper(>=4.6),preferenceloader
+Architecture: iphoneos-arm
+Installed-Size: 10684
+Name: NiceBarX(iOS15)إضافات جميلة للبار
+Author: niceios
+Sponsor: niceios
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.niceios.nicebarx15_1.0.0.6-1_iphoneos-arm.deb
+
+Author: merdok <merdok87@o2.pl>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Anilaunchإضافة تأثير عند الضغط على الأيقونة
+Package: org.thebigboss.anilaunch
+Section: Tweaks
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Version: 1.1.10
+Architecture: iphoneos-arm
+Description: Animate icons تأثيرات عند فتح التطبيقات
+dev: merdok
+Installed-Size: 807
+Icon: file:///Library/PreferenceBundles/anilaunchprefs.bundle/anilaunch@2x.png
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/anilaunch_1.1.10.deb
+
 Package: xyz.cypwn.xinaa15
 Section: XinaFix
 Maintainer: CyPwn
@@ -9,7 +160,7 @@ Depends: firmware (>= 15.0), firmware (<= 15.1.1)
 Provides: xinaa15
 Replaces: xinaa15
 Conflicts: xinaa15
-Name: XinaA15 Fix إصلاح للنسخة الرسمية
+Name: XinaA15 Fix إصلاح للنخسة 1.1.6.2
 Author: SingleKeycap
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/xyz.cypwn.xinaa15_1.1.6.2_iphoneos-arm.deb
@@ -70,20 +221,6 @@ Installed-Size: 6328
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/iOSGods.com.subwaysurfers_3.8.0_iphoneos-arm.deb
 
-Package: com.yourepo.i0s-tweak3r-betas.donttouchmytunes
-Architecture: iphoneos-arm
-Name: DontTouchMyTunesمنع النظام من قفل الموسيقى
-Version: 0.0.1-2
-Description: Disables system from silencing Music منع النظام من إسكات الموسيقى
-Author: i0s_tweak3r <djvs23@icloud.com>
-Section: Tweaks
-Depends: mobilesubstrate
-Conflicts: com.i0stweak3r.donttouchmytunes
-Replaces: com.i0stweak3r.donttouchmytunes
-Maintainer: i0s_tweak3r <djvs23@icloud.com>
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.yourepo.i0s-tweak3r-betas.donttouchmytunes_0.0.1-2.deb
-
 Package: com.i0stweak3r.byebyeapplibrary
 Name: ByeByeAppLibraryحذف المكتبة
 Author: i0s_tweak3r
@@ -141,18 +278,6 @@ Installed-Size: 31160
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.miro.uyou_2.3~1_iphoneos-arm.deb
 
-Package: com.junesiphone.dream
-Name: Dream Theme ثيم
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: 
-Description: Dream Theme ثيم 
-Maintainer: June <junesgraphics@gmail.com>
-Author: JunesiPhone <junesgraphics@gmail.com>
-Section: SnowBoard(Themes)
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.junesiphone.dream_1.0_iphoneos-arm.deb
-
 Author: ichitaso
 Maintainer: ichitaso
 Name: RegionChangerتغير المنطقة للجهاز
@@ -169,22 +294,6 @@ Version: 0.0.1
 Installed-Size: 236
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.ichitaso.regionchanger_0.0.1_iphoneos-arm.deb
-
-Architecture: iphoneos-arm
-Package: com.ginsu.notchbanners
-Name: NotchBannersمحذوف يسبب ريسبرنق
-Version: 2.2.5
-Icon: https://repo.ginsu.dev/assets/com.ginsu.notchbanners/icon.png
-Description: MakeNotifications come from the notch!الإشعارات تنبثق من النوتش
-Section: Tweaks
-Depends: firmware (>=14.0), dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
-Tags: compatible_min::ios14.0, compatible_max::ios15.9
-Author: Ginsu <njl02@outlook.com>
-Maintainer: Ginsu <njl02@outlook.com>
-Sponsor: Ginsu Tweaks <njl02@outlook.com>
-Tag: role::enduser
-SomeOtherEntryToControl: True
-Depiction: https://ak-47v.github.io/twex/
 
 Package: com.0xaya.8ballpoolhack
 Name: 8 Ball Pool™ Mod Menu🎱هاك لعبة
@@ -241,7 +350,7 @@ Section: Terminal Support
 Maintainer: CyPwn
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/newterm3x.png
 Filename: debs/xyz.cypwn.newterm3x_3.0~beta1_iphoneos-arm.deb
-Depiction: https://ak-47v.github.io/twex/xyz.cypwn.newterm3x_3.0~beta1_iphoneos-arm
+Depiction: https://ak-47v.github.io/twex/
 
 Package: libmpfr6
 Version: 4.1.0
@@ -286,37 +395,6 @@ Author: AnthoPak
 Description: An AOD tweak that feels stock, with endless possibilities!إضافات لشاشة القفل/2
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Filename: debs/xyz.cypwn.lastlook_3.6.2k_iphoneos-arm.deb
-Depiction: https://ak-47v.github.io/twex/
-
-Package: xyz.cypwn.jumper
-Maintainer: CyPwn
-Name: Jumperالإنتقال إلى التطبيقات من شاشة القفل
-Author: Neo Ighodaro
-Description: Jump into apps from lockscreenالإنتقال إلى التطبيقات من شاشة القفلJumpIntoAppFromLockscreenالإنتقال للتطبيقات من شاشة القفل/3
-Version: 3.0.0
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 13.0), com.tapsharp.support (>= 1.0.1)
-Architecture: iphoneos-arm
-Icon: https://media.havoc.app/63e285bae7b590bc2407ff6d
-Filename: debs/xyz.cypwn.jumper_3.0.0_iphoneos-arm.deb
-Depiction: https://ak-47v.github.io/twex/
-
-Package: ws.hbang.newterm2
-Name: NewTerm 2تيرمنال
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm, com.lint.ntarrows
-Replaces: ws.hbang.newterm, com.lint.ntarrows
-Architecture: iphoneos-arm
-Description: A powerful terminal app for iOS
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Author: HASHBANG Productions <support@hbang.ws>
-Section: Terminal Support
-Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
-Support: https://hashbang.productions/support/
-Tag: compatible_min::ios10.0
-Version: 2.5
-Installed-Size: 6664
-Filename: debs/ws.hbang.newterm2_2.5_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: me.alfhaily.rocket
@@ -1184,19 +1262,6 @@ Installed-Size: 6180
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.Joka.PvZ2FreeHack_1.0.0.0_iphoneos-arm.deb
 
-Package: com.opa334.choicy
-Name: Choicyفتح التطبيقات بدون حقن أدوات
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Architecture: iphoneos-arm
-Description: AdvancedTweak Configuration!فتح التطبيقات بدون حقن أدوات *ملاحظة ليست اداة تخطي
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: Jb-Bypass
-Version: 1.4.6
-Installed-Size: 1076
-Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.opa334.choicy_1.4.6_iphoneos-arm.deb
-
 Package: com.peterdev.libpddokdo
 Name: libPDDokdo
 Architecture: iphoneos-arm
@@ -1861,20 +1926,6 @@ Section: Tweaks
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/storeswitcher.png
 Filename: debs/xyz.cypwn.storeswitcher2_1.0.3_iphoneos-arm.deb
 Depiction: https://ak-47v.Github.io/twex/
-
-Package: xyz.cypwn.lockpluspro
-Maintainer: CyPwn
-Depiction: https://ak-47v.Github.io/twex/
-Name: LockPlus Proالتعديل على شاشة القفل
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.d11z.textyle, jp.akusio.milkyway, jp.akusio.milkyway2, com.yourepo.appleenterprise.nopassafterrespring
-Description: NiceEditing For_lock screenاداة جميلة لتغير مظهر شاشة القفل
-Author: JunesiPhone
-Section: Tweaks
-Version: 2.5k
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/lockpluspro.png
-Filename: debs/xyz.cypwn.lockpluspro_2.5k_iphoneos-arm.deb
 
 Package: xyz.cypwn.limneos
 Maintainer: CyPwn
