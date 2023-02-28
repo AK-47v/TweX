@@ -1,4 +1,17 @@
 
+Package: com.opa334.libundirect
+Name: libundirect
+Architecture: iphoneos-arm
+Description: Patchfinder and rebinder for objc_direct methods
+Maintainer: opa334
+Author: opa334
+Section: System
+Tag: role::developer
+Version: 1.1.4-3
+Installed-Size: 296
+Depiction: https://ak-47v.github.io/twex/
+Filename: debs/com.opa334.libundirect_1.1.4-3_iphoneos-arm.deb
+
 Package: xyz.cypwn.roadrunner
 Maintainer: CyPwn
 Section: Tweaks
@@ -6,7 +19,7 @@ Installed-Size: 868
 Architecture: iphoneos-arm
 Version: 1.0~beta6k
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
-Description: Keep apps alive through respringsعدم إسكات الصوت عند عمل ريسبرنق
+Description: تحتاج إلى تفعيلKeep apps alive through respringsعدم إسكات الصوت عند عمل ريسبرنق
 Name: RoadRunnerلعدم إنقطاع الصوت عند عمل ريسبرنق
 Author: Andreas Henriksson
 Depiction: https://ak-47v.github.io/twex/
