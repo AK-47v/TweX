@@ -1,18 +1,92 @@
 
-Package: com.initwithframe.velvet
-Name: Velvetتعديل مظهر الإشعارات
-Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
+Package: com.chr1s.chatwall
+Name: ChatWallإضافة صورة لواجهة الرسائل
 Architecture: iphoneos-arm
-Description: A new way to customize your notifications!إشعارات بشكل جميل
-Maintainer: initWithFrame <initwithframe@protonmail.com>
-Author: initWithFrame <initwithframe@protonmail.com>
+Description: Custom wallpapers for iMessageإضافة خلفية للرسائل
+Icon: https://chr1s.dev/assets/chatwallRounded.png
+Maintainer: Chr1s
+Author: Chr1s
 Section: Tweaks
-Version: 1.5.1
-Tag: cydia::commercial, compatible_min::ios13.0
-Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
-Installed-Size: 764
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.15.1), com.muirey03.libimagepicker (>= 1.0.4)
+Version: 1.0.8
+Installed-Size: 4816
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/com.initwithframe.velvet_1.5.1_iphoneos-arm.deb
+Filename: debs/com.chr1s.chatwall_1.0.8_iphoneos-arm.deb
+
+Package: com.creaturecoding.tweaksettings
+Name: TweakSettingsتطبيق لأدوات الجلبريك
+Depends: firmware (>= 10.0), preferenceloader | com.creaturecoding.preferred
+Priority: optional
+Architecture: iphoneos-arm
+Description: Dedicated settings app for tweaksتطبيق خاص بالأدوات
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: Applications
+dev: CreatureSurvive
+Tag: purpose::application, compatible_min::ios10
+Icon: file:///Applications/TweakSettings.app/icon_large.png
+Version: 1.0.6
+Installed-Size: 2040
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.creaturecoding.tweaksettings_1.0.6_iphoneos-arm.deb
+
+Package: com.fouadraheb.contactsync
+Name: ContactSyncإضافة صور الواتس لجهات الإتصال
+Description: Sync WhatsApp Profile Pictures to your Contactsصور جهات الإتصال بالواتس للهاتف
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), com.f0u4d.watusitools (>= 2.4.3), com.muirey03.libmryipc
+Conflicts:
+Architecture: iphoneos-arm
+Author: Fouad Raheb <support@fouadraheb.com>
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Icon: file:///Library/Application Support/ContactSync/Resources.bundle/Logo@3x.png
+Version: 1.1.4
+Installed-Size: 504
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.fouadraheb.contactsync_1.1.4_iphoneos-arm.deb
+
+Architecture: iphoneos-arm
+Package: com.nahtedetihw.stepup-rootless
+Name: StepUp-Rootlessتعديل مستوى زر خفض/رفع الصوت
+Version: 1.1
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.stepup-rootless/icon.png
+Section: Tweaks
+Depends: firmware (>=13.0), ws.hbang.common
+Tags: compatible_min::ios13.0, compatible_max::ios16.4
+Author: ETHN <ethanwhited2208@gmail.com>
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.nahtedetihw.stepup-rootless.deb
+Description: ChangeTheAmountOF-
+StepVolumeتغيير مستوى خفض أو رفع الصوت
+
+Package: me.jjolano.fmwk.modulous
+Name: Modulous Framework
+Architecture: iphoneos-arm
+Description: An iOS developer framework for modular software.
+Maintainer: jjolano
+Author: jjolano
+Section: Development
+Tag: role::developer
+Version: 1.0.2
+Installed-Size: 216
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/me.jjolano.fmwk.modulous_1.0.2_iphoneos-arm.deb
+
+Package: xyz.cypwn.bhtwitter
+Maintainer: CyPwn
+Name: BHTwitterإضافة ميزات للتويتر
+Version: 3.8
+Description: Awesome tweak for Twitterإضافة ميزات عديدة للتويتر
+Section: Tweaks
+Depends: firmware (>= 13.0), mobilesubstrate, ws.hbang.common (>= 1.17)
+Architecture: iphoneos-arm
+Author: BandarHelal
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/bhtwitter.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.bhtwitter_3.8_iphoneos-arm.deb
 
 Name: Amelijaتعديل مظهر الخلفية
 Package: me.luki.amelija
@@ -179,7 +253,7 @@ Description: Sniper bypassjb Work in some apps not all applicationsحجب الج
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bypassjbDp
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: Sniper @DNS_Sys <aeeo@hotmail.com>
-Section: Tweaks
+Section: Jb-Bypass
 Tag: purpose::extension
 Installed-Size: 621
 dev: sniper
@@ -299,7 +373,7 @@ Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwi
 Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
 Maintainer: Henrik Rydgård
 Author: Henrik Rydgård
-Section: Games
+Section: Emulator's
 Version: 0v1.6.3-456-g6d0ed4ad0
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/org.ppsspp.ppsspp-dev-latest.deb
@@ -404,18 +478,18 @@ Installed-Size: 3352
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/com.opa334.crane_1.3.8_iphoneos-arm.deb
 
-Package: com.nicho1asdev.bigsurcenter
+Package: xyz.cypwn.bigsurcenter
 Name: BigSurCenterمركز التحكم الخاص بالماك
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), preferenceloader, com.opa334.ccsupport, com.rpetrich.rocketbootstrap (>= 1.0.6), ws.hbang.alderis (>= 1.1)
 Architecture: iphoneos-arm
 Description: Replace Ios ControlCenter To MacOsتغير شكل مركز التحكم إلى الماك
-Maintainer: nicho1asdev
+Maintainer: CyPwn
 Author: nicho1asdev
 Section: Tweaks
-Version: 1.3.3
+Version: 1.4.0
 Installed-Size: 1700
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.nicho1asdev.bigsurcenter_1.3.3_iphoneos-arm.deb
+Filename: debs/xyz.cypwn.bigsurcenter_1.4.0k_iphoneos-arm.deb
 
 Package: com.niceios.nicepower
 Description: AirPods/Bluetooth display تحتاج إلى تفعيل ).مظهر جميل لعرض (إشعارات الإيربودز 
@@ -432,15 +506,15 @@ Filename: debs/com.niceios.nicepower_1.0.0.9-8_iphoneos-arm.deb
 
 Package: com.niceios.nicehelper
 Description: NiceHelper NiceIosأداة مهمة لتفعيل أدوات 
-Version: 4.7-1
-Section: Tweaks(addon)
+Version: 4.8-2
+Section: Tweaks (addon)
 Maintainer: niceios
 Architecture: iphoneos-arm
-Installed-Size: 2076
+Installed-Size: 2108
 Name: NiceHelper NiceIosأداة مهمة لتفعيل أدوات 
 Author: niceios
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.niceios.nicehelper_4.7-1_iphoneos-arm.deb
+Filename: debs/com.niceios.nicehelper_4.8-2_iphoneos-arm.deb
 
 Package: com.niceios.nicecaller15
 Description: A Nice Caller For Ur IPhoneتعديل مظهر الإتصال ( تحتاج إلى تفعيل)
@@ -457,17 +531,17 @@ Filename: debs/com.niceios.nicecaller15_1.0.0.4-26_iphoneos-arm.deb
 
 Package: com.niceios.nicebarx15
 Description: A NiceBar For Ur Iphone إضافات جميلة للبار (تحتاج إلى تفعيل)
-Version: 1.0.0.6-1
+Version: 1.0.0.7-3
 Section: Tweaks
 Maintainer: niceios
-Depends: mobilesubstrate,com.niceios.nicehelper(>=4.6),preferenceloader
+Depends: mobilesubstrate,com.niceios.nicehelper(>=4.8),preferenceloader
 Architecture: iphoneos-arm
-Installed-Size: 10684
+Installed-Size: 10724
 Name: NiceBarX(iOS15)إضافات جميلة للبار
 Author: niceios
 Sponsor: niceios
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.niceios.nicebarx15_1.0.0.6-1_iphoneos-arm.deb
+Filename: debs/com.niceios.nicebarx15_1.0.0.7-3_iphoneos-arm.deb
 
 Author: merdok <merdok87@o2.pl>
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -1170,13 +1244,13 @@ Maintainer: CyPwn
 Depiction: https://ak-47v.github.io/twex/
 Section: Tweaks
 Architecture: iphoneos-arm
-Version: 1.2
+Version: 1.4
 Depends: mobilesubstrate
 Description: iOS16-StylelockScreen music playerجلب مظهر الموسيقي الخاص بios16
 Name: SixteenMusic Ios16مظهر الموسيقى الخاص ب
 Author: Ethan Whited
 Icon: https://media.havoc.app/63def90098112480293d2456
-Filename: debs/xyz.cypwn.sixteenmusic_1.2_iphoneos-arm.deb
+Filename: debs/xyz.cypwn.sixteenmusic_1.4_iphoneos-arm.deb
 
 Package: com.ramlbutt.videostar
 Name: videostar⭐️تفعيل البريميوم
@@ -1463,7 +1537,7 @@ Filename: debs/com.nahtedetihw.timestamp.deb
 Architecture: iphoneos-arm
 Package: com.ginsu.dodo
 Name: Dodoمظهر جميل لشاشة القفل
-Version: 3.4.8-1
+Version: 3.4.9
 Depiction: https://ak-47v.github.io/twex/
 Icon: https://repo.ginsu.dev/assets/com.ginsu.dodo/icon.png
 Description: ThePerfect-LSredesignتغيير مظهر شاشة القفل
@@ -2034,9 +2108,9 @@ Depiction: https://ak-47v.github.io/twex/
 
 Package: me.jjolano.shadow
 Name: Shadow🔥تخطي الجلبريك للببجي
-Depends: firmware (>= 8.0), mobilesubstrate, dpkg, com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 0.1.5)
+Depends: firmware (>= 8.0), mobilesubstrate, dpkg, com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 0.1.5), me.jjolano.fmwk.hookkit (<< 2.0.0), me.jjolano.hkmodule.substrate
 Suggests: com.ps.injectionfoundation
-Recommends: preferenceloader
+Recommends: preferenceloader, me.jjolano.hkmodule.fishhook
 Provides: me.jjolano.shadow.beta
 Replaces: me.jjolano.shadow.beta
 Conflicts: me.jjolano.shadow.beta
@@ -2045,23 +2119,24 @@ Description: Jb-Bypass Detection For Pubg On Xinaa15أفضل أداة تخطي �
 Maintainer: jjolano
 Author: jjolano
 Section: Jb-Bypass
-Version: 3.6.8
+Version: 3.6.9-2
 Installed-Size: 1400
-Filename: debs/me.jjolano.shadow_3.6.8_iphoneos-arm.deb
+Filename: debs/me.jjolano.shadow_3.6.9-2_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: me.jjolano.fmwk.hookkit
 Name: HookKit Framework
-Depends: firmware (>= 5.0), mobilesubstrate
+Depends: firmware (>= 5.0.0), me.jjolano.fmwk.modulous (>= 1.0.0), me.jjolano.fmwk.modulous (<< 2.0.0)
+Recommends: me.jjolano.hkmodule.substrate
 Architecture: iphoneos-arm
-Description: An iOS tweak developer framework to unify code substitution APIs in runtime. This is a developer package.
+Description: An iOS developer framework for unified hooking methods.
 Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 0.2.5
-Installed-Size: 392
-Filename: debs/me.jjolano.fmwk.hookkit_0.2.5_iphoneos-arm.deb
+Version: 1.0.5
+Installed-Size: 284
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.5_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tigisoftware.filza64bit
