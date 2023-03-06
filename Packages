@@ -1,4 +1,168 @@
 
+Package: com.rpgfarm.a-font
+Name: A-Fontتغير الخط للجهاز
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Change your font!تغيير الخطوط 
+Maintainer: Baw Appie <pp121324@gmail.com>
+Author: Baw Appie <pp121324@gmail.com>
+Section: Tweaks
+Version: 1.9.6
+Installed-Size: 2380
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.rpgfarm.a-font.deb
+
+Package: com.rpgfarm.a-shields
+Name: A-Shieldsحماية التطبيقات ببصمة الوجه
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker (>=1.6.7), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3)
+Architecture: iphoneos-arm
+Description: Protect your deviceحماية التطبيقات بالبصمة
+Maintainer: Baw Appie <pp121324@gmail.com>
+Author: Baw Appie <pp121324@gmail.com>
+Section: Tweaks
+Version: 1.6
+Installed-Size: 404
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.rpgfarm.a-shields.deb
+
+Package: iOSGods.com.Asphalt9
+Name: Asphalt 9 Legends Cheats⭐️هاك لعبة
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Asphalt 9: Legends iGMM Cheats هاك لعبة أسفلت 9
+Maintainer: iOSGods.com
+Author: 0xSUBZ3R0
+Section: Games(Hack)
+Homepage: https://iosgods.com
+Version: 1.1.1.1-3.9.0+iOSGods.com
+Installed-Size: 6328
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.Asphalt9_1.1.1.1-3.9.0+iOSGods.com_iphoneos-arm.deb
+
+Package: iOSGods.com.CandyCrushSaga
+Name: Candy Crush Saga Cheats⭐️هاك لعبة كاندي كراش
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Candy Crush هاك لعبة كاندي كراش
+Maintainer: iOSGods.com
+Author: Laxus
+Section: Games(Hack)
+Homepage: https://iosgods.com
+Version: 1.226.0.1
+Installed-Size: 9984
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.CandyCrushSaga_1.226.0.1_iphoneos-arm.deb
+
+Package: iOSGods.com.DLS
+Name: Dream League Soccer Hack⚽️هاك لعبة دريم ليج
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Dream League Soccer 2021 iGMM Cheats هاك لعبة دريم ليج
+Maintainer: iOSGods.com
+Author: Zahir
+Section: Games(Hack)
+Homepage: https://iosgods.com
+Version: 10.17+iOSGods.com
+Installed-Size: 6328
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.DLS_10.17iOSGods.com_iphoneos-arm.deb
+
+Package: iOSGods.com.HomeScapes
+Name: HomeScapes Cheats⭐️هاك لعبة
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: HomeScapes mod menu هاك لعبة الهروب
+Maintainer: iOSGods.com
+Author: Laxus
+Section: Games(Hack)
+Homepage: https://iosgods.com
+Version: 6.0.3
+Installed-Size: 10112
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.HomeScapes_6.0.3_iphoneos-arm.deb
+
+Package: iOSGods.com.KineMaster
+Name: KineMaster Pro⭐️تفعيل ميزة البرو
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: KineMaster - Pro تفعيل البرو لبرنامج كاين ماستر
+Maintainer: iOSGods.com
+Author: Laxus
+Section: Apps(Hack)
+Homepage: https://iosgods.com
+Version: 5.1.1
+Installed-Size: 10112
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.KineMaster_5.1.1_iphoneos-arm.deb
+
+Package: iOSGods.com.LastDayonEarth
+Name: Last Day on Earth Hack⭐️هاك لعبة
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Last Day on Earth هاك لعبة أخر يوم على الأرض
+Maintainer: iOSGods.com
+Author: Zahir
+Section: Games(Hacks)
+Homepage: https://iosgods.com
+Version: 1.20.3+iOSGods.com
+Installed-Size: 6392
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.LastDayonEarth_1.20.3+iOSGods.com_iphoneos-arm.deb
+
+Package: iOSGods.com.SG
+Name: Six-Guns Cheats⭐️هاك لعبة
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Six-Guns iGMM Cheatsهاك لعبة ريد ديد
+Maintainer: iOSGods.com
+Author: DanYal
+Section: Games(Hack)
+Homepage: https://iosgods.com
+Version: 3.0.6+iOSGods.com
+Installed-Size: 3596
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.SG_3.0.6+iOSGods.com_iphoneos-arm.deb
+
+Package: iOSGods.com.ShadowKnight
+Name: Shadow KnightNinja Cheats⭐️هاك لعبة
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Shadow KnightNinja Dark hack هاك لعبة شادو نايت
+Maintainer: iOSGods.com
+Author: Zahir
+Section: Games(Hack)
+Version: 3.14.24+iOSGods.com
+Installed-Size: 6344
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.ShadowKnight_3.14.24iOSGods.com_iphoneos-arm.deb
+
+Package: iOSGods.com.TempleRunExp
+Name: Temple Run Cheats⭐️هاك لعبة
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Temple Run: Idle Explorers iGMM Cheats هاك لعبة تمبل رن
+Maintainer: iOSGods.com
+Author: Zahir
+Section: Games(Hack)
+Homepage: https://iosgods.com
+Version: 0.16.0+iOSGods.com
+Installed-Size: 6328
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iOSGods.com.TempleRunExp_0.16.0iOSGods.com_iphoneos-arm.deb
+
+Package: xyz.cypwn.appstoreupdatestab
+Maintainer: CyPwn
+Architecture: iphoneos-arm
+Name: AppStoreUpdatesTabخانة التحديث داخل الأبستور
+Icon: https://johnzaro.github.io/cydia/assets/com.johnzaro.appstoreupdatestab13/icon.png
+Description: Add Update Tab In Appstoreإضافة خيار التحديثات داخل الأبستور 
+Section: Tweaks
+Depends: firmware (>=13.0), mobilesubstrate
+Author: Johnzaro
+Version: 1.2
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.appstoreupdatestab_1.2_iphoneos-arm.deb
+
 Package: com.chr1s.chatwall
 Name: ChatWallإضافة صورة لواجهة الرسائل
 Architecture: iphoneos-arm
@@ -10,8 +174,8 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.15.1), com.muirey03.libimagepicker (>= 1.0.4)
 Version: 1.0.8
 Installed-Size: 4816
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/com.chr1s.chatwall_1.0.8_iphoneos-arm.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Package: com.creaturecoding.tweaksettings
 Name: TweakSettingsتطبيق لأدوات الجلبريك
@@ -21,7 +185,7 @@ Architecture: iphoneos-arm
 Description: Dedicated settings app for tweaksتطبيق خاص بالأدوات
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Author: CreatureSurvive <support@creaturecoding.com>
-Section: Applications
+Section: Utilities
 dev: CreatureSurvive
 Tag: purpose::application, compatible_min::ios10
 Icon: file:///Applications/TweakSettings.app/icon_large.png
@@ -42,8 +206,8 @@ Maintainer: Fouad Raheb <support@fouadraheb.com>
 Icon: file:///Library/Application Support/ContactSync/Resources.bundle/Logo@3x.png
 Version: 1.1.4
 Installed-Size: 504
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/com.fouadraheb.contactsync_1.1.4_iphoneos-arm.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.stepup-rootless
@@ -53,11 +217,11 @@ Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.stepup-rootless/icon.
 Section: Tweaks
 Depends: firmware (>=13.0), ws.hbang.common
 Tags: compatible_min::ios13.0, compatible_max::ios16.4
+Depictions: https://ak-47v.github.io/twex/
 Author: ETHN <ethanwhited2208@gmail.com>
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Tag: role::enduser
 SomeOtherEntryToControl: True
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/com.nahtedetihw.stepup-rootless.deb
 Description: ChangeTheAmountOF-
 StepVolumeتغيير مستوى خفض أو رفع الصوت
@@ -85,8 +249,8 @@ Depends: firmware (>= 13.0), mobilesubstrate, ws.hbang.common (>= 1.17)
 Architecture: iphoneos-arm
 Author: BandarHelal
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/bhtwitter.png
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/xyz.cypwn.bhtwitter_3.8_iphoneos-arm.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Name: Amelijaتعديل مظهر الخلفية
 Package: me.luki.amelija
@@ -97,8 +261,8 @@ Description: Take full control of your wallpapers on the flyبعرفش لشو �
 Maintainer: Luki
 Author: Luki
 Section: Tweaks
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/13dd635c99adfad98d1412062f6e42cf195ee306.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Name: Accent مثل الماكToggelsتغيير لون ال 
 Package: com.ivanc.accent
@@ -107,7 +271,6 @@ Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common,
 Version: 1.4.0
 Architecture: iphoneos-arm
 Description: iOS accent colors in macOS style!تغير لون المش عارف شو مثل الماك
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=accentDp
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: Ivan Cristina <ivancristina5@gmail.com>
 Section: Tweaks
@@ -128,8 +291,8 @@ Author: Maxwell Dausch <max.dausch@gmail.com>
 Section: Tweaks
 Version: 2.3
 Installed-Size: 13440
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/ch.mdaus.latchkey_2.3_iphoneos-arm.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Package: com.apextweaks.veza
 Name: Vezaإضافة عناصر التحكم لشاشة القفل
@@ -142,8 +305,8 @@ Author: ApexTweaks <support@apextweaks.com>
 Section: Tweaks
 Tag: compatible_min::ios11.0
 Icon: https://chariz.com/cdn/icon/veza/icon@3x.png
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/com.apextweaks.veza_1.2.0_iphoneos-arm.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Package: com.cameronkatri.quickactions
 Name: QuickActionsإضافة إختصارات سريعة لشاشة القفل
@@ -158,8 +321,8 @@ Header: https://img.chariz.cloud/sileo-banner/quickactions.jpg
 Tag: compatible_min::ios13.0
 Depends: mobilesubstrate, preferenceloader
 Installed-Size: 460
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/com.cameronkatri.quickactions_1.0.0_iphoneos-arm.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Package: com.chr1s.atlas
 Name: Atlasلتغيير مظهر مشغل الفيديو
@@ -172,8 +335,8 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.15.1)
 Version: 1.0.4
 Installed-Size: 4608
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/com.chr1s.atlas_1.0.4_iphoneos-arm.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Package: com.muirey03.cr4shed
 Name: Cr4shedلمعرفة التطبيق المسبب للعطل
@@ -185,8 +348,9 @@ Author: Muirey03
 Section: Tweaks
 Version: 4.3.0
 Installed-Size: 1384
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/com.muirey03.cr4shed_4.3.0_iphoneos-arm.deb
+Depictions: https://ak-47v.github.io/twex/
+Depictions: https://ak-47v.github.io/twex/
 
 Package: com.yan.stella
 Name: Stella😂ثلج ثلج عم بتشتي الدنيا ثلج
@@ -199,8 +363,8 @@ Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, firmware (
 Icon: https://yandevelop.github.io/assets/icons/stella/icon.png
 Version: 1.0.2
 Installed-Size: 1032
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/com.yan.stella_1.0.2_iphoneos-arm.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Package: co.dynastic.ios.lib.flora
 Name: libflora
@@ -226,8 +390,8 @@ Author: Dynastic
 Section: Tweaks
 Version: 1.0.23
 Installed-Size: 2128
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/e0385d50470f0aabb6198e16da2f8b4b.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Package: me.nepeta.axon
 Name: Axonتغيير شكل الإشعارات
@@ -240,8 +404,8 @@ Author: Nepeta & Baw Appie
 Section: Tweaks
 Version: 1.4
 Installed-Size: 584
-Depictions: https://ak-47v.github.io/twex/
 Filename: debs/me.nepeta.axon.deb
+Depictions: https://ak-47v.github.io/twex/
 
 Name: bypassJBحجب الجلبريك عن التطبيقات
 Package: com.bypassjb.sniper
@@ -506,7 +670,7 @@ Filename: debs/com.niceios.nicepower_1.0.0.9-8_iphoneos-arm.deb
 
 Package: com.niceios.nicehelper
 Description: NiceHelper NiceIosأداة مهمة لتفعيل أدوات 
-Version: 4.8-2
+Version: 4.8-7
 Section: Tweaks (addon)
 Maintainer: niceios
 Architecture: iphoneos-arm
@@ -514,7 +678,7 @@ Installed-Size: 2108
 Name: NiceHelper NiceIosأداة مهمة لتفعيل أدوات 
 Author: niceios
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.niceios.nicehelper_4.8-2_iphoneos-arm.deb
+Filename: debs/com.niceios.nicehelper_4.8-7_iphoneos-arm.deb
 
 Package: com.niceios.nicecaller15
 Description: A Nice Caller For Ur IPhoneتعديل مظهر الإتصال ( تحتاج إلى تفعيل)
