@@ -1,4 +1,60 @@
 
+Package: com.mtac.uptime
+Name: Uptimeإظهار زمن تفعيل الجلبريك بمركز التحكم
+Architecture: iphoneos-arm
+Description: Control Center module Bootإظهار زمن تفعيل الجلبريك
+Maintainer: MTAC
+Author: MTAC
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport
+Version: 1.0.0
+Installed-Size: 192
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.mtac.uptime_1.0.0_iphoneos-arm.deb
+
+Name: DenyPhotoAlbumsإخفاء ألبومات الصور
+Package: com.cydiageek.denyphotoalbums
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Version: 1.1.9
+Architecture: iphoneos-arm
+Description: Hide Needless Photo Albumsإخفاء ألبومات الصور
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 541
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/DenyPhotoAlbums.bundle/DenyPhotoAlbums@2x.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/denyphotoalbums_1.1.9.deb
+
+Package: me.jjolano.hkmodule.fishhook
+Name: HookKit Module (fishhook)
+Architecture: iphoneos-arm
+Description: This module provides fishhook library support for HookKit Framework.
+Maintainer: jjolano
+Author: jjolano
+Section: HookKit (Modules)
+Version: 1.0.3
+Installed-Size: 224
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/me.jjolano.hkmodule.fishhook_1.0.3_iphoneos-arm.deb
+
+Package: xyz.cypwn.genesisx
+Maintainer: CyPwn
+Name: Genesis Xinaللتعديل على شاشة القفل
+Version: 99.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, firmware (>=15.0), firmware (<=15.1.1), ws.hbang.common (>=1.16), xyz.itznebbs.libnebbs (>=1.5.3), com.spark.libsparkapplist, org.thebigboss.libcolorpicker, com.peterdev.libpddokdo, love.litten.libkitten | xyz.cypwn.libkitten, com.smokin1337.ldrestarthelper, xinaa15 | xyz.cypwn.xinaa15
+Conflicts: xyz.tylerd3v.genesis, xyz.tylerd3v.genesis13, xyz.itznebbs.genesis2, xyz.itznebbs.genesis3
+Author: ItzNebbs
+Description: All-in-One tweak for Xinaاداة للتعديل على شاشة القفل 
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/genesisx.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.genesisx_99.0_iphoneos-arm.deb
+
 Package: com.rpgfarm.a-font
 Name: A-Fontتغير الخط للجهاز
 Depends: mobilesubstrate, preferenceloader
@@ -608,10 +664,10 @@ Maintainer: Elias Limneos <limneoselias@gmail.com>
 Author: Elias Limneos <limneoselias@gmail.com>
 Section: Tweaks
 MainLibMD5: 1bdbc1faed7ede9be98439aaae48bf52
-Version: 4.5-46
-Installed-Size: 2176
+Version: 4.6-27
+Installed-Size: 2232
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/net.limneos.bioprotectxs_4.5-46_iphoneos-arm.deb
+Filename: debs/net.limneos.bioprotectxs_4.6-27_iphoneos-arm.deb
 
 Package: me.lau.atria
 Version: 1.3.3
@@ -2205,7 +2261,7 @@ Filename: debs/waquickchat_0.1-2.deb
 
 Package: re.frida.server
 Name: Frida
-Version: 16.0.8
+Version: 16.0.11
 Priority: optional
 Size: 23072768
 Installed-Size: 79140
@@ -2216,7 +2272,7 @@ Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
 Author: Frida Developers <oleavr@nowsecure.com>
 Section: Development
 Conflicts: re.frida.server64
-Filename: debs/re.frida.server_16.0.8_iphoneos-arm.deb
+Filename: debs/re.frida.server_16.0.11_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
@@ -2291,16 +2347,15 @@ Depiction: https://ak-47v.github.io/twex/
 Package: me.jjolano.fmwk.hookkit
 Name: HookKit Framework
 Depends: firmware (>= 5.0.0), me.jjolano.fmwk.modulous (>= 1.0.0), me.jjolano.fmwk.modulous (<< 2.0.0)
-Recommends: me.jjolano.hkmodule.substrate
 Architecture: iphoneos-arm
 Description: An iOS developer framework for unified hooking methods.
 Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 1.0.5
+Version: 1.0.7
 Installed-Size: 284
-Filename: debs/me.jjolano.fmwk.hookkit_1.0.5_iphoneos-arm.deb
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.7_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tigisoftware.filza64bit
@@ -2473,18 +2528,21 @@ Depends: mobilesubstrate
 Version: 0.0.1
 Filename: debs/xyz.cypwn.watusicrack_0.0.1_iphoneos-arm.deb
 
-Package: xyz.cypwn.voicechangerx
-Maintainer: CyPwn
-Depiction: https://ak-47v.Github.io/twex/
+Package: net.limneos.voicechangerx
 Name: VoiceChanger Ios15تغيير الصوت أثناء المكالمة
-Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, xyz.cypwn.limneos
-Version: 2.2-94k
+Depends: mobilesubstrate, preferenceloader
+Conflicts:  com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Architecture: iphoneos-arm
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
 Description: VoiceChanger-Duringcall!تغير الصوت أثناء المكالمة
-Author: Elias Limneos
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Author: Elias Limneos <limneoselias@gmail.com>
 Section: Tweaks
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/voicechangerxs.png
-Filename: debs/xyz.cypwn.voicechangerx_2.2-94k_iphoneos-arm.deb
+MainLibMD5: 95b043ad4be47413b25c80f465cb2c32
+Version: 2.4-10
+Installed-Size: 1420
+Filename: debs/net.limneos.voicechangerx_2.4-10_iphoneos-arm.deb
+Depiction: https://ak-47v.github.io/twex/
 
 Package: xyz.cypwn.storeswitcher2
 Maintainer: CyPwn
@@ -2517,13 +2575,13 @@ Package: xyz.cypwn.debra
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
 Name: Debraتثبيت الأدوات عبر التيرمنال
-Version: 2.7.2
+Version: 2.7.4
 Architecture: iphoneos-arm
 Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), sudo, gawk (>= 5.1.0-2), tar (>= 1.33-1), xyz.cypwn.termcolors (>= 2.0.5)
 Description: Debra_ForTerminalإضافة للترمنال
 Author: Sudo & Paisseon
 Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
-Filename: debs/xyz.cypwn.debra_2.7.2_iphoneos-arm.deb
+Filename: debs/xyz.cypwn.debra_2.7.4_iphoneos-arm.deb
 
 Package: xyz.cypwn.complicationsfixfix
 Maintainer: CyPwn
@@ -2864,9 +2922,9 @@ Architecture: iphoneos-arm
 Author: Fouad Raheb <support@fouadraheb.com>
 Maintainer: Fouad Raheb <support@fouadraheb.com>
 Icon: file:///Library/Application Support/Watusi/Resources.bundle/Settings.bundle/WatusiSettingsLogo@3x.png
-Version: 1.1.51
-Installed-Size: 6624
-Filename: debs/com.fouadraheb.watusi3_1.1.51_iphoneos-arm.deb
+Version: 1.1.52
+Installed-Size: 6764
+Filename: debs/com.fouadraheb.watusi3_1.1.52_iphoneos-arm.deb
 
 Package: com.fouadraheb.appdata
 Name: AppDataحذف بيانات التطبيقات والمخلفات
@@ -2884,7 +2942,7 @@ Filename: debs/com.fouadraheb.appdata_1.3.6_iphoneos-arm.deb
 
 Package: com.f0u4d.watusitools
 Name: WatusiTools
-Version: 2.4.3
+Version: 2.4.4
 Description: Library for Watusiأداة مساعدة ل Watusi
 Depends: firmware (>= 10.0), darwintools
 Conflicts: com.fouadraheb.watusi (<< 1.1.5), org.mr.watusitools, org.mr.watusi3, org.mr.watusi, org.mr.contactsync, net.myclassic.stalky, net.myclassic.wat3, net.myclassic.watusitools, net.myclassic.watusi3, repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22, com.pulandres.watusi2
@@ -2893,7 +2951,7 @@ Architecture: iphoneos-arm
 Author: Fouad Raheb <support@fouadraheb.com>
 Maintainer: Fouad Raheb <support@fouadraheb.com>
 Depiction: https://ak-47v.Github.io/twex
-Filename: debs/com.f0u4d.watusitools_2.4.3_iphoneos-arm.deb
+Filename: debs/com.f0u4d.watusitools_2.4.4_iphoneos-arm.deb
 
 Package: com.daveapps.quitall
 Version: 3.1
@@ -3124,6 +3182,6 @@ Author: Sudo & Paisseon
 Section: Utilities
 Depends: mobilesubstrate, bash
 Conflicts: xyz.cypwn.bat, bat
-Version: 2.0.7
+Version: 2.0.8
 Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
-Filename: debs/xyz.cypwn.termcolors_2.0.7_iphoneos-arm.deb
+Filename: debs/xyz.cypwn.termcolors_2.0.8_iphoneos-arm.deb
