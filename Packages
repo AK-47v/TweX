@@ -1,4 +1,148 @@
 
+Author: saurik, Cannathea <csupport@cannathea.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Apple File Conduit 2 USBتصفح ملفات النظام عبر ال
+Package: com.cannathea.afc2d-arm64
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Section: Tweaks
+Version: 1.1.8
+Architecture: iphoneos-arm
+Description: Allow full file-system access over USBتصفح مافات النظام عبر
+dev: cannathea
+Tag: purpose::daemon
+Installed-Size: 312
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/afc2kppless_1.1.8.deb
+
+Package: com.ps.backupdfix
+Name: IcloudBackUp FixXinaإصلاح النسخ الإحتياطي
+Architecture: iphoneos-arm
+Description: Fix backupd not working on Xina jailbreak.إصلاح النسخ الإحتياطي للأيكلاود
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Version: 1.0.0
+Installed-Size: 168
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.ps.backupdfix_1.0.0_iphoneos-arm.deb
+
+Package: dev.traurige.libkitten
+Version: 1.4
+Section: 嗨-其他
+Maintainer: Traurige
+Depends: firmware (>= 12.0)
+Conflicts: love.litten.libkitten
+Provides: love.litten.libkitten (=1.3.3)
+Architecture: iphoneos-arm
+Installed-Size: 172
+Name: libKitten
+Author: Traurige
+Tag: role::developer
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/dev.traurige.libkitten_1.4_iphoneos-arm.deb
+
+Package: me.jjolano.fmwk.hookkit
+Name: HookKit Framework
+Depends: firmware (>= 5.0.0), me.jjolano.fmwk.modulous (>= 1.0.0), me.jjolano.fmwk.modulous (<< 2.0.0)
+Architecture: iphoneos-arm
+Description: An iOS developer framework for unified hooking methods.
+Maintainer: jjolano
+Author: jjolano
+Section: Development
+Tag: role::developer
+Version: 1.0.9
+Installed-Size: 252
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.9_iphoneos-arm.deb
+
+Package: me.jjolano.fmwk.modulous
+Name: Modulous Framework
+Architecture: iphoneos-arm
+Description: An iOS developer framework for modular software.
+Maintainer: jjolano
+Author: jjolano
+Section: Development
+Tag: role::developer
+Version: 1.0.4
+Installed-Size: 216
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/me.jjolano.fmwk.modulous_1.0.4_iphoneos-arm.deb
+
+Package: me.jjolano.hkmodule.dobby
+Name: HookKit Module (Dobby)
+Architecture: iphoneos-arm
+Description: This module provides Dobby library support for HookKit Framework.
+Maintainer: jjolano
+Author: jjolano
+Section: HookKit (Modules)
+Version: 1.0.3
+Installed-Size: 200
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/me.jjolano.hkmodule.dobby_1.0.3_iphoneos-arm.deb
+
+Package: me.jjolano.hkmodule.substrate
+Name: HookKit Module (Cydia Substrate)
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Maintainer: jjolano
+Author: jjolano
+Section: HookKit (Modules)
+Version: 1.0.4
+Installed-Size: 220
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/me.jjolano.hkmodule.substrate_1.0.4_iphoneos-arm.deb
+
+Package: net.limneos.answeringmachinex
+Name: AnsweringMachine 15/16للرد على المكالمات برساله صوتيه
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-158) ,  firmware (>= 11.0)
+Conflicts: net.limneos.audiorecorder (<= 1.7-4)
+Architecture: iphoneos-arm
+Description: AnsweringMachine 15/16خيارات للرد على المكالمات
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Author: Elias Limneos <limneoselias@gmail.com>
+Section: Tweaks
+Version: 2.0-17
+Installed-Size: 2464
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/net.limneos.answeringmachinex_2.0-17_iphoneos-arm.deb
+
+Package: net.limneos.aquaboardx
+Name: AquaBoard 15/16تأثير مائي للشاشة
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.aquaboard, net.limneos.aquaboard8, com.fuyuchi.unlockize
+Icon: file:///Library/PreferenceBundles/AquaPrefs.bundle/AquaBoard@2x.png
+Architecture: iphoneos-arm
+Description: Amazing Water Effects On SpringBoardتأثير مائي للشاشة
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Author: Elias Limneos <limneoselias@gmail.com>
+Section: Tweaks
+MainLibMD5: b1e897a436e6c4d18932218b11e34fb8
+Version: 2.0-3
+Installed-Size: 768
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/net.limneos.aquaboardx_2.0-3_iphoneos-arm.deb
+
+Package: net.limneos.autoanswerx
+Name: AutoAnswer 15الرد التلقائي للمكالمات
+Architecture: iphoneos-arm
+Description: Auto-answer any calls!الرد التلقائي للمكالمات
+Icon: file:///Library/PreferenceBundles/AutoAnswer.bundle/AutoAnswerXSettings@2x.png
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Author: Elias Limneos <limneoselias@gmail.com>
+Section: Tweaks
+MainLibMD5: 70d90fe28fd229135a234be1f4063872
+Version: 0.2-67
+Installed-Size: 768
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/net.limneos.autoanswerx_0.2-67_iphoneos-arm.deb
+
 Package: com.mtac.uptime
 Name: Uptimeإظهار زمن تفعيل الجلبريك بمركز التحكم
 Architecture: iphoneos-arm
@@ -36,10 +180,10 @@ Description: This module provides fishhook library support for HookKit Framework
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.3
+Version: 1.0.4
 Installed-Size: 224
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.fishhook_1.0.3_iphoneos-arm.deb
+Filename: debs/me.jjolano.hkmodule.fishhook_1.0.4_iphoneos-arm.deb
 
 Package: xyz.cypwn.genesisx
 Maintainer: CyPwn
@@ -281,19 +425,6 @@ SomeOtherEntryToControl: True
 Filename: debs/com.nahtedetihw.stepup-rootless.deb
 Description: ChangeTheAmountOF-
 StepVolumeتغيير مستوى خفض أو رفع الصوت
-
-Package: me.jjolano.fmwk.modulous
-Name: Modulous Framework
-Architecture: iphoneos-arm
-Description: An iOS developer framework for modular software.
-Maintainer: jjolano
-Author: jjolano
-Section: Development
-Tag: role::developer
-Version: 1.0.2
-Installed-Size: 216
-Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.fmwk.modulous_1.0.2_iphoneos-arm.deb
 
 Package: xyz.cypwn.bhtwitter
 Maintainer: CyPwn
@@ -870,10 +1001,10 @@ Maintainer: Ethan Whited
 Author: Ethan Whited
 Section: Tweaks
 Depends:
-Version: 1.0
+Version: 1.1
 Installed-Size: 172
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.nahtedetihw.musicalert_1.0_iphoneos-arm.deb
+Filename: debs/com.nahtedetihw.musicalert_1.1_iphoneos-arm.deb
 
 Package: com.miro.uyouimport
 Name: uYouImport uYouأداة خاصة ل
@@ -1035,9 +1166,9 @@ Architecture: iphoneos-arm
 Author: Rocket App
 Icon: https://apt.alfhaily.me/cdn/assets/rocket-icon.png
 Maintainer: Rocket App <support@getrocketapp.io>
-Version: 3.8.5
-Installed-Size: 8272
-Filename: debs/me.alfhaily.rocket_3.8.5_iphoneos-arm.deb
+Version: 3.8.6
+Installed-Size: 8292
+Filename: debs/me.alfhaily.rocket_3.8.6_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tapsharp.support
@@ -2342,20 +2473,6 @@ Section: Jb-Bypass
 Version: 3.6.9-2
 Installed-Size: 1400
 Filename: debs/me.jjolano.shadow_3.6.9-2_iphoneos-arm.deb
-Depiction: https://ak-47v.github.io/twex/
-
-Package: me.jjolano.fmwk.hookkit
-Name: HookKit Framework
-Depends: firmware (>= 5.0.0), me.jjolano.fmwk.modulous (>= 1.0.0), me.jjolano.fmwk.modulous (<< 2.0.0)
-Architecture: iphoneos-arm
-Description: An iOS developer framework for unified hooking methods.
-Maintainer: jjolano
-Author: jjolano
-Section: Development
-Tag: role::developer
-Version: 1.0.7
-Installed-Size: 284
-Filename: debs/me.jjolano.fmwk.hookkit_1.0.7_iphoneos-arm.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tigisoftware.filza64bit
