@@ -1,4 +1,77 @@
 
+Name: ConfirmToSendالتأكيد قبل إرسال الرساله
+Package: com.cydiageek.confirmtosend
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Version: 1.1.5
+Architecture: iphoneos-arm
+Description: Show Confirmations Popupالتأكيد قبل إرسال الرساله
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 844
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/ConfirmToSend.bundle/icon@2x.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/confirmtosend_1.1.5.deb
+
+Package: emt.paisseon.chocola
+Name: Chocolaخلفية شاشة القفل فيديو
+Architecture: iphoneos-arm
+Description: Lightweight video wallpapersاختيار فيديو خلفية لشاشة القفل
+Maintainer: Lilliana
+Author: Lilliana
+Section: Tweaks
+Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), preferenceloader, com.mrgcgamer.libgcuniversal
+Version: 1.2.3
+Installed-Size: 492
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/emt.paisseon.chocola_1.2.3_iphoneos-arm.deb
+
+Name: Gyrationتدوير الشاشة أي مكان
+Package: com.cydiageek.gyration
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, applist
+Version: 1.1.3
+Architecture: iphoneos-arm
+Description: Enable Rotation Over All the Appsتدوير الشاشة بأس مكان
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 517
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/Gyration.bundle/Gyration@2x.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/gyration_1.1.3.deb
+
+Package: net.limneos.randomiconsflip
+Name: Random Icon Flipتأثير عشوائي للأيقونات
+Depends: mobilesubstrate, firmware (>= 4.0)
+Architecture: iphoneos-arm
+Description: Randomly Flips SB Iconsتأثير عشوائي للأيقونات
+Maintainer: Elias Limneos
+Author: Elias Limneos
+Section: Tweaks
+Version: 0.3-20
+Installed-Size: 216
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/net.limneos.randomiconsflip_0.3-20_iphoneos-arm.deb
+
+Package: xyz.cypwn.touchflowx
+Maintainer: CyPwn
+Name: TouchFlowإظهار اللمسات على الشاشة
+Version: 1.0.6
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, xinaa15 | xyz.cypwn.xinaa15
+Architecture: iphoneos-arm
+Description: Show your touches for Xinaإظهار اللمسات على الشاشة
+Author: CreatureSurvive
+Section: Tweaks
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/touchflow.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.touchflowx_1.0.6_iphoneos-arm.deb
+
 Author: saurik, Cannathea <csupport@cannathea.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Name: Apple File Conduit 2 USBتصفح ملفات النظام عبر ال
@@ -9,14 +82,14 @@ Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios1
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Section: Tweaks
-Version: 1.1.8
+Version: 1.1.8-1
 Architecture: iphoneos-arm
 Description: Allow full file-system access over USBتصفح مافات النظام عبر
 dev: cannathea
 Tag: purpose::daemon
 Installed-Size: 312
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/afc2kppless_1.1.8.deb
+Filename: debs/afc2kppless_1.1.8-1.deb
 
 Package: com.ps.backupdfix
 Name: IcloudBackUp FixXinaإصلاح النسخ الإحتياطي
@@ -33,7 +106,7 @@ Filename: debs/com.ps.backupdfix_1.0.0_iphoneos-arm.deb
 
 Package: dev.traurige.libkitten
 Version: 1.4
-Section: 嗨-其他
+Section: System
 Maintainer: Traurige
 Depends: firmware (>= 12.0)
 Conflicts: love.litten.libkitten
@@ -123,10 +196,10 @@ Maintainer: Elias Limneos <limneoselias@gmail.com>
 Author: Elias Limneos <limneoselias@gmail.com>
 Section: Tweaks
 MainLibMD5: b1e897a436e6c4d18932218b11e34fb8
-Version: 2.0-3
+Version: 2.0-58
 Installed-Size: 768
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/net.limneos.aquaboardx_2.0-3_iphoneos-arm.deb
+Filename: debs/net.limneos.aquaboardx_2.0-58_iphoneos-arm.deb
 
 Package: net.limneos.autoanswerx
 Name: AutoAnswer 15الرد التلقائي للمكالمات
@@ -187,17 +260,17 @@ Filename: debs/me.jjolano.hkmodule.fishhook_1.0.4_iphoneos-arm.deb
 
 Package: xyz.cypwn.genesisx
 Maintainer: CyPwn
-Name: Genesis Xinaللتعديل على شاشة القفل
-Version: 99.0
+Name: Genesis Xinaللتعديل على مظهر الجهاز
+Version: 99.01
 Section: Tweaks
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader, firmware (>=15.0), firmware (<=15.1.1), ws.hbang.common (>=1.16), xyz.itznebbs.libnebbs (>=1.5.3), com.spark.libsparkapplist, org.thebigboss.libcolorpicker, com.peterdev.libpddokdo, love.litten.libkitten | xyz.cypwn.libkitten, com.smokin1337.ldrestarthelper, xinaa15 | xyz.cypwn.xinaa15
 Conflicts: xyz.tylerd3v.genesis, xyz.tylerd3v.genesis13, xyz.itznebbs.genesis2, xyz.itznebbs.genesis3
 Author: ItzNebbs
-Description: All-in-One tweak for Xinaاداة للتعديل على شاشة القفل 
+Description: All-in-One tweak for Xinaاداة للتعديل على مظهر الجهاز 
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/genesisx.png
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/xyz.cypwn.genesisx_99.0_iphoneos-arm.deb
+Filename: debs/xyz.cypwn.genesisx_99.01_iphoneos-arm.deb
 
 Package: com.rpgfarm.a-font
 Name: A-Fontتغير الخط للجهاز
@@ -598,7 +671,6 @@ Name: bypassJBحجب الجلبريك عن التطبيقات
 Package: com.bypassjb.sniper
 Priority: optional
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.spark.libsparkapplist, ws.hbang.common (>= 1.17)
-Version: 2.3
 Architecture: iphoneos-arm
 Description: Sniper bypassjb Work in some apps not all applicationsحجب الجلبريك عن بعض التطبيقات
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bypassjbDp
@@ -606,11 +678,12 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: Sniper @DNS_Sys <aeeo@hotmail.com>
 Section: Jb-Bypass
 Tag: purpose::extension
-Installed-Size: 621
+Version: 3.3
+Installed-Size: 680
 dev: sniper
 Icon: file:///Library/PreferenceBundles/BypassJB.bundle/icon@2x.png
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/bypassjb_2.3.deb
+Filename: debs/com.bypassjb.sniper_3.3_iphoneos-arm.deb
 
 Architecture: iphoneos-arm
 Package: com.anthopak.addtofolder
@@ -1377,10 +1450,10 @@ Maintainer: Lilliana
 Author: Lilliana
 Section: Hacking InApps
 Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), preferenceloader, lilliana.jinxserver
-Version: 0.0.5
-Installed-Size: 240
+Version: 0.0.6
+Installed-Size: 244
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/lilliana.ishtar_0.0.5_iphoneos-arm 2.deb
+Filename: debs/lilliana.ishtar_0.0.6_iphoneos-arm.deb
 
 Package: libplist3
 Priority: standard
@@ -1709,10 +1782,10 @@ Maintainer: iOSGods.com
 Author: Laxus
 Section: Games(Hack)
 Homepage: https://iosgods.com
-Version: 2022.12.14+iOSGods.com
-Installed-Size: 10112
+Version: 2023.2.28+iOSGods.com
+Installed-Size: 8544
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/iOSGods.com.AmongUS_2022.12.14+iOSGods.com_iphoneos-arm.deb
+Filename: debs/iOSGods.com.AmongUS_2023.2.28+iOSGods.com_iphoneos-arm.deb
 
 Package: iOSGods.com.ho
 Name: Hide Online Cheats⭐️هاك لعبة
@@ -2830,9 +2903,9 @@ Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), preferenceloader, lillia
 Conflicts: ai.paisseon.satella
 Icon: https://paisseon.github.io/icons/satella.png
 Depiction: https://ak-47v.Github.io/twex/
-Version: 1.6
-Installed-Size: 648
-Filename: debs/emt.paisseon.satella_1.6_iphoneos-arm.deb
+Version: 1.7
+Installed-Size: 656
+Filename: debs/emt.paisseon.satella_1.7_iphoneos-arm.deb
 
 Package: emt.paisseon.erika
 Name: Erika Zebra/Sailyتحميل الأدوات المدفوعة من
