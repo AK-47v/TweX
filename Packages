@@ -982,20 +982,19 @@ Icon: file:///Library/PreferenceBundles/anilaunchprefs.bundle/anilaunch@2x.png
 Depiction: https://ak-47v.github.io/twex/
 Filename: debs/anilaunch_1.1.10.deb
 
-Package: xyz.cypwn.xinaa15
+Package: xinaa15
+Essential: yes
+Priority: required
 Section: XinaFix
 Maintainer: CyPwn
 Architecture: iphoneos-arm
-Version: 1.1.6.2
-Description: A Fix For Xinaa15إصلاح للنسخة الرسمية
+Version: 99.0
+Description: A jailbreak identifier made for package conflicts and requirements with XinaA15 jb.
 Depends: firmware (>= 15.0), firmware (<= 15.1.1)
-Provides: xinaa15
-Replaces: xinaa15
-Conflicts: xinaa15
-Name: XinaA15 Fix إصلاح للنخسة 1.1.6.2
+Name: XinaA15 لإصلاح تعارض الأدوات
 Author: SingleKeycap
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/xyz.cypwn.xinaa15_1.1.6.2_iphoneos-arm.deb
+Filename: debs/xyz.cypwn.xinaa15_99.0_iphoneos-arm.deb
 
 Package: xyz.cypwn.switchshades
 Maintainer: CyPwn
@@ -2751,7 +2750,7 @@ Depiction: https://ak-47v.Github.io/twex/
 Package: xyz.cypwn.limneos
 Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
-Name: Limneos Crackكراك لأدوات إلياس ليمونه😂
+Name: Limneos Crack🛠كراك لأدوات إلياس 
 Author: Anna
 Description: Crack for Limneos tweaks
 Depends: mobilesubstrate
