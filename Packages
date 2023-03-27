@@ -1,4 +1,72 @@
 
+Package: com.miro.libphonenumber
+Name: libPhoneNumber
+Depends: firmware (>=12.0)
+Architecture: iphoneos-arm
+Description: Google's phone number handling library.
+Maintainer: MiRO <tweaks_support@miro92.com>
+Author: MiRO <tweaks_support@miro92.com>
+Section: Development
+Tag: role::developer, compatible_min::ios12, compatible_max::ios14
+Version: 1.0
+Installed-Size: 588
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.miro.libphonenumber_1.0_iphoneos-arm.deb
+
+Package: dev.traurige.eneko
+Name: Enekoتعيين فيديو خلفية لشاشة القفل
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Architecture: iphoneos-arm
+Description: Video wallpapers تعيين فيديو كخلفية لشاشة القفل
+Maintainer: Traurige
+Author: Traurige
+Section: Tweaks
+Version: 1.2
+Installed-Size: 368
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/dev.traurige.eneko_1.2_iphoneos-arm.deb
+
+Package: net.cadoth.noinappsafari
+Name: NoInAppSafariتصفح المواقع عبر سفاري
+Architecture: iphoneos-arm64
+Description: Disable in-app browsersتصفح المواقع خارج التطبيق عبر سفاري
+Maintainer: alexia <me@alexia.lol>
+Author: alexia <me@alexia.lol>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: in.net.mario.tweak.openurlprompt
+Version: 0.1.2
+Installed-Size: 120
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/net.cadoth.noinappsafari_0.1.2_iphoneos-arm64.deb
+
+Package: twitter.nowesr1.rocketcrack
+Name: Rocket Instagram Crack🛠كراك أداة 
+Author: nowesr1 <nowe9r@hotmail.com>
+Description: يتم تثبيتها بجانب النسخة الرسمية للأداة من سورس المطور - توجه الى اعدادات روكيت واختر upgrade ثم Restore Purchase ---                                    use official Rocket from developer repo and this crack besides it , go to Rocket Settings- Upgrade- Restore Purchase
+Depends: mobilesubstrate
+Maintainer: nowesr1 <nowe9r@hotmail.com>
+Architecture: iphoneos-arm
+Section: Cracks
+Version: 1.0
+Installed-Size: 280
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/RocketCrack_nowesr1.deb
+
+Package: xyz.cypwn.yellowpagesx
+Maintainer: CyPwn
+Name: YellowPages Xمعرفة هوية المتصل
+Depends: mobilesubstrate, preferenceloader, com.miro.libmiro (>= 1.0.19), com.miro.libmiroprefs (>= 1.0.2), ws.hbang.common (>= 1.17), com.miro.libphonenumber, xinaa15
+Description: Know the caller ID before answeringمعرفة إسم المتصل قبل الرد على المكالمه
+Architecture: iphoneos-arm
+Author: MiRO
+Section: Tweaks
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/yellowpages.png
+Version: 1.0.8
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.yellowpagesx_1.0.8_iphoneos-arm.deb
+
 Name: ConfirmToSendالتأكيد قبل إرسال الرساله
 Package: com.cydiageek.confirmtosend
 Priority: optional
@@ -128,10 +196,10 @@ Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 1.0.9
-Installed-Size: 252
+Version: 1.0.10
+Installed-Size: 260
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.fmwk.hookkit_1.0.9_iphoneos-arm.deb
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.10_iphoneos-arm64.deb
 
 Package: me.jjolano.fmwk.modulous
 Name: Modulous Framework
@@ -141,10 +209,10 @@ Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 1.0.4
-Installed-Size: 216
+Version: 1.0.5
+Installed-Size: 224
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.fmwk.modulous_1.0.4_iphoneos-arm.deb
+Filename: debs/me.jjolano.fmwk.modulous_1.0.5_iphoneos-arm64.deb
 
 Package: me.jjolano.hkmodule.dobby
 Name: HookKit Module (Dobby)
@@ -153,10 +221,10 @@ Description: This module provides Dobby library support for HookKit Framework.
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.3
-Installed-Size: 200
+Version: 1.0.4
+Installed-Size: 256
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.dobby_1.0.3_iphoneos-arm.deb
+Filename: debs/me.jjolano.hkmodule.dobby_1.0.4_iphoneos-arm.deb
 
 Package: me.jjolano.hkmodule.substrate
 Name: HookKit Module (Cydia Substrate)
@@ -166,10 +234,10 @@ Description: This module provides the Cydia Substrate API for HookKit Framework.
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.4
-Installed-Size: 220
+Version: 1.0.5
+Installed-Size: 228
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.substrate_1.0.4_iphoneos-arm.deb
+Filename: debs/me.jjolano.hkmodule.substrate_1.0.5_iphoneos-arm64.deb
 
 Package: net.limneos.answeringmachinex
 Name: AnsweringMachine 15/16للرد على المكالمات برساله صوتيه
@@ -253,10 +321,10 @@ Description: This module provides fishhook library support for HookKit Framework
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.4
-Installed-Size: 224
+Version: 1.0.5
+Installed-Size: 232
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.fishhook_1.0.4_iphoneos-arm.deb
+Filename: debs/me.jjolano.hkmodule.fishhook_1.0.5_iphoneos-arm64.deb
 
 Package: xyz.cypwn.genesisx
 Maintainer: CyPwn
@@ -1808,10 +1876,10 @@ Description: StumbleGuysModMenuهاك لعبةستمبل
 Maintainer: iOSGods.com
 Author: TimidNova
 Section: Games(Hack)
-Version: 0.44.0+iOSGods.com
-Installed-Size: 5664
+Version: 0.46.3+iOSGods.com
+Installed-Size: 6344
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/iOSGods.com.StumbleGuys_0.44.0iOSGods.com_iphoneos-arm.deb
+Filename: debs/iOSGods.com.StumbleGuys_0.46.3iOSGods.com_iphoneos-arm.deb
 
 Package: com.ioselite.umarbutt
 Name: vpnproxy⭐️تفعيل البريميوم
@@ -2871,9 +2939,9 @@ Depends: mobilesubstrate, preferenceloader, firmware(>=13.0)
 Description: Dynamic Island on your notchجلب مظهر نوتش الأيفون 14 للأجهزة القديمة
 Depiction: https://ak-47v.Github.io/twex/
 MainLibMD5: de01e1eb424f3f8fb898594920c73641
-Version: 0.1-180
-Installed-Size: 1316
-Filename: debs/net.limneos.dynamicpeninsula_0.1-180_iphoneos-arm.deb
+Version: 0.3-2
+Installed-Size: 1508
+Filename: debs/net.limneos.dynamicpeninsula_0.3-2_iphoneos-arm.deb
 
 Package: net.limneos.audiorecorderxs
 Name: AudioRecorder XS 15/16🔴مسجل المكالمات
@@ -2902,9 +2970,9 @@ Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), preferenceloader, lillia
 Conflicts: ai.paisseon.satella
 Icon: https://paisseon.github.io/icons/satella.png
 Depiction: https://ak-47v.Github.io/twex/
-Version: 1.7
-Installed-Size: 656
-Filename: debs/emt.paisseon.satella_1.7_iphoneos-arm.deb
+Version: 1.7.1
+Installed-Size: 684
+Filename: debs/emt.paisseon.satella_1.7.1_iphoneos-arm.deb
 
 Package: emt.paisseon.erika
 Name: Erika Zebra/Sailyتحميل الأدوات المدفوعة من
