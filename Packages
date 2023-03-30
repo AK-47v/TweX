@@ -1,4 +1,49 @@
 
+Name: Iconerالتعديل على الأيقونات ومظهرها
+Package: com.cydiageek.iconer
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, applist, org.thebigboss.libcolorpicker
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Custom Icons Selection/Colors/Features!التعديل على مظهر الأيقونات
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 1523
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/Iconer.bundle/icon@2x.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/iconer_1.0.2.deb
+
+Package: net.cadoth.nosbreload
+Name: NoSBReloadإرجاع شكل الريسبرنق الإعتيادي
+Architecture: iphoneos-arm
+Description: Replace sbreload with traditional respring to fix autofill issues
+Maintainer: alexia <me@alexia.lol>
+Author: alexia <me@alexia.lol>
+Section: XinaFix
+Depends: firmware (<< 15.0)
+Version: 0.1.1-1
+Installed-Size: 68
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/net.cadoth.nosbreload_0.1.1-1_iphoneos-arm.deb
+
+Package: xyz.cypwn.aimpro
+Maintainer: CyPwn
+Section: Tweaks
+Installed-Size: 6172
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Description: iOS 16 Style Time & Date Lockscreenمظهر شاشة القفل ios16
+Name: AIM Pro Ios16مظهر شاشة القفل ل
+Author: alimaulana
+Icon: https://media.havoc.app/642009161ed06bb2ce43e2a1
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.aimpro_1.0_iphoneos-arm.deb
+
 Package: com.miro.libphonenumber
 Name: libPhoneNumber
 Depends: firmware (>=12.0)
@@ -196,10 +241,10 @@ Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 1.0.10
-Installed-Size: 260
+Version: 1.0.11
+Installed-Size: 172
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.fmwk.hookkit_1.0.10_iphoneos-arm64.deb
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.11_iphoneos-arm64.deb
 
 Package: me.jjolano.fmwk.modulous
 Name: Modulous Framework
@@ -209,10 +254,10 @@ Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 1.0.5
-Installed-Size: 224
+Version: 1.0.6
+Installed-Size: 168
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.fmwk.modulous_1.0.5_iphoneos-arm64.deb
+Filename: debs/me.jjolano.fmwk.modulous_1.0.6_iphoneos-arm64.deb
 
 Package: me.jjolano.hkmodule.dobby
 Name: HookKit Module (Dobby)
@@ -221,10 +266,10 @@ Description: This module provides Dobby library support for HookKit Framework.
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.4
+Version: 1.0.5
 Installed-Size: 256
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.dobby_1.0.4_iphoneos-arm.deb
+Filename: debs/me.jjolano.hkmodule.dobby_1.0.5_iphoneos-arm64.deb
 
 Package: me.jjolano.hkmodule.substrate
 Name: HookKit Module (Cydia Substrate)
@@ -234,10 +279,10 @@ Description: This module provides the Cydia Substrate API for HookKit Framework.
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.5
-Installed-Size: 228
+Version: 1.0.6
+Installed-Size: 168
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.substrate_1.0.5_iphoneos-arm64.deb
+Filename: debs/me.jjolano.hkmodule.substrate_1.0.6_iphoneos-arm64.deb
 
 Package: net.limneos.answeringmachinex
 Name: AnsweringMachine 15/16للرد على المكالمات برساله صوتيه
@@ -321,10 +366,10 @@ Description: This module provides fishhook library support for HookKit Framework
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.5
-Installed-Size: 232
+Version: 1.0.6
+Installed-Size: 172
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.fishhook_1.0.5_iphoneos-arm64.deb
+Filename: debs/me.jjolano.hkmodule.fishhook_1.0.6_iphoneos-arm64.deb
 
 Package: xyz.cypwn.genesisx
 Maintainer: CyPwn
@@ -2559,7 +2604,7 @@ Architecture: iphoneos-arm
 Description: Ucan Install unsigned Appتمكين تثبيت التطبيقات 
 Section: Tweaks
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Version: 108.0
+Version: 110.0
 Installed-Size: 700
 Filename: debs/nodelete-ai.akemi.appsyncunified.deb
 
@@ -2610,9 +2655,9 @@ Description: Jb-Bypass Detection For Pubg On Xinaa15أفضل أداة تخطي �
 Maintainer: jjolano
 Author: jjolano
 Section: Jb-Bypass
-Version: 3.6.9-2
-Installed-Size: 1400
-Filename: debs/me.jjolano.shadow_3.6.9-2_iphoneos-arm.deb
+Version: 3.7.1
+Installed-Size: 1080
+Filename: debs/me.jjolano.shadow_3.7.1_iphoneos-arm64.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tigisoftware.filza64bit
@@ -2678,14 +2723,14 @@ Package: com.opa334.libsandy
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
 Section: System
-Installed-Size: 576
-Version: 1.0.4
+Installed-Size: 356
+Version: 1.0.4.1-3
 Architecture: iphoneos-arm
 Description: Securely extend the sandbox of system processes and user applications
 dev: opa334
 Tag: purpose::extension, role::developer
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/libsandy_1.0.4.deb
+Filename: debs/com.opa334.libsandy_1.0.4.1-3_iphoneos-arm64.deb
 
 Package: com.opa334.altlist
 Name: AltList
@@ -2925,9 +2970,9 @@ dev: dustinhowett
 Depiction: https://ak-47v.Github.io/twex/
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Tag: role::hacker, purpose::library
-Version: 2.2.6
-Installed-Size: 526
-Filename: debs/preferenceloader_2.2.6.deb
+Installed-Size: 435
+Version: 2.2.6-1
+Filename: debs/preferenceloader_2.2.6-1_iphoneos-arm64.deb
 
 Package: net.limneos.dynamicpeninsula
 Name: DynamicPeninsula14 Pro Maxنوتش أيفون 
@@ -3104,9 +3149,9 @@ Author: MTAC
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
 Icon: file:///Library/Application Support/Ampere/ampere.png
-Version: 1.0.7
-Installed-Size: 1724
-Filename: debs/com.mtac.ampere_1.0.7_iphoneos-arm.deb
+Version: 1.0.8
+Installed-Size: 536
+Filename: debs/com.mtac.ampere_1.0.8_iphoneos-arm64.deb
 Depiction: https://ak-47v.Github.io/twex/
 
 Package: com.julioverne.lowerinstall
