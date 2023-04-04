@@ -1,4 +1,62 @@
 
+Architecture: iphoneos-arm
+Package: com.johnzaro.dateundertime13
+Name: PerfectTimeإضافة التاريخ تحت الساعة
+Icon: https://johnzaro.github.io/cydia/assets/com.johnzaro.dateundertime13/icon.png
+Description: Adds second line in status barإضافة التاريخ تحت الساعة بالستاتوس بار
+Section: Tweaks
+Depends: firmware (>=13.0), mobilesubstrate, com.spark.libsparkapplist, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14)
+Conflicts: com.mpg13.undertime, com.neinzedd9.dateundertimex, com.huchundong.weekrighttimex, com.huchundong.perfecttimex, com.yourepo.kingmehu.perfecttimexs
+Tags: compatible_min::ios13.0
+Author: Johnzaro  <johnzrgnns@gmail.com>
+Maintainer: Johnzaro  <johnzrgnns@gmail.com>
+Version: 2.0
+Installed-Size: 656
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.johnzaro.dateundertime13.deb
+
+Package: com.ryannair05.cylinder
+Version: 1.1.1
+Architecture: iphoneos-arm
+Section: Tweaks
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1652
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Name: Cylinder Rebornإضافة تأثيرات للأيقونات
+Description: Make your icons danceتأثيرات للأيقونات عند التنقل في الشاشة الرئيسية
+Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
+Tag: compatible_min::ios11.0
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.ryannair05.cylinder_1.1.1_iphoneos-arm.deb
+
+Package: me.jjolano.fmwk.rootbridge
+Name: RootBridge Framework
+Depends: firmware (>= 8.0)
+Architecture: iphoneos-arm64
+Description: An iOS developer framework for rootless tweak development.
+Maintainer: jjolano
+Author: jjolano
+Section: Development
+Tag: role::developer
+Version: 1.0.0
+Installed-Size: 168
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/me.jjolano.fmwk.rootbridge_1.0.0_iphoneos-arm64.deb
+
+Package: me.luki.stealthcc
+Name: StealthCCتقليل ضبابية مركز التحكم
+Architecture: iphoneos-arm
+Description: Control the intensity of the stock CCتقليل ضبابية مركز التحكم
+Maintainer: Luki
+Author: Luki
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Version: 0.9.0
+Installed-Size: 376
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/me.luki.stealthcc_0.9.0_iphoneos-arm.deb
+
 Name: Iconerالتعديل على الأيقونات ومظهرها
 Package: com.cydiageek.iconer
 Priority: optional
@@ -28,21 +86,6 @@ Version: 0.1.1-1
 Installed-Size: 68
 Depictions: https://ak-47v.github.io/twex/
 Filename: debs/net.cadoth.nosbreload_0.1.1-1_iphoneos-arm.deb
-
-Package: xyz.cypwn.aimpro
-Maintainer: CyPwn
-Section: Tweaks
-Installed-Size: 6172
-Architecture: iphoneos-arm
-Version: 1.0
-Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
-Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
-Description: iOS 16 Style Time & Date Lockscreenمظهر شاشة القفل ios16
-Name: AIM Pro Ios16مظهر شاشة القفل ل
-Author: alimaulana
-Icon: https://media.havoc.app/642009161ed06bb2ce43e2a1
-Depictions: https://ak-47v.github.io/twex/
-Filename: debs/xyz.cypwn.aimpro_1.0_iphoneos-arm.deb
 
 Package: com.miro.libphonenumber
 Name: libPhoneNumber
@@ -241,10 +284,10 @@ Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 1.0.11
+Version: 1.0.14
 Installed-Size: 172
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.fmwk.hookkit_1.0.11_iphoneos-arm64.deb
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.14_iphoneos-arm64.deb
 
 Package: me.jjolano.fmwk.modulous
 Name: Modulous Framework
@@ -266,10 +309,10 @@ Description: This module provides Dobby library support for HookKit Framework.
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.5
-Installed-Size: 256
+Version: 1.0.6
+Installed-Size: 216
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.dobby_1.0.5_iphoneos-arm64.deb
+Filename: debs/me.jjolano.hkmodule.dobby_1.0.6_iphoneos-arm64.deb
 
 Package: me.jjolano.hkmodule.substrate
 Name: HookKit Module (Cydia Substrate)
@@ -2655,9 +2698,9 @@ Description: Jb-Bypass Detection For Pubg On Xinaa15أفضل أداة تخطي �
 Maintainer: jjolano
 Author: jjolano
 Section: Jb-Bypass
-Version: 3.7.1
+Version: 3.7.2
 Installed-Size: 1080
-Filename: debs/me.jjolano.shadow_3.7.1_iphoneos-arm64.deb
+Filename: debs/me.jjolano.shadow_3.7.2_iphoneos-arm64.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tigisoftware.filza64bit
@@ -2723,14 +2766,14 @@ Package: com.opa334.libsandy
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
 Section: System
-Installed-Size: 356
-Version: 1.0.4.1-3
+Version: 1.0.5
+Installed-Size: 436
 Architecture: iphoneos-arm
 Description: Securely extend the sandbox of system processes and user applications
 dev: opa334
 Tag: purpose::extension, role::developer
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.opa334.libsandy_1.0.4.1-3_iphoneos-arm64.deb
+Filename: debs/com.opa334.libsandy_1.0.5_iphoneos-arm.deb
 
 Package: com.opa334.altlist
 Name: AltList
@@ -2742,9 +2785,9 @@ Maintainer: opa334
 Author: opa334
 Section: System
 Tag: role::developer
-Version: 1.0.9
+Version: 1.0.10
 Installed-Size: 388
-Filename: debs/com.opa334.altlist_1.0.9_iphoneos-arm.deb
+Filename: debs/com.opa334.altlist_1.0.10_iphoneos-arm.deb
 
 Package: com.miro.perfectcalc
 Name: PerfectCalcإضافة ميزة حاسبة الأندرويد
@@ -3095,9 +3138,9 @@ Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Maintainer: Spark
 Author: Spark & Dennis D. Bednarz
 Section: Tweaks
-Version: 1.5.5~Beta2
-Installed-Size: 5204
-Filename: debs/1.5.5~Beta2.deb
+Version: 1.5.11-Beta3
+Installed-Size: 4244
+Filename: debs/1.5.11-Beta3.deb
 Depiction: https://ak-47v.Github.io/twex/
 
 Package: com.ps.cconandoff
@@ -3112,7 +3155,7 @@ Section: Tweaks
 Depiction: https://ak-47v.Github.io/twex/
 Version: 1.1.0
 Installed-Size: 136
-Filename: debs/com.ps.cconandoff_1.1.0_iphoneos-arm.deb
+Filename: debs/com.ps.cconandoff_1.1.0_iphoneos-arm64.deb
 
 Package: com.ps.cahighfps
 Name: CAHighFPSرفع كفاءة الفريمات
@@ -3125,7 +3168,7 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>
 Depiction: https://ak-47v.Github.io/twex/
 Version: 1.3.0
 Installed-Size: 204
-Filename: debs/com.ps.cahighfps_1.3.0_iphoneos-arm.deb
+Filename: debs/com.ps.cconandoff_1.1.0_iphoneos-arm64.deb
 
 Package: com.ps.amber
 Name: Amberتغيير لون إضاءة الكشاف
@@ -3138,7 +3181,7 @@ Section: Tweaks
 Depiction: https://ak-47v.Github.io/twex/
 Version: 1.2.0
 Installed-Size: 368
-Filename: debs/com.ps.amber_1.2.0_iphoneos-arm.deb
+Filename: debs/com.ps.amber_1.2.0_iphoneos-arm64.deb
 
 Package: com.mtac.ampere
 Name: Ampere Ios16مظهر البطارية ل
@@ -3224,9 +3267,9 @@ Architecture: iphoneos-arm
 Author: Fouad Raheb <support@fouadraheb.com>
 Maintainer: Fouad Raheb <support@fouadraheb.com>
 Icon: file:///Library/Application Support/Watusi/Resources.bundle/Settings.bundle/WatusiSettingsLogo@3x.png
-Version: 1.1.52
+Version: 1.1.53
 Installed-Size: 6764
-Filename: debs/com.fouadraheb.watusi3_1.1.52_iphoneos-arm.deb
+Filename: debs/com.fouadraheb.watusi3_1.1.53_iphoneos-arm.deb
 
 Package: com.fouadraheb.appdata
 Name: AppDataحذف بيانات التطبيقات والمخلفات
@@ -3244,7 +3287,7 @@ Filename: debs/com.fouadraheb.appdata_1.3.6_iphoneos-arm.deb
 
 Package: com.f0u4d.watusitools
 Name: WatusiTools
-Version: 2.4.4
+Version: 2.4.5
 Description: Library for Watusiأداة مساعدة ل Watusi
 Depends: firmware (>= 10.0), darwintools
 Conflicts: com.fouadraheb.watusi (<< 1.1.5), org.mr.watusitools, org.mr.watusi3, org.mr.watusi, org.mr.contactsync, net.myclassic.stalky, net.myclassic.wat3, net.myclassic.watusitools, net.myclassic.watusi3, repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22, com.pulandres.watusi2
@@ -3253,7 +3296,7 @@ Architecture: iphoneos-arm
 Author: Fouad Raheb <support@fouadraheb.com>
 Maintainer: Fouad Raheb <support@fouadraheb.com>
 Depiction: https://ak-47v.Github.io/twex
-Filename: debs/com.f0u4d.watusitools_2.4.4_iphoneos-arm.deb
+Filename: debs/com.f0u4d.watusitools_2.4.5_iphoneos-arm.deb
 
 Package: com.daveapps.quitall
 Version: 3.1
@@ -3352,8 +3395,8 @@ Provides: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Conflicts: com.ioscreatix.silo
 Section: Tweaks
-Installed-Size: 388
-Version: 1.3.9
+Version: 1.3.10
+Installed-Size: 460
 Architecture: iphoneos-arm
 Description: Support tweak for CC modules!
 Depiction: https://ak-47v.Github.io/twex
@@ -3361,7 +3404,7 @@ Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: opa334
 Tag: purpose::extension
-Filename: debs/ccsupport_1.3.9.deb
+Filename: debs/com.opa334.ccsupport_1.3.10_iphoneos-arm.deb
 
 Name: Carrierizer2تغيير إسم شركة الإتصالات
 Package: com.cydiageek.carrierizer2
