@@ -1,4 +1,328 @@
 
+Package: am.ldid
+Section: Utilities
+Maintainer: TIGI Software <info@tigisoftware.com>
+Architecture: iphoneos-arm
+Description: pseudo-codesign Mach-O files for Apps Manager. Built from ProcursusTeam/ldid
+Name: ldid for Apps Manager
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Tag: purpose::console
+Version: 2.1.5-2
+Installed-Size: 4028
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/am.ldid_2.1.5-2_iphoneos-arm.deb
+
+Package: com.christopher.everest
+Name: Everestتأثير عند الضغط على الأيقونة
+Architecture: iphoneos-arm
+Description: App icon animationsتأثيرات عند الضغط على الأيقونات
+Maintainer: Christopher Anderson
+Author: Christopher Anderson
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
+Version: 1.0.0
+Installed-Size: 17276
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.christopher.everest_1.0.0_iphoneos-arm.deb
+
+Package: com.galacticdev.isponsorblock
+Name: iSponsorBlockحذف إعلانات اليوتيوب
+Architecture: iphoneos-arm
+Description: SponsorBlock For Youtube حذف إعلانات اليوتيوب
+Maintainer: Galactic Dev
+Author: Galactic Dev
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.1)
+Icon: https://raw.githubusercontent.com/ajayyy/SponsorBlock/master/public/icons/LogoSponsorBlocker64px.png
+Version: 1.0-15
+Installed-Size: 588
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.galacticdev.isponsorblock_1.0-15_iphoneos-arm.deb
+
+Package: com.ichitaso.otadisabler
+Name: OTADisablerتعطيل التحديثات للأيفون
+Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
+Architecture: iphoneos-arm
+Description: Delete and disable OTA badgeتعطيل تحديثات الأيفون
+Maintainer: ichitaso
+Author: ichitaso
+Section: Tweaks
+Version: 0.3
+Installed-Size: 200
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.ichitaso.otadisabler_0.3_iphoneos-arm.deb
+
+Architecture: iphoneos-arm
+Package: com.johnzaro.perfectcontrolcenter
+Name: PerfectControlCenterالتعديل على مركز التحكم
+Icon: https://johnzaro.github.io/cydia/assets/com.johnzaro.perfectcontrolcenter/icon.png
+Description: Custom ControlCenter تعديل مظهر مركز التحكم
+Section: Tweaks
+Depends: firmware (>=13.0), mobilesubstrate, com.opa334.ccsupport, preferenceloader, ws.hbang.common (>= 1.14)
+Tags: compatible_min::ios13.0, compatible_max::ios13.6
+Author: Johnzaro  <johnzrgnns@gmail.com>
+Maintainer: Johnzaro  <johnzrgnns@gmail.com>
+Version: 1.6
+Installed-Size: 1396
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.johnzaro.perfectcontrolcenter.deb
+
+Package: com.rob311.sorrylowbattery
+Name: SorryLowBatteryتزوير نسبة شحن الهاتف
+Depends: mobilesubstrate, firmware (>= 7.0)
+Description: Fake battery percentageتزوير نسبة شحن الهاتف 
+Maintainer: rob311 <rob@rob311.com>
+Author: rob311 <rob@rob311.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.6
+Installed-Size: 1868
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.rob311.sorrylowbattery_1.6_iphoneos-arm64.deb
+
+Package: com.sop.cachemagic
+Name: Cache Magicإختصار لحذف مخلفات التطبيقات من مركز التحكم
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Description: Add a button to your Control Center to clear the cacheحذف مخلفات التطبيقات من مركز التحكم
+Maintainer: SOPPPra
+Author: SOPPPra
+Section: Tweaks
+Icon: https://i.postimg.cc/cJRLqR79/ss.png
+Architecture: iphoneos-arm
+Version: 1.3.1
+Installed-Size: 180
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.sop.cachemagic_1.3.1_iphoneos-arm.deb
+
+Package: com.sop.cpumagic
+Name: Cpu Magicإضافة نسبةإستهلاك المعالج لمركز التحكم
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Description: Add cpu info to your control centerنسبة إستهلاك المعالج لمركز التحكم
+Maintainer: SOPPPra
+Author: SOPPPra
+Section: Tweaks
+Icon: https://i.postimg.cc/FzKLczmN/cpu.png
+Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.cpumagic.json
+Architecture: iphoneos-arm
+Version: 1.0
+Installed-Size: 224
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.sop.cpumagic_1.0_iphoneos-arm.deb
+
+Package: com.sop.killapps
+Name: killappsلإغلاق التطبيقات دفعة واحدة
+Description: Customize your app switcherإغلاق التطبيقات دفعة واحدة عبر السحب للأسفل
+Maintainer: SOPPPra
+Author: SOPPPra
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), preferenceloader, com.spark.libsparkapplist, com.mrgcgamer.libgcuniversal
+Icon: https://i.postimg.cc/hGzV6VSP/icon.png
+Architecture: iphoneos-arm
+Version: 1.7.4
+Installed-Size: 788
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.sop.killapps_1.7.4_iphoneos-arm.deb
+
+Package: com.sop.memorymagic
+Name: Memory Magic إظهار نسبة الذاكرة بمركز التحكم
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Description: Add ram info to your control centerإظهار الذاكرة بمركز التحكم
+Maintainer: SOPPPra
+Author: SOPPPra
+Section: Tweaks
+Icon: https://i.postimg.cc/bvXdPFnP/Zerode-Plump-Device-RAM-256.png
+Architecture: iphoneos-arm
+Version: 1.1.1
+Installed-Size: 216
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.sop.memorymagic_1.1.1_iphoneos-arm.deb
+
+Package: com.sop.networkmagic
+Name: Network Magicإظهار سرعة التحميل والتنزيل بمركز التحكم
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Description: Display your current upload and download speeds in the Control Centerإظهار سرعة التحميل والتنزيل بمركز التحكم
+Maintainer: SOPPPra
+Author: SOPPPra
+Section: Tweaks
+Icon: https://i.postimg.cc/vTmZX3x4/nwicon.png
+Architecture: iphoneos-arm
+Version: 1.0
+Installed-Size: 176
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.sop.networkmagic_1.0_iphoneos-arm.deb
+
+Package: com.sop.settingsrevamp
+Name: SettingsRevampللتعديل على مظهر الإعدادات
+Description: Customize the ios settings pageتعديل على مظهر الإعدادات
+Maintainer: SOPPPra
+Author: SOPPPra
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common (>= 1.17), preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets
+Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
+Architecture: iphoneos-arm
+Version: 1.8.1
+Installed-Size: 504
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.sop.settingsrevamp_1.8.1_iphoneos-arm.deb
+
+Package: jp.akusio.backgrounderaction15
+Name: BackgrounderAction15إختصار بمركز التحكم لإستمرار عمل التطبيق بالخلفيه
+Depends: mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Description: [iOS15]Add "Toggle Background Mode"تمكين إستمرار التطبيقات بالخلفيه عبر مركز التحكم
+Maintainer: @akusio_RR
+Author: @akusio_RR
+Section: Tweaks
+Version: 0.1.0
+Installed-Size: 340
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/jp.akusio.backgrounderaction15_0.1.0_iphoneos-arm64.deb
+
+Name: libcolorpicker-nepeta
+Package: me.nepeta.libcolorpicker
+Priority: optional
+Depends: firmware (>= 9.0)
+Replaces: org.thebigboss.libcolorpicker
+Provides: org.thebigboss.libcolorpicker
+Conflicts: org.thebigboss.libcolorpicker
+Version: 1.6.2-4
+Architecture: iphoneos-arm
+Description: libcolorpicker with arm64e (A12) support
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Nepeta <Ominousness@protonmail.com>
+dev: pixelfiredev
+Section: Development
+Tag: purpose::library, role::developer, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, cydia::obsolete
+Installed-Size: 629
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libcolorpickernepeta_1.6.2-4.deb
+
+Package: libimobiledevice6
+Priority: optional
+Section: Development
+Installed-Size: 432
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.3.1-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, libssl1.1.1, libplist3, libusbmuxd6
+Description: Library for communicating with iPhone and other Apple devices
+ libimobiledevice is a library that talks the native Apple USB protocols 
+ that the iPhone, iPad and iPod Touch use. Unlike other projects, 
+ libimobiledevice does not depend on using any existing libraries from 
+ Apple.
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libimobiledevice6_1.3.1-1_iphoneos-arm.deb
+
+Package: libirecovery3
+Priority: optional
+Section: Development
+Installed-Size: 200
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.0.1-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: readline, libusb-1.0-0
+Description: The libirecovery library allows communication with iBoot/iBSS of iOS devices via USB - library
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libirecovery3_1.0.1-1_iphoneos-arm.deb
+
+Package: libssl1.1.1
+Priority: standard
+Section: Security
+Installed-Size: 16848
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.1.1n-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ca-certificates
+Description: OpenSSL Libraries for version 1.1.1
+Name: OpenSSL 1.1.1 Libraries
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libssl1.1.1_1.1.1n-1_iphoneos-arm.deb
+
+Package: libusb-1.0-0
+Priority: optional
+Section: Development
+Installed-Size: 320
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.0.23-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: userspace USB programming library
+ Library for programming USB applications without the knowledge of Linux 
+ kernel internals.
+ .
+ This package contains what you need to run programs that use this 
+ library.
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libusb-1.0-0_1.0.23-1_iphoneos-arm.deb
+
+Package: libusbmuxd6
+Priority: standard
+Section: Development
+Installed-Size: 200
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 2.0.3-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist3, usbmuxd
+Description: USB multiplexor daemon for iPhone and iPod Touch devices - library
+ usbmuxd, the USB multiplexor daemon, is in charge of coordinating 
+ access to iPhone and iPod Touch services over USB. Synchronization and 
+ management applications for the iPhone and iPod Touch need this daemon 
+ to communicate with such devices concurrently.
+ .
+ This package contains the shared library.
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libusbmuxd6_2.0.3-1_iphoneos-arm.deb
+
+Package: me.luki.aestearevived
+Name: Aestea Revivedتلوين الأزرار بمركزالتحكم
+Architecture: iphoneos-arm
+Description: Colorize your connectivity togglesتلوين أزرار مركز التحكم
+Maintainer: Luki
+Author: Luki
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13), com.mrgcgamer.libgcuniversal
+Icon: https://raw.githubusercontent.com/Luki120/AesteaRevived/main/Prefs/Resources/Assets/AesteaIcon.png
+Version: 0.9.2
+Installed-Size: 1660
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/me.luki.aestearevived_0.9.2_iphoneos-arm.deb
+
+Package: net.cadoth.otaenabler
+Name: OTAEnablerتفعيل التحديثات للأيفون
+Depends: awk | gawk, com.bingner.plutil, file-cmds
+Conflicts: com.apple.memecity, jp.akusio.kernbypass, jp.akusio.kernbypassbeta, jp.akusio.kernbypass-unofficial
+Architecture: iphoneos-arm64
+Description: Re-enable OTA software updatesتفعيل تحديثات الأيفون
+Maintainer: alexia <me@alexia.lol>
+Author: alexia <me@alexia.lol>
+Section: Tweaks
+Version: 0.4.2
+Installed-Size: 0
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/net.cadoth.otaenabler_0.4.2_iphoneos-arm64.deb
+
+Package: usbmuxd
+Priority: standard
+Section: Development
+Installed-Size: 256
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.1.2-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libimobiledevice6, libplist3, libusb-1.0-0
+Description: USB multiplexor daemon for iPhone and iPod Touch devices
+ usbmuxd, the USB multiplexor daemon, is in charge of coordinating 
+ access to iPhone and iPod Touch services over USB. Synchronization and 
+ management applications for the iPhone and iPod Touch need this daemon 
+ to communicate with such devices concurrently.
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/usbmuxd_1.1.2-1_iphoneos-arm.deb
+
 Architecture: iphoneos-arm
 Package: com.johnzaro.dateundertime13
 Name: PerfectTimeإضافة التاريخ تحت الساعة
@@ -39,10 +363,10 @@ Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 168
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.fmwk.rootbridge_1.0.0_iphoneos-arm64.deb
+Filename: debs/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm64.deb
 
 Package: me.luki.stealthcc
 Name: StealthCCتقليل ضبابية مركز التحكم
@@ -284,10 +608,10 @@ Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 1.0.14
+Version: 1.0.15
 Installed-Size: 172
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.fmwk.hookkit_1.0.14_iphoneos-arm64.deb
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.15_iphoneos-arm64.deb
 
 Package: me.jjolano.fmwk.modulous
 Name: Modulous Framework
@@ -297,10 +621,10 @@ Maintainer: jjolano
 Author: jjolano
 Section: Development
 Tag: role::developer
-Version: 1.0.6
+Version: 1.0.8
 Installed-Size: 168
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.fmwk.modulous_1.0.6_iphoneos-arm64.deb
+Filename: debs/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm64.deb
 
 Package: me.jjolano.hkmodule.dobby
 Name: HookKit Module (Dobby)
@@ -309,10 +633,10 @@ Description: This module provides Dobby library support for HookKit Framework.
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.6
+Version: 1.0.7
 Installed-Size: 216
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.dobby_1.0.6_iphoneos-arm64.deb
+Filename: debs/me.jjolano.hkmodule.dobby_1.0.7_iphoneos-arm64.deb
 
 Package: me.jjolano.hkmodule.substrate
 Name: HookKit Module (Cydia Substrate)
@@ -322,10 +646,10 @@ Description: This module provides the Cydia Substrate API for HookKit Framework.
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.6
+Version: 1.0.8
 Installed-Size: 168
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.substrate_1.0.6_iphoneos-arm64.deb
+Filename: debs/me.jjolano.hkmodule.substrate_1.0.8_iphoneos-arm64.deb
 
 Package: net.limneos.answeringmachinex
 Name: AnsweringMachine 15/16للرد على المكالمات برساله صوتيه
@@ -380,10 +704,10 @@ Maintainer: MTAC
 Author: MTAC
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 192
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/com.mtac.uptime_1.0.0_iphoneos-arm.deb
+Filename: debs/com.mtac.uptime_1.0.1_iphoneos-arm.deb
 
 Name: DenyPhotoAlbumsإخفاء ألبومات الصور
 Package: com.cydiageek.denyphotoalbums
@@ -409,10 +733,10 @@ Description: This module provides fishhook library support for HookKit Framework
 Maintainer: jjolano
 Author: jjolano
 Section: HookKit (Modules)
-Version: 1.0.6
+Version: 1.0.8
 Installed-Size: 172
 Depictions: https://ak-47v.github.io/twex/
-Filename: debs/me.jjolano.hkmodule.fishhook_1.0.6_iphoneos-arm64.deb
+Filename: debs/me.jjolano.hkmodule.fishhook_1.0.8_iphoneos-arm64.deb
 
 Package: xyz.cypwn.genesisx
 Maintainer: CyPwn
@@ -891,7 +1215,7 @@ Depends: mobilesubstrate
 Version: 1.0
 Installed-Size: 168
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/com.nahtedetihw.nowplayingiconxvi_1.0_iphoneos-arm.deb
+Filename: debs/com.nahtedetihw.nowplayingiconxvi_1.0_iphoneos-arm64.deb
 
 Package: com.ryannair05.audiosnapshotserver
 Name: AudioSnapshotServer
@@ -2066,7 +2390,7 @@ Filename: debs/com.nahtedetihw.nowidgetlabels.deb
 Architecture: iphoneos-arm
 Package: com.nahtedetihw.stepup
 Name: StepUpتعديل مستوى زر خفض/رفع الصوت
-Version: 1.1
+Version: 1.2
 Depiction: https://ak-47v.github.io/twex/
 Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.stepup/icon.png
 Description: ChangeTheAmountOF-StepVolumeتغيير مستوى خفض أو رفع الصوت
@@ -2419,9 +2743,7 @@ Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
 Version: 1.6.9
 Architecture: iphoneos-arm
 Description: color picker library for developers
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
 Depiction: https://ak-47v.github.io/twex/
-Sponsor: thebigboss.org <http://thebigboss.org>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: PixelFire <pixelfiredev@helpful.io>
 dev: pixelfiredev
@@ -2681,9 +3003,9 @@ Description: Jb-Bypass Detection For Pubg On Xinaa15أفضل أداة تخطي �
 Maintainer: jjolano
 Author: jjolano
 Section: Jb-Bypass
-Version: 3.7.2
+Version: 3.7.3
 Installed-Size: 1080
-Filename: debs/me.jjolano.shadow_3.7.2_iphoneos-arm64.deb
+Filename: debs/me.jjolano.shadow_3.7.3_iphoneos-arm64.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tigisoftware.filza64bit
@@ -2695,9 +3017,9 @@ Description: File Manager for iPhone مدير الملفات⭐️
 Maintainer: TIGI Software
 Author: TIGI Software
 Section: Utilities
-Version: 4.0.0-6
+Version: 4.0.1-4
 Installed-Size: 23200
-Filename: debs/com.tigisoftware.filza64bit_4.0.0-6_iphoneos-arm.deb
+Filename: debs/com.tigisoftware.filza64bit_4.0.1-4_iphoneos-arm64.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.tigisoftware.appdatamanager
@@ -2707,9 +3029,9 @@ Description: AppsManager⭐️مدير التطبيقات
 Maintainer: TIGI Software
 Author: TIGI Software
 Section: Utilities
-Version: 1.8.1-10
+Version: 1.8.2-4
 Installed-Size: 5236
-Filename: debs/com.tigisoftware.appdatamanager_1.8.1-10_iphoneos-arm.deb
+Filename: debs/com.tigisoftware.appdatamanager_1.8.2-4_iphoneos-arm64.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.rpetrich.rocketbootstrap
