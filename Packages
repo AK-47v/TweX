@@ -11,11 +11,112 @@ Section: StatusBar (Themes)
 Depictions: https://ak-47v.github.io/twex/
 Filename: debs/xyz.cypwn.statusbar19_1.0_iphoneos-arm.deb
 
+Package: libssh2
+Priority: optional
+Section: Development
+Installed-Size: 608
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.8.0-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.0
+Description: a client-side C library implementing the SSH2 protocol
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libssh2_1.8.0-2_iphoneos-arm.deb
+
+Package: libnghttp2-14
+Priority: standard
+Section: Development
+Installed-Size: 400
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.40.0-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: nghttp2, libnghttp2
+Conflicts: nghttp2, libnghttp2
+Provides: nghttp2, libnghttp2
+Description: library implementing HTTP/2 protocol (shared library)
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libnghttp2-14_1.40.0-1_iphoneos-arm.deb
+
+Package: git
+Priority: optional
+Section: Data_Storage
+Installed-Size: 55432
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 2.20.0-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, expat, libssl1.0
+Description: fast content-addressable filesystem
+Name: Git
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/git_2.20.0-1_iphoneos-arm.deb
+
+Package: gettext
+Priority: optional
+Section: System
+Installed-Size: 7592
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 0.19.8-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Description: internationalization helper for strings
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/gettext_0.19.8-1_iphoneos-arm.deb
+
+Author: John Coates <john@johncoates.me>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Flex 3لعمل باتشات للبرامج
+Package: com.johncoates.Flex3
+Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
+Recommended: com.modmyi.libswift4 (>= 4.0.3)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Section: Tweaks
+Installed-Size: 57210
+Version: 3~EarlyAccess4
+Architecture: iphoneos-arm
+Description: Develop your own tweaksإصنع باتش او اداة بنفسك
+dev: acapulco1988
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Icon: file:///Applications/Flex.app/AppIcon29x29@2x.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/flex3_3-4.deb
+
+Package: expat
+Priority: standard
+Section: Development
+Installed-Size: 624
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Multi-Arch: foreign
+Version: 2.2.5-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: stream-oriented XML parser written in C
+Name: XML Parser Toolkit
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/expat_2.2.5-1_iphoneos-arm.deb
+
+Package: curl
+Priority: standard
+Section: Networking
+Installed-Size: 1896
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 7.65.0-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libnghttp2-14, libssh2, libssl1.0
+Description: flexible multi-protocol file transfers
+Name: cURL
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/curl_7.65.0-1_iphoneos-arm.deb
+
 Name: GamersTouchثيم للستاتوس بار 
 Package: com.twickd.ray-delvalle.gamerstouch
 Version: 0.3
 Architecture: iphoneos-arm
-Description: ‪Place what you love on your statusbar & represent your team with this statusbar theme pack and  also includes UISwitches for PlayStation, Xbox & Nintendo Switch lovers. Pick your poison.
 Maintainer: Ray Delvalle <raydelvalle@me.com>
 Author: Ray Delvalle <raydelvalle@me.com>
 Section: StatusBar (Themes)
