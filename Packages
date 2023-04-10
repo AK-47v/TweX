@@ -3,7 +3,7 @@ Package: xyz.cypwn.statusbar19
 Maintainer: CyPwn
 Architecture: iphoneos-arm
 Version: 1.0
-Name: Statusbar19ثيم للستاتوس بار
+Name: StyleBar ثيم للستاتوس بار
 Author: x.Sye
 Description: Statusbar theme
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/sb19.png
@@ -20,7 +20,6 @@ Architecture: iphoneos-arm
 Version: 1.8.0-2
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: libssl1.0
-Description: a client-side C library implementing the SSH2 protocol
 Depictions: https://ak-47v.github.io/twex/
 Filename: debs/libssh2_1.8.0-2_iphoneos-arm.deb
 
@@ -35,7 +34,6 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Replaces: nghttp2, libnghttp2
 Conflicts: nghttp2, libnghttp2
 Provides: nghttp2, libnghttp2
-Description: library implementing HTTP/2 protocol (shared library)
 Depictions: https://ak-47v.github.io/twex/
 Filename: debs/libnghttp2-14_1.40.0-1_iphoneos-arm.deb
 
@@ -48,7 +46,6 @@ Architecture: iphoneos-arm
 Version: 2.20.0-1
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: curl, expat, libssl1.0
-Description: fast content-addressable filesystem
 Name: Git
 Depictions: https://ak-47v.github.io/twex/
 Filename: debs/git_2.20.0-1_iphoneos-arm.deb
