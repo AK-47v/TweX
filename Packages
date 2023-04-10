@@ -11,24 +11,6 @@ Section: StatusBar (Themes)
 Depictions: https://ak-47v.github.io/twex/
 Filename: debs/xyz.cypwn.statusbar19_1.0_iphoneos-arm.deb
 
-Author: John Coates <john@johncoates.me>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: Flex 3لعمل باتشات للبرامج
-Package: com.johncoates.Flex3
-Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
-Section: Tweaks
-Installed-Size: 57210
-Version: 3~EarlyAccess4
-Architecture: iphoneos-arm
-Description: Develop your own tweaksإصنع باتش او اداة بنفسك
-dev: acapulco1988
-Tag: purpose::extension, compatible::ios9, compatible::ios10
-Icon: file:///Applications/Flex.app/AppIcon29x29@2x.png
-Depictions: https://ak-47v.github.io/twex/
-Filename: debs/flex3_3-4.deb
-
 Name: GamersTouchثيم للستاتوس بار 
 Package: com.twickd.ray-delvalle.gamerstouch
 Version: 0.3
