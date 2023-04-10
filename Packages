@@ -1,4 +1,169 @@
 
+Package: xyz.cypwn.statusbar19
+Maintainer: CyPwn
+Architecture: iphoneos-arm
+Version: 1.0
+Name: StyleBar ثيم للستاتوس بار
+Author: x.Sye
+Description: Statusbar theme
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sb19.png
+Section: StatusBar (Themes)
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/xyz.cypwn.statusbar19_1.0_iphoneos-arm.deb
+
+Package: libssl1.0
+Priority: standard
+Section: Security
+Installed-Size: 6440
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.0.2s-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ca-certificates
+Conflicts: openssl (<<1.0.2q)
+Description: OpenSSL Libraries for version 1.0
+Name: OpenSSL 1.0 Libraries
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libssl1.0_1.0.2s-1_iphoneos-arm.deb
+
+Package: libssh2
+Priority: optional
+Section: Development
+Installed-Size: 608
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.8.0-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.0
+Description: a client-side C library implementing the SSH2 protocol
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libssh2_1.8.0-2_iphoneos-arm.deb
+
+Package: libnghttp2-14
+Priority: standard
+Section: Development
+Installed-Size: 400
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.40.0-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: nghttp2, libnghttp2
+Conflicts: nghttp2, libnghttp2
+Provides: nghttp2, libnghttp2
+Description: library implementing HTTP/2 protocol (shared library)
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/libnghttp2-14_1.40.0-1_iphoneos-arm.deb
+
+Package: git
+Priority: optional
+Section: Data_Storage
+Installed-Size: 55432
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 2.20.0-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, expat, libssl1.0
+Description: fast content-addressable filesystem
+Name: Git
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/git_2.20.0-1_iphoneos-arm.deb
+
+Package: gettext
+Priority: optional
+Section: System
+Installed-Size: 7592
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 0.19.8-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Description: internationalization helper for strings
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/gettext_0.19.8-1_iphoneos-arm.deb
+
+Author: John Coates <john@johncoates.me>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Flex 3لعمل باتشات للبرامج
+Package: com.johncoates.Flex3
+Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
+Recommended: com.modmyi.libswift4 (>= 4.0.3)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Section: Tweaks
+Installed-Size: 57210
+Version: 3~EarlyAccess4
+Architecture: iphoneos-arm
+Description: Develop your own tweaksإصنع باتش او اداة بنفسك
+dev: acapulco1988
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Icon: file:///Applications/Flex.app/AppIcon29x29@2x.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/flex3_3-4.deb
+
+Package: expat
+Priority: standard
+Section: Development
+Installed-Size: 624
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Multi-Arch: foreign
+Version: 2.2.5-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: stream-oriented XML parser written in C
+Name: XML Parser Toolkit
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/expat_2.2.5-1_iphoneos-arm.deb
+
+Package: curl
+Priority: standard
+Section: Networking
+Installed-Size: 1896
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 7.65.0-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libnghttp2-14, libssh2, libssl1.0
+Description: flexible multi-protocol file transfers
+Name: cURL
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/curl_7.65.0-1_iphoneos-arm.deb
+
+Name: GamersTouchثيم للستاتوس بار 
+Package: com.twickd.ray-delvalle.gamerstouch
+Version: 0.3
+Architecture: iphoneos-arm
+Description: ‪Place what you love on your statusbar & represent your team with this statusbar theme pack and  also includes UISwitches for PlayStation, Xbox & Nintendo Switch lovers. Pick your poison.
+Maintainer: Ray Delvalle <raydelvalle@me.com>
+Author: Ray Delvalle <raydelvalle@me.com>
+Section: StatusBar (Themes)
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/c8842cabad61e6b7302b422b0c832beb.deb
+
+Package: org.mr.alizz
+Name: Alizz Statusbarثيم للستاتوس بار
+Author: JannikCrack
+Description: The ultimate custom StatusBar Theme Pack
+Maintainer: MainRepo
+Version: 1.2.2
+Section: StatusBar (Themes)
+Architecture: iphoneos-arm
+Icon: https://mainrepo.org/CydiaIcon.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/30.deb
+
+Package: com.ra9stuff.LiNUZE
+Name: LiNUZEلإرجاع إصدار الأجهزة عبر الأيفون
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Manage iOS devices using jailbroken iOS devices.التحكم بالأجهزة عبر الأيفون انزال الإصدار وغيره
+Maintainer: rA9stuff
+Author: rA9stuff
+Section: Applications
+Depends: firmware (>= 12.0), firmware (<< 16.0), libusbmuxd6, libusb-1.0-0, libirecovery3, libplist3, libimobiledevice6, usbmuxd, ldid
+Icon: https://raw.githubusercontent.com/ra9labs/repo/main/Icons/LiNUZE_icon_120.png
+Depictions: https://ak-47v.github.io/twex/
+Filename: debs/com.ra9stuff.LiNUZE.deb
+
 Package: am.ldid
 Section: Utilities
 Maintainer: TIGI Software <info@tigisoftware.com>
@@ -338,21 +503,6 @@ Version: 2.0
 Installed-Size: 656
 Depictions: https://ak-47v.github.io/twex/
 Filename: debs/com.johnzaro.dateundertime13.deb
-
-Package: com.ryannair05.cylinder
-Version: 1.1.1
-Architecture: iphoneos-arm
-Section: Tweaks
-Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
-Author: Ryan Nair <ryannairtweaks@gmail.com>
-Installed-Size: 1652
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
-Name: Cylinder Rebornإضافة تأثيرات للأيقونات
-Description: Make your icons danceتأثيرات للأيقونات عند التنقل في الشاشة الرئيسية
-Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
-Tag: compatible_min::ios11.0
-Depictions: https://ak-47v.github.io/twex/
-Filename: debs/com.ryannair05.cylinder_1.1.1_iphoneos-arm.deb
 
 Package: me.jjolano.fmwk.rootbridge
 Name: RootBridge Framework
@@ -2044,14 +2194,14 @@ Depends: mobilesubstrate
 Provides: com.squ1dd13.csios, com.squ1dd13.zinc
 Conflicts: com.squ1dd13.csios, com.squ1dd13.zinc, com.brend0n.gtasa60fps
 Replaces: com.squ1dd13.csios, com.squ1dd13.zinc
-Version: 2.5.0
+Version: 2.6.0
 Architecture: iphoneos-arm
 Description: GTA SA CleoModMenuهاك قراند سان اندريس
 Maintainer: squ1dd13
 Author: squ1dd13
 Section: Games(Hack)
 Depiction: https://ak-47v.github.io/twex/
-Filename: debs/cleo-v2.5.0-stable.deb
+Filename: debs/cleo-v2.6.0-stable.deb
 
 Package: com.creaturesurvive.libcscolorpicker
 Name: libCSColorPicker
@@ -3029,9 +3179,9 @@ Description: AppsManager⭐️مدير التطبيقات
 Maintainer: TIGI Software
 Author: TIGI Software
 Section: Utilities
-Version: 1.8.2-4
+Version: 1.8.2-5
 Installed-Size: 5236
-Filename: debs/com.tigisoftware.appdatamanager_1.8.2-4_iphoneos-arm64.deb
+Filename: debs/appsmanager_1.8.2-5.deb
 Depiction: https://ak-47v.github.io/twex/
 
 Package: com.rpetrich.rocketbootstrap
@@ -3251,7 +3401,7 @@ Maintainer: CyPwn
 Depiction: https://ak-47v.Github.io/twex/
 Name: Belza StatusBarثيم لإشارة الواي فاي والبيانات
 Version: 1.3
-Section: Addons (Themes)
+Section: StatusBar (Themes)
 Architecture: iphoneos-arm
 Author: Martda Lazuardi
 Description: Belza-Statusbarثيم لإشارة الواي فاي والبيانات
@@ -3293,7 +3443,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Name: RespringModuleإختصار ريسبرنق لمركز التحكم
 Package: se.arweb.respringmodule
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
-Section: Addons (ControlCenter)
+Section: Tweaks
 Installed-Size: 164
 Version: 1.1.5
 Architecture: iphoneos-arm
@@ -3473,7 +3623,7 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>
 Depiction: https://ak-47v.Github.io/twex/
 Version: 1.3.0
 Installed-Size: 204
-Filename: debs/com.ps.cconandoff_1.1.0_iphoneos-arm64.deb
+Filename: debs/com.ps.cahighfps_1.3.0_iphoneos-arm64.deb
 
 Package: com.ps.amber
 Name: Amberتغيير لون إضاءة الكشاف
