@@ -11,21 +11,6 @@ Section: StatusBar (Themes)
 Depictions: https://ak-47v.github.io/twex/
 Filename: debs/xyz.cypwn.statusbar19_1.0_iphoneos-arm.deb
 
-Package: libssl1.0
-Priority: standard
-Section: Security
-Installed-Size: 6440
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Architecture: iphoneos-arm
-Version: 1.0.2s-1
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: ca-certificates
-Conflicts: openssl (<<1.0.2q)
-Description: OpenSSL Libraries for version 1.0
-Name: OpenSSL 1.0 Libraries
-Depictions: https://ak-47v.github.io/twex/
-Filename: debs/libssl1.0_1.0.2s-1_iphoneos-arm.deb
-
 Package: libssh2
 Priority: optional
 Section: Development
