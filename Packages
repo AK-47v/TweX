@@ -16,7 +16,6 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Name: Flex 3لعمل باتشات للبرامج
 Package: com.johncoates.Flex3
 Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
-Recommended: com.modmyi.libswift4 (>= 4.0.3)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
 Section: Tweaks
