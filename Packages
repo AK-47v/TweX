@@ -191,7 +191,7 @@ Filename: debs/com.galacticdev.isponsorblock_1.0-15_iphoneos-arm.deb
 Package: com.ichitaso.otadisabler
 Name: OTADisablerتعطيل التحديثات للأيفون
 Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Description: Delete and disable OTA badgeتعطيل تحديثات الأيفون
 Maintainer: ichitaso
 Author: ichitaso
